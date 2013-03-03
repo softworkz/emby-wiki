@@ -8,7 +8,7 @@ If you need to run initialization code at server start-up, implement this interf
 
 ### IRestfulService
 
-Implement this interface to define your own API endpoint. More info on this coming soon.
+Implement this interface to define your own API endpoint. A full guide for this is coming soon.
 
 ### IScheduledTask
 
