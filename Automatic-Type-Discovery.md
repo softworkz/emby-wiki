@@ -25,3 +25,11 @@ If your plugin requires an html configuration page within the Dashboard, impleme
 ### IImageEnhancer
 
 This interface will allow you to intercept image delivery through the api, if you wish to draw content over or otherwise enhance an image before it's written to the response stream.
+
+### IResolverIgnoreRule
+
+Implement this interface to create a rule allowing certain paths in the media library to be ignored. For example, the Video Backdrops plugin uses a "backdrops" folder within each Movie and Tv Series. It then implements IResolverIgnoreRule to prevent those folders from being displayed by Media Browser clients.
+
+### IWeatherProvider
+
+The server's default weather provider is WorldWeatherOnline.com, but plugins are free to create new ones by implementing this interface.
