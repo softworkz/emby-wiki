@@ -10,4 +10,4 @@ First install Media Browser Server, or download the code. Get the server up and 
 
 4. Create a class called PluginConfiguration, and have it inherit from MediaBrowser.Model.Plugins.BasePluginConfiguration.
 
-5. Create a class called Plugin, and have it inherit from MediaBrowser.Common.Plugins.BasePlugin<T>, where <T> is the name of the PluginConfiguration class you just created.
+5. Create a class called Plugin, and have it inherit from MediaBrowser.Common.Plugins.BasePlugin-T, where T is the name of the PluginConfiguration class you just created.
