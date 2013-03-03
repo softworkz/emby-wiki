@@ -22,3 +22,6 @@ Intros are played before video files. Implement this interface to define your ow
 
 If your plugin requires an html configuration page within the Dashboard, implement this interface. A full guide for this is coming soon.
 
+### IImageEnhancer
+
+This interface will allow you to intercept image delivery through the api, if you wish to draw content over or otherwise enhance an image before it's written to the response stream.
