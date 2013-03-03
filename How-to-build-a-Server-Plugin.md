@@ -11,3 +11,9 @@ First install Media Browser Server, or download the code. Get the server up and 
 4. Create a class called PluginConfiguration, and have it inherit from MediaBrowser.Model.Plugins.BasePluginConfiguration.
 
 5. Create a class called Plugin, and have it inherit from MediaBrowser.Common.Plugins.BasePlugin-T, where T is the name of the PluginConfiguration class you just created.
+
+## Create the Build Event
+
+Right click the project -> Properties. Create a post-build event that will copy the assembly to the server's plugins directory. For example:
+
+`xcopy "$(TargetPath)" "C:\ProgramData\MediaBrowser-Server\Plugins\" /y`
