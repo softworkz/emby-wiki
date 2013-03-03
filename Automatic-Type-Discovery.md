@@ -33,3 +33,7 @@ Implement this interface to create a rule allowing certain paths in the media li
 ### IWeatherProvider
 
 The server's default weather provider is WorldWeatherOnline.com, but plugins are free to create new ones by implementing this interface.
+
+### IItemRepository, IUserRepository, IUserDataRepository, IDisplayPreferencesRepository
+
+Media Browser uses a sqlite database to store application data. If there's a plugin developer who feels an alternate storage medium would be more appropriate, they are welcome to implement this interface and create their own.
