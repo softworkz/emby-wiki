@@ -31,3 +31,8 @@ Shutdown the server, rebuild your solution, and restart the server. At this poin
 ### Debugging
 
 The quickest way to test code changes is to work without the debugger. If you do this, you can leave the server running at all times. Simply use the Rebuild command on your plugin project, and right click the server tray -> Restart Server. If that option is not visible you'll need to enable developer tools in the Dashboard under Advanced.
+
+## More Reading
+
+[Automatic Type Discovery](https://github.com/MediaBrowser/MediaBrowser/wiki/Automatic-Type-Discovery)
+[Dependency Injection](https://github.com/MediaBrowser/MediaBrowser/wiki/Dependency-Injection)
