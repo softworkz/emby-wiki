@@ -17,3 +17,7 @@ First install Media Browser Server, or download the code. Get the server up and 
 Right click the project -> Properties. Create a post-build event that will copy the assembly to the server's plugins directory. For example:
 
 `xcopy "$(TargetPath)" "C:\ProgramData\MediaBrowser-Server\Plugins\" /y`
+
+## Test the Plugin
+
+Shutdown the server, rebuild your solution, and restart the server. At this point you should see your plugin in the Dashboard's Plugins menu.
