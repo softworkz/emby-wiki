@@ -40,4 +40,4 @@ The server's default weather provider is WorldWeatherOnline.com, but plugins are
 
 ### IItemRepository, IUserRepository, IUserDataRepository, IDisplayPreferencesRepository
 
-Media Browser uses sqlite databases to store application data. If there's a plugin developer who feels an alternate storage medium would be more appropriate, they are welcome to implement this interface and create their own.
+Media Browser uses sqlite databases to store application data. If there's a plugin developer who feels an alternate storage medium would be more appropriate, they are welcome to implement any of these interface and create their own.
