@@ -35,4 +35,5 @@ The quickest way to test code changes is to work without the debugger. If you do
 ## More Reading
 
 [Automatic Type Discovery](https://github.com/MediaBrowser/MediaBrowser/wiki/Automatic-Type-Discovery)
+
 [Dependency Injection](https://github.com/MediaBrowser/MediaBrowser/wiki/Dependency-Injection)
