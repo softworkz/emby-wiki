@@ -2,20 +2,21 @@ Media Browser will discover a number of Types in your plugin project automatical
 
 The following interfaces are available for implementation:
 
+### IServerEntryPoint
+
+If you need to run initialization code at server start-up, implement this interface. The class will remain in memory for the lifetime of the server, so if you need to keep state, this is the place to put it. Keep in mind you can have as many of these as you need, allowing you to break larger plugins into smaller pieces.
+
 ### IRestfulService
 
 Implement this interface to define your own API endpoint. More info on this coming soon.
-
 
 ### IScheduledTask
 
 Implement this interface to create a scheduled task that will appear in the Dashboard's Scheduled Tasks page. You'll define the default triggers which cause the task to run. The user will then be able to reconfigure as desired, as well as run the task on demand.
 
-
 ### IIntroProvider
 
 Intros are played before video files. Implement this interface to define your own provider for intro files.
-
 
 ### IPluginConfigurationPage
 
