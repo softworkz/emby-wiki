@@ -7,3 +7,7 @@ First install Media Browser Server, or download the code. Get the server up and 
 2. Make sure AssemblyInfo.cs has a Guid, e.g. [assembly: Guid("{02CF7D91-16F4-48D4-BC97-16D89C16AA0A}")]. If not, copy this line and generate a new GUID using Tools -> Create Guid.
 
 3. Install the [MediaBrowser.Server.Core nuget package](https://www.nuget.org/packages/MediaBrowser.Server.Core/)
+
+4. Create a class called PluginConfiguration, and have it inherit from MediaBrowser.Model.Plugins.BasePluginConfiguration.
+
+5. Create a class called Plugin, and have it inherit from MediaBrowser.Common.Plugins.BasePlugin<T>, where <T> is the name of the PluginConfiguration class you just created.
