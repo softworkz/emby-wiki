@@ -30,6 +30,16 @@ Right click the project -> Properties. Create a post-build event that will copy 
 
 Shutdown the server, rebuild your solution, and restart the server. At this point you should see your plugin in the Dashboard's Plugins menu.
 
+### Add Functionality
+
+To add real functionality to your plugin, you will need an entrypoint that can initialize and accept the various dependencies you may need in order to interact with the MB environment.
+
+1. Create a class that implements the IServerEntryPoint interface.  Its constructor can accept any number of injected dependancies - depending on what your plugin needs to access.  The options are:
+
+* ILogManager - Call GetLogger("plugin name") on this to retrieve an ILogger instance that you can use.
+* ILibraryManager - 
+* ... (more to come)
+
 ### Debugging
 
 The quickest way to test code changes is to work without the debugger. If you do this, you can leave the server running at all times. Simply use the Rebuild command on your plugin project, and right click the server tray -> Restart Server. If that option is not visible you'll need to enable developer tools in the Dashboard under Advanced.
