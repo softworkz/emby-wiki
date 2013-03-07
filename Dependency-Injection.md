@@ -13,8 +13,14 @@ Contains a list of various application data paths
 ### IServerConfigurationManager
 Read and write server configuration data (and the above app paths)
 
-### IIsoManager
-Mounts and unmounts .iso files
+### IJsonSerializer
+Get access to the core's json serializer.
+
+### IXmlSerializer
+Get access to the core's xml serializer.
+
+### IProtobufSerializer
+Get access to the core's protobuf serializer.
 
 ### ITaskManager 
 Queue, execute and cancel scheduled tasks
@@ -28,6 +34,5 @@ Get information about each user as well as their customized media libraries
 ### IBlurayExaminer
 Get information about bluray folder structures
 
-### IJsonSerializer
-### IXmlSerializer
-### IProtobufSerializer
+### IIsoManager
+Mounts and unmounts .iso files
