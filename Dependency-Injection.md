@@ -4,9 +4,15 @@ All you have to do is declare your a class's dependencies within it's constructo
 
 The following services are available for insertion into your constructors:
 
-* ILogManager - create your own named logger
-* IServerApplicationPaths - contains a list of various application data paths
-* IServerConfigurationManager - holds server configuration (and the above app paths)
+### ILogManager 
+Create your own named logger. Log entries will appear in the application log file and will be prefixed with the name of the logger for ease of reading.
+
+### IServerApplicationPaths
+Contains a list of various application data paths
+
+### IServerConfigurationManager
+Holds server configuration (and the above app paths)
+
 * IIsoManager - mounts and unmounts .iso files
 * ITaskManager - manages scheduled tasks
 * ILibraryManager - get information about the media library, without respect to user
