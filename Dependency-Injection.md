@@ -35,4 +35,4 @@ Get information about each user as well as their customized media libraries
 Get information about bluray folder structures
 
 ### IIsoManager
-Mounts and unmounts .iso files
+Mounts and unmounts iso files
