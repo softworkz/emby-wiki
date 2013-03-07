@@ -13,11 +13,21 @@ Contains a list of various application data paths
 ### IServerConfigurationManager
 Holds server configuration (and the above app paths)
 
-* IIsoManager - mounts and unmounts .iso files
-* ITaskManager - manages scheduled tasks
-* ILibraryManager - get information about the media library, without respect to user
-* IUserManager - get information about each user as well as their customized media libraries
-* IBlurayExaminer - get information about bluray folder structures
-* IJsonSerializer
-* IXmlSerializer
-* IProtobufSerializer
+### IIsoManager
+Mounts and unmounts .iso files
+
+### ITaskManager 
+Manages scheduled tasks
+
+### ILibraryManager 
+Get information about the media library in a user-less fashion
+
+### IUserManager
+Get information about each user as well as their customized media libraries
+
+### IBlurayExaminer
+Get information about bluray folder structures
+
+### IJsonSerializer
+### IXmlSerializer
+### IProtobufSerializer
