@@ -11,13 +11,13 @@ Create your own named logger. Log entries will appear in the application log fil
 Contains a list of various application data paths
 
 ### IServerConfigurationManager
-Holds server configuration (and the above app paths)
+Read and write server configuration data (and the above app paths)
 
 ### IIsoManager
 Mounts and unmounts .iso files
 
 ### ITaskManager 
-Manages scheduled tasks
+Queue, execute and cancel scheduled tasks
 
 ### ILibraryManager 
 Get information about the media library in a user-less fashion
