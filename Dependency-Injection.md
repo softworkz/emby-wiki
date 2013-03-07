@@ -5,7 +5,7 @@ If you class depends on one of our services, all you have to do is add it to you
 The following services are available for insertion into your constructors:
 
 ### ILogManager 
-Create your own named logger. Log entries will appear in the application log file and will be prefixed with the name of the logger for ease of reading.
+Create your own named logger. Log entries will appear in the application log file and will be prefixed with the name of the logger for ease of reading. Call GetLogger("name") on this to retrieve an ILogger instance that you can use.
 
 ### IServerApplicationPaths
 Contains a list of various application data paths
