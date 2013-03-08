@@ -34,6 +34,6 @@ Users will often download high resolution images. Steps should be taken to ensur
 Most image types generally have a predictable aspect ratio. Primary is the one exception where it can vary. In order to combat this, we include a PrimaryImageAspectRatio property on items. A typical scenario might be to create an average AR for all the items in the list, and then force all images to that value.
 
 ### Tag
-The image tag on the item object also doubles as a caching value. If you add this parameter back onto your image url, you will receive strong http caching headers. This allows you to cache the image forever, unconditionally. If the image changes, the tag will also change, thus creating a whole new url.
+The image tag on the item object also doubles as a caching value. If you add this parameter back onto your image url, you will receive strong http caching headers. This allows you to cache the image forever, unconditionally, based on the url. If the image changes, the tag will also change, thus creating a whole new url.
 
 This is an optional parameter. You do not have to specify the tag, but without it you will only receive conditional http response caching.
