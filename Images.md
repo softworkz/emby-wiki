@@ -1,4 +1,4 @@
-Image values are added to response Dto's to indicate an item has images. For example, on the User object, there is a property called PrimaryImageTag. If this has a value, it means the user has a primary image.
+Image values are added to response Dto's to indicate what images an item has. For example, on the User object, there is a property called PrimaryImageTag. If this has a value, it means the user has a primary image.
 
 An image should only downloaded if the object indicates the presence of an image. For example, you will receive a 404 error if you attempt to download a logo image for an item that doesn't have one.
 
