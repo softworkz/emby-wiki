@@ -1,5 +1,7 @@
 This page will describe the typical workflow for a Media Browser Client.
 
+Documentation for all of the url's mentioned here can be seen viewed using the server's built-in documentation. Some of these url's can be tested directly within the swagger documentation feature.
+
 ## Authenticate
 
 * Make a call to /Users to get all users. Display them on a login screen
