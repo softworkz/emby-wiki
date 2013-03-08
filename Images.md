@@ -22,3 +22,6 @@ This is the type of image. These are the available types:
 * Screenshot
 * Menu
 * ChapterImage
+
+### Index
+If downloading a backdrop, screenshot, or chapter image, you will need to specify the index because the item could contain more than one. The item object will contain count properties indicating how many of each are available.
