@@ -6,7 +6,7 @@ An image should only downloaded if the object indicates the presence of an image
 
 The url required to download images will vary depending on what kind of item you're downloading for. For example, for users, the url's are /Users/{Id}/Images/{Type} and /Users/{Id}/Images/{Type}/{Index}. For media items, it's /Items/{Id}/Images/{Type}, as well as /Items/{Id}/Images/{Type}/{Index}
 
-Below are the required and optional image parameters:
+Below are the **required** image parameters:
 
 ### Type
 This is the type of image. These are the available types:
@@ -25,3 +25,6 @@ This is the type of image. These are the available types:
 
 ### Index
 If downloading a backdrop, screenshot, or chapter image, you will need to specify the index because the item could contain more than one. The item object will contain count properties indicating how many of each are available.
+
+Aside from item Id, the image type is the only other required parameters. Index is required depending on the type of image requested. Below are the available **optional** parameters:
+
