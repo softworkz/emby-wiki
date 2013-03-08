@@ -26,7 +26,9 @@ This is the type of image. These are the available types:
 ### Index
 If downloading a backdrop, screenshot, or chapter image, you will need to specify the index because the item could contain more than one. The item object will contain count properties indicating how many of each are available.
 
-Aside from item Id, the image type is the only other required parameter. Index is required depending on the type of image requested. Below are the available **optional** parameters:
+Aside from item Id, the image type is the only other required parameter. Index is required depending on the type of image requested. 
+
+Below are the available **optional** parameters:
 
 ### Width, Height, MaxWidth, MaxHeight
 Users will often download high resolution images. Steps should be taken to ensure that you are not downloading these at full size. You can use any combination of these values. For example, if you specify a width of 80, you'll get the image at that fixed width and allow the height to vary, preserving aspect ratio. Specify both width and height to force an exact size. Specify max width and/or max height to create a size limit.
