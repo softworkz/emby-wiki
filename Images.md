@@ -11,14 +11,14 @@ Below are the required and optional image parameters:
 ### Type
 This is the type of image. These are the available types:
 
-        Primary,
-        Art,
-        Backdrop,
-        Banner,
-        Logo,
-        Thumb,
-        Disc,
-        Box,
-        Screenshot,
-        Menu,
-        ChapterImage
+* Primary
+* Art
+* Backdrop
+* Banner
+* Logo
+* Thumb
+* Disc
+* Box
+* Screenshot
+* Menu
+* ChapterImage
