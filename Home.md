@@ -4,7 +4,7 @@
 * [Images Api](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
 ## Media Playback
-* [Playback Guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Streaming-Guidelines)
+* [Playback Guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Guidelines)
 * [Audio Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
 * [Video Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Video-Streaming)
 
