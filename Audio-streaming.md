@@ -16,3 +16,5 @@ All of the optional parameters can be viewed using the swagger documentation. If
 ## Direct Streaming
 
 If the client device is capable of playing the file without encoding, it is recommended to use the **Static=true** parameter. This will stream the file directly without any processing, sparing the server's cpu, and allowing for easier seeking.
+
+With direct streaming, it is recommended to either use a url file extension that matches the original file, or has no extension.
