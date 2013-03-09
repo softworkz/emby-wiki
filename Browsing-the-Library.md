@@ -47,3 +47,6 @@ You are not limited to displaying items based on the file system. If you would l
 
 ### Display resumeable items, limit to 20 results and sort by date played
 > http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?Limit=20&Recursive=true&SortBy=DatePlayed&SortOrder=Descending&Filters=IsResumable
+
+### Display all Movies
+> http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?Recursive=true&IncludeItemTypes=Movie
