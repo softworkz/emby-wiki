@@ -15,6 +15,3 @@ Media Browser libraries are user-based, so the first step in the client workflow
 ## Authorization Request Header
 
 Coming soon.
-
-There are two ways to provide library browsing, either file-system based or using virtual views based on queries.
-
