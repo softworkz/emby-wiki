@@ -3,9 +3,7 @@ This page will detail how to retrieve items for display and browsing purposes.
 ## Displaying a Folder
 After authentication, the next step is generally to display the contents of the user's root folder.
 
-Displaying a folder generally requires two calls to the api.
-
-While not required, you'll usually want to start with a call to retrieve the folder itself, using one of the following:
+Displaying a folder generally requires two calls to the api. While not required, you'll usually want to start with a call to retrieve the folder itself, using one of the following:
 * /Users/{UserId}/Items/Root
 * /Users/{UserId}/Items/{Id}
 
