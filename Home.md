@@ -2,6 +2,8 @@
 * [Authentication](https://github.com/MediaBrowser/MediaBrowser/wiki/Authentication)
 * [Browsing the Library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
 * [Images Api](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
+
+## Media Streaming
 * [Audio Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
 * [Video Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Video-Streaming)
 * [Streaming Guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Streaming-Guidelines)
