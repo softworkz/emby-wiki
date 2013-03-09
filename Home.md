@@ -7,4 +7,4 @@
 ## Client Workflow
 * [Authentication](https://github.com/MediaBrowser/MediaBrowser/wiki/Client-Workflow)
 * [Images Api](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
-* [Browsing the Library](Browsing-the-Library)
+* [Browsing the Library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
