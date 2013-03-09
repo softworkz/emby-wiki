@@ -14,4 +14,4 @@ Item **Id** is the only required parameter.
 All of the optional parameters can be viewed using the swagger documentation. If you are using a url without a file extension, then you must supply AudioCodec, or you'll receive an error.
 
 ## More Information
-[Streaming Guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Streaming-Guidelines)
+[Playback Guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Guidelines)
