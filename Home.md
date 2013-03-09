@@ -4,6 +4,7 @@
 * [Images Api](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 * [Audio Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
 * [Video Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Video-Streaming)
+* [Streaming Guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Streaming-Guidelines)
 
 ## How to Build a Server Plugin
 * [Creating the Project](https://github.com/MediaBrowser/MediaBrowser/wiki/How-to-build-a-Server-Plugin)
