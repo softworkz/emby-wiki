@@ -21,7 +21,7 @@ You will probably also want to supply additional fields to add to the items. See
 
 ## Identifying Items
 
-There are three important properties which all library items have that will allow you to determine how to handle them:
+There are three important properties which all library items have that will allow you to determine how to display them:
 
 ### IsFolder
 This will tell you if the item is a media item, or if it's a folder containing other items. When navigating to an item, this will allow you to determine what type of display to present.
