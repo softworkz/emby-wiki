@@ -27,7 +27,7 @@ Unlike audio, some of these formats have limitations that prevent them from bein
 * /Video/{Id}/stream.ts
 * /Video/{Id}/stream.webm
 
-Even though the server is capable of encoding to all of the formats listed at the beginning, most clients are not able to play them until the transcoding completes. In order to solve this, **you must choose asf, ogv, ts, or webm**.
+Even though the server is capable of encoding to all of the formats listed at the beginning, most clients are not able to play them until the transcoding completes. In order to solve this, **you must choose asf, ogv, ts, or webm**. Ts should generally be the starting point, as that will provide H264.
 
 When direct streaming this limitation does not apply.
 
