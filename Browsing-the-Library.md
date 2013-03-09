@@ -1,1 +1,1 @@
-.
+This page will detail how to retrieve items for display and browsing purposes.
