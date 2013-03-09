@@ -3,19 +3,23 @@ This page will detail how to retrieve items for display and browsing purposes.
 ## Displaying a Folder
 After authentication, the next step is generally to display the contents of the user's root folder.
 
-Displaying a folder requires two calls to the api.
+Displaying a folder generally requires two calls to the api.
 
-First retrieve the folder itself, using one of the following:
+While not required, you'll usually want to start with a call to retrieve the folder itself, using one of the following:
 * /Users/{UserId}/Items/Root
 * /Users/{UserId}/Items/{Id}
 
-This will give you some information on the folder, including the number of child items, as well as the number of recursive child items. 
+This will give you some information on the folder itself, including the number of child items, as well as the number of recursive child items. 
 
 The next step will be to construct a query to retrieve the children of the folder. At minimum you will need to supply the UserId and ParentId, which is the Id of the folder. Here is a sample url to do that:
 
 > http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?ParentId=20aef3be-ebda-f0d4-0096-8d179783e918
 
-You will probably also want to supply additional fields to add to the items. See the swagger documentation for a full listing of available fields. Here is an example which adds SortName and PrimaryImageAspectRatio:
+## Fields
+
+When ever you request a single item using the /Users/{UserId}/Items/{Id} api, you will get back the entire item. When requesting lists of items, the data coming back will be much smaller in order to make it easier to retrieve large result sets.
+
+If you want to add additional fields to add to the items, use the fields param, which is a comma-delimited list of fields to include in the output. See the swagger documentation for a full listing of available fields. Here is an example which adds SortName and PrimaryImageAspectRatio:
 
 > http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?ParentId=20aef3be-ebda-f0d4-0096-8d179783e918&Fields=PrimaryImageAspectRatio,SortName
 
