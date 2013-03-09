@@ -31,7 +31,7 @@ Aside from item Id, the image type is the only other required parameter. Index i
 Below are the available **optional** parameters:
 
 ### Width, Height, MaxWidth, MaxHeight
-Users will often download high resolution images. Steps should be taken to ensure that you are not downloading these at full size. You can use any combination of these values. For example, if you specify a width of 80, you'll get the image at that fixed width and allow the height to vary, preserving aspect ratio. Specify both width and height to force an exact size. Specify max width and/or max height to create a size limit.
+Users will often download high resolution images. Steps should be taken to ensure that you are not retrieving these at full size. You can use any combination of these values. For example, if you specify a width of 80, you'll get the image at that fixed width and allow the height to vary, preserving aspect ratio. Specify both width and height to force an exact size. Specify max width and/or max height to create a size limit.
 
 Most image types generally have a predictable aspect ratio. Primary is the one exception where it can vary. In order to combat this, we include a PrimaryImageAspectRatio property on items. A typical scenario might be to create an average AR for all the items in the list, and then force all images to that value.
 
