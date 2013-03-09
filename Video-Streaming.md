@@ -32,4 +32,4 @@ Even though the server is capable of encoding to all of the formats listed at th
 When direct streaming this limitation does not apply.
 
 ## More Information
-[Streaming Guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Streaming-Guidelines)
+[Playback Guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Guidelines)
