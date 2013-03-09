@@ -9,4 +9,5 @@ If the client device is capable of playing the file without encoding, it is reco
 
 With direct streaming, it is also recommended to use either a file extension that matches the original file, or use the alias with no extension.
 
-## If none of these options apply, then the server's encoding features should be utilized.
+## Encoding
+If none of these options apply, then the server's encoding features should be utilized.
