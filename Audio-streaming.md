@@ -11,7 +11,7 @@ Generally, it is recommend to use a url with the file extension that matches the
 
 Item **Id** is the only required parameter. 
 
-All of the optional parameters can be viewed using the swagger documentation. If you are using a url without an audio file extension, then you must supply AudioCodec, or you'll receive an error.
+All of the optional parameters can be viewed using the swagger documentation. If you are using a url without a file extension, then you must supply AudioCodec, or you'll receive an error.
 
 ## Direct Streaming
 
