@@ -3,10 +3,10 @@
 * [Browsing the Library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
 * [Images Api](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
-## Media Streaming
+## Media Playback
+* [Playback Guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Streaming-Guidelines)
 * [Audio Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
 * [Video Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Video-Streaming)
-* [Streaming Guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Streaming-Guidelines)
 
 ## How to Build a Server Plugin
 * [Creating the Project](https://github.com/MediaBrowser/MediaBrowser/wiki/How-to-build-a-Server-Plugin)
