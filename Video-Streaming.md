@@ -1,1 +1,1 @@
-.
+The base video url is /Video/{Id}/stream. Some players will have better results when the url has a video file extension, so we also provide several aliases to account for that:
