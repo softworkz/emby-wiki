@@ -22,7 +22,7 @@ Use the SortBy param to supply the fields to sort on. This supports multiple sor
 
 When you request a single item using the /Users/{UserId}/Items/{Id} api, you will get back the entire item. When requesting lists of items, the data coming back will be much smaller in order to make it easier to retrieve large result sets.
 
-If you want to add additional fields to add to the items, use the fields param, which is a comma-delimited list of fields to include in the output. See the swagger documentation for a full listing of available fields. Here is an example which adds SortName and PrimaryImageAspectRatio:
+If you want to add additional fields to the items, use the fields param, which is a comma-delimited list of fields to include in the output. See the swagger documentation for a full listing of available fields. Here is an example which adds SortName and PrimaryImageAspectRatio:
 
 > http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?ParentId=20aef3be-ebda-f0d4-0096-8d179783e918&Fields=PrimaryImageAspectRatio,SortName
 
