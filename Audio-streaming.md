@@ -6,3 +6,13 @@ The base audio url is /Audio/{Id}/stream. Some players will have better results 
 * /Audio/{Id}/stream.ogg
 * /Audio/{Id}/stream.wma
 * /Audio/{Id}/stream.flac
+
+Generally, it is recommend to use a url with the file extension that matches the format you wish to encode to.
+
+Item **Id** is the only required parameter. 
+
+All of the optional parameters can be viewed using the swagger documentation. If you are using a url without an audio file extension, then you must supply AudioCodec, or you'll receive an error.
+
+## Direct Streaming
+
+If the client device is capable of playing the file without encoding, it is recommended to use the **Static=true** parameter. This will stream the file directly without any processing, sparing the server's cpu, and allowing for easier seeking.
