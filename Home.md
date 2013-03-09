@@ -4,6 +4,7 @@
 
 [Dependency Injection](https://github.com/MediaBrowser/MediaBrowser/wiki/Dependency-Injection)
 
-[Client Workflow](https://github.com/MediaBrowser/MediaBrowser/wiki/Client-Workflow)
-
-[Images Api](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
+## Client Workflow
+* [Authentication](https://github.com/MediaBrowser/MediaBrowser/wiki/Client-Workflow)
+* [Images Api](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
+* [Browsing the Library](Browsing-the-Library)
