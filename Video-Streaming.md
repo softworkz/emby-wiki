@@ -12,3 +12,8 @@ The base video url is /Video/{Id}/stream. Some players will have better results 
 * /Video/{Id}/stream.mpeg
 * /Video/{Id}/stream.avi
 
+Generally, it is recommend to use a url with a file extension that matches the format you wish to encode to.
+
+Item Id is the only required parameter.
+
+All of the optional parameters can be viewed using the swagger documentation. If you are using a url without a file extension, then you must supply both VideoCodec, and AudioCodec or you'll receive an error.
