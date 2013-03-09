@@ -1,6 +1,6 @@
 Media Browser libraries are user-based, so the first step in the client workflow is to authenticate the user.
 
-## Authenticate
+## User Login
 
 * Make a call to /Users to get all users. Display them on a login screen
 
