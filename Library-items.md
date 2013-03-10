@@ -12,6 +12,8 @@ Library items have a number of interesting properties. Among these are, but not 
 * ParentId
 * Studios
 
+Here are some other properties that require a little more information:
+
 ### AirDays, AirTime, Status
 These are applicable only to Series and will give you information about when episodes air.
 
