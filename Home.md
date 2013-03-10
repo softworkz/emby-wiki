@@ -1,6 +1,7 @@
 ## Client Workflow
 * [Authentication](https://github.com/MediaBrowser/MediaBrowser/wiki/Authentication)
 * [Browsing the Library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
+* [Library Items](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-items)
 * [Images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
 ## Media Playback
