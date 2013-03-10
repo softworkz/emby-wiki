@@ -71,7 +71,7 @@ These are the people involved in the item. Each person has Name, Role, Type and 
 This serves different purposes depending on the type of item. For episodes this is the air date. For series, this is the first air date. For audio files, this is the premiere date.
 
 ### PrimaryImageAspectRatio
-This is the aspect ratio of the primary image. Most image types have a predictable aspect ratio, but primary is the one exception. A typical use case when rendering a list of items is to determine the average AR, and then display them all using that value.
+This is the aspect ratio of the primary image. Most image types have a predictable aspect ratio, but primary is the one exception. A typical use case when rendering a list of items is to determine the average AR, and then display them all using that value. See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
 ### ProviderIds
 This is a dictionary of provider id's for an item - Tmdb, Tvdb, TvCom, etc.
