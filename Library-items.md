@@ -59,11 +59,12 @@ This is a dictionary of provider id's for an item - Tmdb, Tvdb, TvCom, etc.
 ### CommunityRating
 This is the Imdb, Tmdb, or Tvdb rating of the item. At this time we do not have the ability to identify the source.
 
+### LocalTrailerCount, TrailerUrls
+LocalTrailerCount is the number of downloaded local trailers that are available for an item. The actual trailer items can be retrieved separately using /Users/{UserId}/Items/{Id}/LocalTrailers.
 
+TrailerUrls are a list of known online trailers. When supporting trailers, precedence should be given to downloaded trailers. It is up the client developer as to whether or not they just want to pick one, or present all of them in a list. The most common scenario is that the user will have just one local trailer.
 
 
 * PrimaryImageAspectRatio
 * UserData
-* LocalTrailerCount
 * People
-* TrailerUrls
