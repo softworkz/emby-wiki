@@ -17,7 +17,7 @@ When retrieving a single item, the entire object is returned. When querying for 
 Here are some other properties along with their descriptions:
 
 ### AirDays, AirTime, Status
-These are applicable Series only and will give you information about when episodes air.
+These are applicable to Series only and will give you information about when episodes air.
 
 ### Album, AlbumArtist, Artist
 These are applicable to audio files only.
