@@ -14,6 +14,12 @@ Library items have a number of interesting properties. Among these are, but not 
 
 Here are some other properties that require a little more information:
 
+### IsFolder, MediaType, Type
+These allow you to determine how to categorize and display items. See [Browsing the Library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
+
+### DisplayMediaType
+This is a friendly version of MediaType that can be used for display purposes, if desired.
+
 ### AirDays, AirTime, Status
 These are applicable Series only and will give you information about when episodes air.
 
@@ -26,9 +32,6 @@ This is applicable to Audio and Video only. This will provide detailed informati
 ### VideoType
 This is applicable to Videos only. This will give you the type of video - VideoFile, Bluray, Dvd, HdDvd, Iso.
 
-### DisplayMediaType
-This is a friendly version of MediaType that can be used for display purposes, if desired.
-
 ### SeriesId, SeriesName
 These properties are applicable only to Episodes and Seasons. This will give you some basic information about the TV Series.
 
@@ -38,22 +41,29 @@ G, PG-13, R, TV-MA, etc.
 ### Path
 This is the file system path of the item. This will generally not be needed by clients unless they're supporting direct play.
 
-### IsFolder, MediaType, Type
-These allow you to determine how to categorize and display items. See [Browsing the Library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
+### IndexNumber
+This serves different purposes depending on the type of item. For episodes this is the episode number. For seasons, this is the season number. For audio files, this is the track number.
+
+### ParentIndexNumber
+Similiar to IndexNumber, this serves different purposes depending on the type of item. For episodes this is the season number. For audio files, this is the disc number.
+
+### PremiereDate 
+This serves different purposes depending on the type of item. For episodes this is the air date. For series, this is the first air date. For audio files, this is the premiere date.
+
+### AspectRatio
+This is the aspect ratio from metadata, which generally is the original aspect ratio that the video was filmed in. The actual aspect ratio of the user's video can be found in the MediaStreams property.
+
+### ProviderIds
+This is a dictionary of provider id's for an item - Tmdb, Tvdb, TvCom, etc.
+
+### CommunityRating
+This is the Imdb, Tmdb, or Tvdb rating of the item. This is pulled from the user's metadata, and at this time we do not have the ability to identify the source.
+
+
+
 
 * PrimaryImageAspectRatio
 * UserData
 * LocalTrailerCount
 * People
-* IndexNumber
-* ParentIndexNumber
 * TrailerUrls
-* ProviderIds
-* AspectRatio
-* CommunityRating
-
-
-
-* OfficialRating
-* Path
-* PremiereDate 
