@@ -20,6 +20,9 @@ These allow you to determine how to categorize and display items. See [Browsing 
 ### DisplayMediaType
 This is a friendly version of MediaType that can be used for display purposes, if desired.
 
+### PrimaryImageAspectRatio
+This is the aspect ratio of the primary image. Most image types have a predictable aspect ratio, but primary is the one exception. A typical use case when rendering a list of items is to determine the average AR, and then display them all using that value.
+
 ### AirDays, AirTime, Status
 These are applicable Series only and will give you information about when episodes air.
 
@@ -67,6 +70,5 @@ LocalTrailerCount is the number of downloaded local trailers that are available 
 
 TrailerUrls are a list of known online trailers. When supporting trailers, precedence should be given to downloaded trailers. It is up the client developer as to whether or not they just want to pick one, or present all of them in a list. The most common scenario is that the user will have just one local trailer.
 
-
-* PrimaryImageAspectRatio
-* UserData
+### UserData
+Contains user state for an item, such as personal rating and playstate.
