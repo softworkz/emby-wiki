@@ -24,7 +24,7 @@ These are applicable to audio files only.
 This is generally the original aspect ratio that the video was filmed in. The actual aspect ratio of the user's video can be found in the MediaStreams property.
 
 ### BackdropImageTags
-This will tell you how many backdrop images are available for an item.
+This will tell you how many backdrop images are available for an item. See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
 ### CommunityRating
 This is the Imdb, Tmdb, or Tvdb rating of the item. At this time we do not have the ability to identify the source.
@@ -33,7 +33,7 @@ This is the Imdb, Tmdb, or Tvdb rating of the item. At this time we do not have 
 This is a friendly version of MediaType that can be used for display purposes, if desired.
 
 ### ImageTags
-This will tell you what images are available for an item.
+This will tell you what images are available for an item. See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
 ### IndexNumber
 This serves different purposes depending on the type of item. For episodes this is the episode number. For seasons, this is the season number. For audio files, this is the track number.
