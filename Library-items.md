@@ -57,7 +57,7 @@ This is generally the original aspect ratio that the video was filmed in. The ac
 This is a dictionary of provider id's for an item - Tmdb, Tvdb, TvCom, etc.
 
 ### CommunityRating
-This is the Imdb, Tmdb, or Tvdb rating of the item. This is pulled from the user's metadata, and at this time we do not have the ability to identify the source.
+This is the Imdb, Tmdb, or Tvdb rating of the item. At this time we do not have the ability to identify the source.
 
 
 
