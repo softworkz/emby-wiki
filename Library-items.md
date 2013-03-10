@@ -29,6 +29,9 @@ This is the Imdb, Tmdb, or Tvdb rating of the item. At this time we do not have 
 ### DisplayMediaType
 This is a friendly version of MediaType that can be used for display purposes, if desired.
 
+### ImageTags
+This will tell you what images are available for an item.
+
 ### IndexNumber
 This serves different purposes depending on the type of item. For episodes this is the episode number. For seasons, this is the season number. For audio files, this is the track number.
 
