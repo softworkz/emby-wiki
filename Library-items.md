@@ -23,6 +23,9 @@ These are applicable to audio files only.
 ### AspectRatio
 This is generally the original aspect ratio that the video was filmed in. The actual aspect ratio of the user's video can be found in the MediaStreams property.
 
+### BackdropImageTags
+This will tell you how many backdrop images are available for an item.
+
 ### CommunityRating
 This is the Imdb, Tmdb, or Tvdb rating of the item. At this time we do not have the ability to identify the source.
 
