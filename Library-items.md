@@ -51,7 +51,7 @@ Similiar to IndexNumber, this serves different purposes depending on the type of
 This serves different purposes depending on the type of item. For episodes this is the air date. For series, this is the first air date. For audio files, this is the premiere date.
 
 ### AspectRatio
-This is the aspect ratio from metadata, which generally is the original aspect ratio that the video was filmed in. The actual aspect ratio of the user's video can be found in the MediaStreams property.
+This is generally the original aspect ratio that the video was filmed in. The actual aspect ratio of the user's video can be found in the MediaStreams property.
 
 ### ProviderIds
 This is a dictionary of provider id's for an item - Tmdb, Tvdb, TvCom, etc.
