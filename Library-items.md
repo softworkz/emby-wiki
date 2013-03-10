@@ -49,6 +49,9 @@ G, PG-13, R, TV-MA, etc.
 ### ParentIndexNumber
 Similiar to IndexNumber, this serves different purposes depending on the type of item. For episodes this is the season number. For audio files, this is the disc number.
 
+### ParentLogoItemId, ParentLogoImageTag, ParentBackdropItemId, ParentBackdropImageTags 
+See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
+
 ### Path
 This is the file system path of the item. This will generally not be needed by clients unless they're supporting direct play.
 
