@@ -26,6 +26,9 @@ This is generally the original aspect ratio that the video was filmed in. The ac
 ### BackdropImageTags
 This will tell you how many backdrop images are available for an item. See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
+### Chapters
+This is applicable to videos only. This will give you the list of chapter markers contained within the video.
+
 ### CommunityRating
 This is the Imdb, Tmdb, or Tvdb rating of the item. At this time we do not have the ability to identify the source.
 
