@@ -32,6 +32,9 @@ This is applicable to Audio and Video only. This will provide detailed informati
 ### VideoType
 This is applicable to Videos only. This will give you the type of video - VideoFile, Bluray, Dvd, HdDvd, Iso.
 
+### People
+These are the people involved in the item. Each person has Name, Role, Type and PrimaryImageTag properties. 
+
 ### SeriesId, SeriesName
 These properties are applicable only to Episodes and Seasons. This will give you some basic information about the TV Series.
 
@@ -67,4 +70,3 @@ TrailerUrls are a list of known online trailers. When supporting trailers, prece
 
 * PrimaryImageAspectRatio
 * UserData
-* People
