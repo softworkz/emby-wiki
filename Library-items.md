@@ -35,6 +35,9 @@ This serves different purposes depending on the type of item. For episodes this 
 ### IsFolder, MediaType, Type
 These allow you to determine how to categorize and display items. See [Browsing the Library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
 
+### IsoType
+This setting is applicable to videos only. If a video is an Iso this will give you the type - Dvd or BluRay.
+
 ### LocalTrailerCount, TrailerUrls
 LocalTrailerCount is the number of downloaded local trailers that are available for an item. The actual trailer items can be retrieved separately using /Users/{UserId}/Items/{Id}/LocalTrailers.
 
