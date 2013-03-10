@@ -79,6 +79,9 @@ This is a dictionary of provider id's for an item - Tmdb, Tvdb, TvCom, etc.
 ### SeriesId, SeriesName
 These properties are applicable only to Episodes and Seasons. This will give you some basic information about the TV Series.
 
+### SpecialFeatureCount
+This is applicable to Movies only. This will tell you how many special features are available. The actual special feature items can then be retrieved using /Users/{UserId}/Items/{Id}/SpecialFeatures.
+
 ### UserData
 Contains user state for an item, such as personal rating and playstate.
 
