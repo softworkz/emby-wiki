@@ -39,3 +39,13 @@ Most image types generally have a predictable aspect ratio. Primary is the one e
 The image tag on the item object also doubles as a caching value. If you add this parameter back onto your image url, you will receive strong http caching headers. This allows you to cache the image forever, unconditionally, based on the url. If the image changes, the tag will also change, thus creating a whole new url.
 
 This is an optional parameter. You do not have to specify the tag, but without it you will only receive conditional http response caching.
+
+## Image Inheritance
+We allow some images to be inherited from parent items, namely backdrops and logos.
+
+If an item does not have backdrops or logos, there are properties that will indicate what parent images are available for inheritance:
+
+* ParentLogoItemId - The id of an ancestor item with a logo
+* ParentLogoImageTag - The cache tag of the ancestor logo image
+* ParentBackdropItemId - The id of an ancestor item with backdrop images
+* ParentBackdropImageTags - The cache tags of the ancestor backdrop images
