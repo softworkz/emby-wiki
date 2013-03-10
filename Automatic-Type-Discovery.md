@@ -38,6 +38,9 @@ Implement this interface to create a rule allowing certain paths in the media li
 
 The server's default weather provider is WorldWeatherOnline.com, but plugins are free to create new ones by implementing this interface.
 
+### IBaseItemComparer
+Implement this to add a new sorting rule to the api's sorting routines. This rule can then be accessed by name when specifying a desired sort order. If a User is required to perform the sort, implement IUserBaseItemComparer.
+
 ### IItemRepository, IUserRepository, IUserDataRepository, IDisplayPreferencesRepository
 
 Media Browser uses sqlite databases to store application data. If there's a plugin developer who feels an alternate storage medium would be more appropriate, they are welcome to implement any of these interface and create their own.
