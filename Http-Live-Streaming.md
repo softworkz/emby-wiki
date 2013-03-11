@@ -8,6 +8,7 @@ The url's are:
 For a complete list or parameters, see:
 
 [Audio Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
+
 [Video Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Video-Streaming)
 
 Currently we do not support HLS adaptive bitrate streaming, although this is in the backlog for a future release.
