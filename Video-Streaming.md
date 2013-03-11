@@ -11,6 +11,7 @@ The base video url is /Video/{Id}/stream. Some players will have better results 
 * /Video/{Id}/stream.mkv
 * /Video/{Id}/stream.mpeg
 * /Video/{Id}/stream.avi
+* /Video/{Id}/stream.m2ts
 
 Generally, it is recommend to use a url with a file extension that matches the format you wish to encode to.
 
