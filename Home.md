@@ -10,6 +10,7 @@
 * [Video Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Video-Streaming)
 * [Http Live Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Http-Live-Streaming)
 * [Playback Guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Guidelines)
+* [Playback Check-ins](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Check-ins)
 
 ## How to Build a Server Plugin
 * [Creating the Project](https://github.com/MediaBrowser/MediaBrowser/wiki/How-to-build-a-Server-Plugin)
