@@ -78,6 +78,9 @@ This is the file system path of the item. This will generally not be needed by c
 ### People
 These are the people involved in the item. Each person has Name, Role, Type and PrimaryImageTag properties. 
 
+### PlayedPercentage
+This is populated for folders to indicate the user's cumulative progress through all items in the folder.
+
 ### PremiereDate 
 This serves different purposes depending on the type of item. For episodes this is the air date. For series, this is the first air date. For audio files, this is the premiere date.
 
