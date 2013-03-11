@@ -5,7 +5,7 @@ The url's are:
 * /Videos/{Id}/stream.m3u8
 * /Audio/{Id}/stream.m3u8
 
-For a complete list or parameters, see:
+For a complete list or parameters, see the built-in documentation as well as:
 
 [Audio Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
 
