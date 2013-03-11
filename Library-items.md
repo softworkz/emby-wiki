@@ -57,6 +57,9 @@ LocalTrailerCount is the number of downloaded local trailers that are available 
 
 TrailerUrls are a list of known online trailers. When supporting trailers, precedence should be given to downloaded trailers. It is up the client developer as to whether or not they just want to pick one, or present all of them in a list. The most common scenario is that the user will have just one local trailer.
 
+### LocationType
+This indicates if the item is a file system item, remote, or virtual.
+
 ### MediaStreams
 This is applicable to Audio and Video only. This will provide detailed information about the audio, video and subtitle tracks embedded within the file.
 
