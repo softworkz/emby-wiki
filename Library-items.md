@@ -31,6 +31,9 @@ This will tell you how many backdrop images are available for an item. See [imag
 ### Chapters
 This is applicable to videos only. This will give you the list of chapter markers contained within the video.
 
+### ChildCount
+For folders, this indicates the number of child items available.
+
 ### CommunityRating
 This is the Imdb, Tmdb, or Tvdb rating of the item. At this time we do not have the ability to identify the source.
 
