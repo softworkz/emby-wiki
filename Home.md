@@ -8,6 +8,7 @@
 ## Media Playback
 * [Audio Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
 * [Video Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Video-Streaming)
+* [Http Live Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Http-Live-Streaming)
 * [Playback Guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Guidelines)
 
 ## How to Build a Server Plugin
