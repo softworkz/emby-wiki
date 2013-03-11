@@ -1,17 +1,17 @@
 The base video url is /Video/{Id}/stream. Some players will have better results when the url has a video file extension, so we also provide several aliases to account for that:
 
-* /Video/{Id}/stream
-* /Video/{Id}/stream.asf
-* /Video/{Id}/stream.ogv
-* /Video/{Id}/stream.ts
-* /Video/{Id}/stream.webm
-* /Video/{Id}/stream.wmv
-* /Video/{Id}/stream.mp4
-* /Video/{Id}/stream.m4v
-* /Video/{Id}/stream.mkv
-* /Video/{Id}/stream.mpeg
-* /Video/{Id}/stream.avi
-* /Video/{Id}/stream.m2ts
+* /Videos/{Id}/stream
+* /Videos/{Id}/stream.asf
+* /Videos/{Id}/stream.ogv
+* /Videos/{Id}/stream.ts
+* /Videos/{Id}/stream.webm
+* /Videos/{Id}/stream.wmv
+* /Videos/{Id}/stream.mp4
+* /Videos/{Id}/stream.m4v
+* /Videos/{Id}/stream.mkv
+* /Videos/{Id}/stream.mpeg
+* /Videos/{Id}/stream.avi
+* /Videos/{Id}/stream.m2ts
 
 Generally, it is recommend to use a url with a file extension that matches the format you wish to encode to.
 
@@ -22,11 +22,11 @@ All of the optional parameters can be viewed using the swagger documentation. If
 ## Formats
 Unlike audio, some of these formats have limitations that prevent them from being practical for encoding. If you are encoding, you **must** choose one of these aliases:
 
-* /Video/{Id}/stream
-* /Video/{Id}/stream.asf
-* /Video/{Id}/stream.ogv
-* /Video/{Id}/stream.ts
-* /Video/{Id}/stream.webm
+* /Videos/{Id}/stream
+* /Videos/{Id}/stream.asf
+* /Videos/{Id}/stream.ogv
+* /Videos/{Id}/stream.ts
+* /Videos/{Id}/stream.webm
 
 Even though the server is capable of encoding to all of the formats listed at the beginning, most clients are not able to play them until the transcoding completes. In order to solve this, **you must choose asf, ogv, ts, or webm**. Ts should generally be the starting point, as that will provide H264.
 
