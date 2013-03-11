@@ -84,6 +84,9 @@ This is the aspect ratio of the primary image. Most image types have a predictab
 ### ProviderIds
 This is a dictionary of provider id's for an item - Tmdb, Tvdb, TvCom, etc.
 
+### RecursiveItemCount
+For folders, this indicates the number of items available, recursively.
+
 ### SeriesId, SeriesName
 These properties are applicable only to Episodes and Seasons. This will give you some basic information about the TV Series.
 
