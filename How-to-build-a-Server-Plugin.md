@@ -34,11 +34,7 @@ Shutdown the server, rebuild your solution, and restart the server. At this poin
 
 To add real functionality to your plugin, you will need an entrypoint that can initialize and accept the various dependencies you may need in order to interact with the MB environment.
 
-1. Create a class that implements the IServerEntryPoint interface.  Its constructor can accept any number of injected dependancies - depending on what your plugin needs to access.  The options are:
-
-* ILogManager - Call GetLogger("plugin name") on this to retrieve an ILogger instance that you can use.
-* ILibraryManager - 
-* ... (more to come)
+This is done by creating a class that implements the IServerEntryPoint interface.  See [Automatic Type Discovery](https://github.com/MediaBrowser/MediaBrowser/wiki/Automatic-Type-Discovery) for this and other types you can include in your plug-in. Its constructor can accept any number of injected dependencies - depending on what your plugin needs to access.  See [Dependency Injection](https://github.com/MediaBrowser/MediaBrowser/wiki/Dependency-Injection).
 
 ### Debugging
 
