@@ -1,5 +1,5 @@
 ## Api Documentation
-The server features built-in documentation [courtesy of Swagger](http://petstore.swagger.wordnik.com/), allowing you to view methods, parameters and even test them in the browser to see what the responses look like. 
+The server features built-in documentation [courtesy of Swagger](http://petstore.swagger.wordnik.com/), allowing you to view methods, parameters and even test them in the browser to see what the responses look like.
 
 ## Client Workflow
 * [Locating the Server](https://github.com/MediaBrowser/MediaBrowser/wiki/Locating-the-Server)
