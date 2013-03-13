@@ -66,9 +66,6 @@ This is applicable to Audio and Video only. This will provide detailed informati
 ### OfficialRating
 G, PG-13, R, TV-MA, etc.
 
-### OverviewHtml
-This is an html version of the overview. If the original overview did not have any html content, this will be identical to Overview.
-
 ### ParentIndexNumber
 Similiar to IndexNumber, this serves different purposes depending on the type of item. For episodes this is the season number. For audio files, this is the disc number.
 
