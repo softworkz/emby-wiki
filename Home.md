@@ -19,3 +19,4 @@ The server features built-in documentation [courtesy of Swagger](http://petstore
 * [Creating the Project](https://github.com/MediaBrowser/MediaBrowser/wiki/How-to-build-a-Server-Plugin)
 * [Automatic Type Discovery](https://github.com/MediaBrowser/MediaBrowser/wiki/Automatic-Type-Discovery)
 * [Dependency Injection](https://github.com/MediaBrowser/MediaBrowser/wiki/Dependency-Injection)
+* [Other Interfaces](https://github.com/MediaBrowser/MediaBrowser/wiki/Other-Interfaces)
