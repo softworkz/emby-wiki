@@ -36,6 +36,8 @@ To add real functionality to your plugin, you will need an entrypoint that can i
 
 This is done by creating a class that implements the IServerEntryPoint interface.  See [Automatic Type Discovery](https://github.com/MediaBrowser/MediaBrowser/wiki/Automatic-Type-Discovery) for this and other types you can include in your plug-in. Its constructor can accept any number of injected dependencies - depending on what your plugin needs to access.  See [Dependency Injection](https://github.com/MediaBrowser/MediaBrowser/wiki/Dependency-Injection).
 
+If your plugin will be a premium plugin, see IRequiresRegistration in [Other Interfaces](https://github.com/MediaBrowser/MediaBrowser/wiki/Other-Interfaces).
+
 ### Debugging
 
 The quickest way to test code changes is to work without the debugger. If you do this, you can leave the server running at all times. Simply use the Rebuild command on your plugin project, and right click the server tray -> Restart Server. If that option is not visible you'll need to enable developer tools in the Dashboard under Advanced.
