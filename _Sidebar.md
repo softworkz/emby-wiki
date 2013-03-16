@@ -1,3 +1,6 @@
+# Navigation
+* [Locating the Server](https://github.com/MediaBrowser/MediaBrowser/wiki/Locating-the-Server)
+
 ## Client Workflow
 * [Locating the Server](https://github.com/MediaBrowser/MediaBrowser/wiki/Locating-the-Server)
 * [Authentication](https://github.com/MediaBrowser/MediaBrowser/wiki/Authentication)
