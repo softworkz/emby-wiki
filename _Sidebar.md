@@ -9,14 +9,14 @@
 * [Images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
 ## Media Playback
-* [Audio Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
-* [Video Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Video-Streaming)
-* [Http Live Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Http-Live-Streaming)
-* [Playback Guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Guidelines)
-* [Playback Check-ins](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Check-ins)
+* [Audio streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
+* [Video streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Video-Streaming)
+* [Http live streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Http-Live-Streaming)
+* [Playback guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Guidelines)
+* [Playback check-ins](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Check-ins)
 
-## How to Build a Server Plugin
-* [Creating the Project](https://github.com/MediaBrowser/MediaBrowser/wiki/How-to-build-a-Server-Plugin)
-* [Automatic Type Discovery](https://github.com/MediaBrowser/MediaBrowser/wiki/Automatic-Type-Discovery)
-* [Dependency Injection](https://github.com/MediaBrowser/MediaBrowser/wiki/Dependency-Injection)
-* [Other Interfaces](https://github.com/MediaBrowser/MediaBrowser/wiki/Other-Interfaces)
+## Server Plugin Development
+* [Getting started](https://github.com/MediaBrowser/MediaBrowser/wiki/How-to-build-a-Server-Plugin)
+* [Creating classes](https://github.com/MediaBrowser/MediaBrowser/wiki/Automatic-Type-Discovery)
+* [Dependency injection](https://github.com/MediaBrowser/MediaBrowser/wiki/Dependency-Injection)
+* [Other interfaces](https://github.com/MediaBrowser/MediaBrowser/wiki/Other-Interfaces)
