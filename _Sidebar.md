@@ -1,7 +1,7 @@
 ## Navigation
 * [Wiki home](https://github.com/MediaBrowser/MediaBrowser/wiki)
 
-## Client Workflow
+**Client Workflow**
 * [Locating the server](https://github.com/MediaBrowser/MediaBrowser/wiki/Locating-the-Server)
 * [Authentication](https://github.com/MediaBrowser/MediaBrowser/wiki/Authentication)
 * [Browsing the library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
