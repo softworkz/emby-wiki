@@ -22,4 +22,4 @@ At the moment this is used only for logging purposes. After authentication, add 
 
 * Device is the product name of the device
 * DeviceId is the device's unique id
-* Client is 
+* Client is the type of client (Android, Dashboard, Dlna, iOS, PC, WindowsPhone, WindowsRT, other)
