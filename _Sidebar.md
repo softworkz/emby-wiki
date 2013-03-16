@@ -1,5 +1,5 @@
 #$ Navigation
-[Wiki home](https://github.com/MediaBrowser/MediaBrowser/wiki)
+   * [Wiki home](https://github.com/MediaBrowser/MediaBrowser/wiki)
 
 ## Client Workflow
 * [Locating the Server](https://github.com/MediaBrowser/MediaBrowser/wiki/Locating-the-Server)
