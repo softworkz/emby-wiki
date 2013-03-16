@@ -10,12 +10,16 @@
 * [Library items](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-items)
 * [Images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
+***
+
 ## Media Playback
 * [Audio streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
 * [Video streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Video-Streaming)
 * [Http live streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Http-Live-Streaming)
 * [Playback guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Guidelines)
 * [Playback check-ins](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Check-ins)
+
+***
 
 ## Server Plugin Development
 * [Getting started](https://github.com/MediaBrowser/MediaBrowser/wiki/How-to-build-a-Server-Plugin)
