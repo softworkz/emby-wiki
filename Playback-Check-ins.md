@@ -16,7 +16,7 @@ To report progress make an HTTP POST call to /Users/{UserId}/PlayingItems/{Id}/P
 
 If the client media player has the current position available, then the **PositionTicks** argument should be added to the URL. 1 tick = 10,000 ms. 
 
-`http://localhost:8096/mediabrowser/Users/4fe34e3c20fb9a161b5bc16e77b135a7/PlayingItems/bede2ced958abb58cccda473a0f2afec/Progress?PositionTicks=7281356`
+`http://localhost:8096/mediabrowser/Users/4fe34e3c20fb9a161b5bc16e77b135a7/`  `PlayingItems/bede2ced958abb58cccda473a0f2afec/Progress?PositionTicks=7281356`
 
 Playback progress should be reported as often as is reasonable based on the device and connection to the server. The server dashboard will show a users current activity for several minutes after each progress update, so it's best to not let too much time pass between updates.  
 
