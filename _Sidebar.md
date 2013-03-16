@@ -8,7 +8,7 @@
 * [Library items](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-items)
 * [Images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
-## Media Playback
+## Media Streaming
 * [Audio streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
 * [Video streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Video-Streaming)
 * [Http live streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Http-Live-Streaming)
