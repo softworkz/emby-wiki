@@ -27,7 +27,7 @@ Once playback is stopped, make a call using the HTTP DELETE method to /Users/{Us
 
 **UserId** and **Id** are required values.
 
-As with Playback Progress, you should add the **PositionTicks** argument with this API call.
+As with Playback Progress, you should add the **PositionTicks** argument to this API call.
 
 After this API call is made, the server dashboard will update to reflect that the user is not currently playing an item.
 
