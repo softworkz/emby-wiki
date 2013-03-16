@@ -2,11 +2,11 @@
 * [Wiki home](https://github.com/MediaBrowser/MediaBrowser/wiki)
 
 ## Client Workflow
-* [Locating the Server](https://github.com/MediaBrowser/MediaBrowser/wiki/Locating-the-Server)
-* [Authentication](https://github.com/MediaBrowser/MediaBrowser/wiki/Authentication)
-* [Browsing the Library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
-* [Library Items](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-items)
-* [Images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
+   1. [Locating the Server](https://github.com/MediaBrowser/MediaBrowser/wiki/Locating-the-Server)
+   2. [Authentication](https://github.com/MediaBrowser/MediaBrowser/wiki/Authentication)
+   3. [Browsing the Library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
+   4. [Library Items](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-items)
+   5. [Images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
 ## Media Playback
 * [Audio streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
