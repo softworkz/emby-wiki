@@ -6,7 +6,7 @@
 * [Authentication](https://github.com/MediaBrowser/MediaBrowser/wiki/Authentication)
 * [Browsing the library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
 * [Item information](https://github.com/MediaBrowser/MediaBrowser/wiki/Item-Information)
-* [Core item types](https://github.com/MediaBrowser/MediaBrowser/wiki/Core-Item-Types)
+* [Item types](https://github.com/MediaBrowser/MediaBrowser/wiki/Item-Types)
 * [Images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
 ## Media Streaming
