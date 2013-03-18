@@ -3,16 +3,16 @@ Media Browser has a number of core library item types. Api consumers can detect 
 The following core types are available:
 
 ### Audio
+This is an audio file.
 
 ### Folder
 This is a generic folder.
 
-### MusicAlbum
+### BoxSet, MusicAlbum, MusicArtist, Season, Series
+These are specialized representations of Folder.
 
-### MusicArtist
-
-### Trailer
-This is a specialized representation of a Video.
+### Episode, Movie, Trailer
+These are specialized representations of Video.
 
 ### Video
-This is a generic Video.
+This is a video file.
