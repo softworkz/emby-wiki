@@ -21,7 +21,7 @@ These are specialized representations of Folder.
 
 Plugins are able to register their own custom types as well. When this happens the plugin developer will publish information to help you customize your display for them. Or you can simply ignore them and treat them generically.
 
-The following are some known plugin types. Plugin developers are free to add theirs to this wiki page.
+The following are some known plugin types. Plugin developers are free to add theirs to this wiki page, along with links to their documentation.
 
 ### GameSystem, Game
 These types are added by game browser to represent a game system folder, and a Game, respectively.
