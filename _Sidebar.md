@@ -8,6 +8,7 @@
 * [Item information](https://github.com/MediaBrowser/MediaBrowser/wiki/Item-Information)
 * [Item types](https://github.com/MediaBrowser/MediaBrowser/wiki/Item-Types)
 * [Images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
+* [Items by name](https://github.com/MediaBrowser/MediaBrowser/wiki/Items-by-name)
 
 ## Media Streaming
 * [Audio streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
