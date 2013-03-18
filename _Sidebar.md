@@ -5,7 +5,7 @@
 * [Locating the server](https://github.com/MediaBrowser/MediaBrowser/wiki/Locating-the-Server)
 * [Authentication](https://github.com/MediaBrowser/MediaBrowser/wiki/Authentication)
 * [Browsing the library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
-* [Library items](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-items)
+* [Item information](https://github.com/MediaBrowser/MediaBrowser/wiki/Item-Information)
 * [Images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
 ## Media Streaming
