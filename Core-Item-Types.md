@@ -19,7 +19,7 @@ These are specialized representations of Folder.
 
 ## Plugin Types
 
-Plugins are allowed to register their own custom types as well. When this happens the plugin developer will publish information to help you customize your display for them. Or you can simply ignore them and treat them generically.
+Plugins are able to register their own custom types as well. When this happens the plugin developer will publish information to help you customize your display for them. Or you can simply ignore them and treat them generically.
 
 The following are some known plugin types. Plugin developers are free to add theirs to this wiki page.
 
