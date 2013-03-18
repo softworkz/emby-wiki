@@ -16,3 +16,7 @@ These are specialized representations of Video.
 
 ### Video
 This is a video file.
+
+## Plugin Types
+
+Plugins are allowed to register their own custom types as well. When this happens the plugin developer will publish information to help you customize your display for them. Or you can simply ignore them and treat them generically.
