@@ -6,7 +6,7 @@ The following core types are available:
 This is an audio file.
 
 ### Video
-This is a video file.
+This is a generic video file.
 
 ### Folder
 This is a generic folder.
