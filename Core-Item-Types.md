@@ -5,17 +5,17 @@ The following core types are available:
 ### Audio
 This is an audio file.
 
+### Video
+This is a video file.
+
 ### Folder
 This is a generic folder.
-
-### BoxSet, MusicAlbum, MusicArtist, Season, Series
-These are specialized representations of Folder.
 
 ### Episode, Movie, Trailer
 These are specialized representations of Video.
 
-### Video
-This is a video file.
+### BoxSet, MusicAlbum, MusicArtist, Season, Series
+These are specialized representations of Folder.
 
 ## Plugin Types
 
