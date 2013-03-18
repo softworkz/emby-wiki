@@ -12,3 +12,5 @@ These can be retrieved individually on a per-name basis, e.g.
 This will return an item with identical structure to normal library items. From there images can be downloaded as necessary. See the built-in documentation for all the related endpoints and parameters.
 
 ## Querying for items by name
+
+In addition to individual retrieval, there are querying endpoints that will return lists of these items. 
