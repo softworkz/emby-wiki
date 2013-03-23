@@ -22,3 +22,6 @@
 * [Creating classes](https://github.com/MediaBrowser/MediaBrowser/wiki/Automatic-Type-Discovery)
 * [Dependency injection](https://github.com/MediaBrowser/MediaBrowser/wiki/Dependency-Injection)
 * [Other interfaces](https://github.com/MediaBrowser/MediaBrowser/wiki/Other-Interfaces)
+
+## Dashboard Development
+* [Getting started](https://github.com/MediaBrowser/MediaBrowser/wiki/Dashboard-Development)
