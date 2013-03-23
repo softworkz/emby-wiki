@@ -16,4 +16,4 @@ Before you begin, you'll want to shutdown the server, open the system configurat
 
 Once complete you'll be able to keep the server running, modify dashboard-ui files and simply refresh the browser.
 
-Once you've finished making changes you'll have to copy the files you modified or added to your git repository so that they can be committed and pushed.
+Once you've finished making changes you'll have to copy the files you modified or added to your git repository so that they can be committed and pushed. If you've added new files, see the above notes about marking them for build output copying. You will need visual studio in order to test and verify this.
