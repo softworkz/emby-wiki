@@ -19,7 +19,7 @@
 
 ## Server Plugin Development
 * [Getting started](https://github.com/MediaBrowser/MediaBrowser/wiki/How-to-build-a-Server-Plugin)
-* [Creating classes](https://github.com/MediaBrowser/MediaBrowser/wiki/Automatic-Type-Discovery)
+* [Automatic type discovery](https://github.com/MediaBrowser/MediaBrowser/wiki/Automatic-Type-Discovery)
 * [Dependency injection](https://github.com/MediaBrowser/MediaBrowser/wiki/Dependency-Injection)
 * [Other interfaces](https://github.com/MediaBrowser/MediaBrowser/wiki/Other-Interfaces)
 
