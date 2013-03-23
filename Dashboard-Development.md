@@ -3,3 +3,17 @@ The dashboard is built with **jQuery** and **jQuery mobile**.
 It also utilizes [MediaBrowser.ApiClient.Javascript](https://github.com/MediaBrowser/MediaBrowser.ApiClient.Javascript) for all communication with MB server.
 
 The html code is located within the dashboard-ui folder of the Dashboard project. This is copied to the build output folder, so all html, javascript, css and image files must be marked as "copy if newer".
+
+If you'd like to contribute, there's two ways you can modify dashboard code:
+
+## Visual Studio
+The preferred way to work within the dashboard is directly within visual studio. In between changes you will need to stop the server and use the rebuild command on the plugin project.
+
+## Installed Server
+If you don't have visual studio, you can still work with the dashboard. You can find the html code within "programdata\mediabrowser-server\system\dashboard-ui".
+
+Before you begin, you'll want to shutdown the server, open the system configuration file, and set EnableDashboardResponseCaching to false. Without this you'll have to clear your browser cache in between testing changes.
+
+Once complete you'll be able to keep the server running, modify dashboard-ui files and simply refresh the browser.
+
+Once you've finished making changes you'll have to copy the files you modified or added to your git repository so that they can be committed and pushed.
