@@ -12,7 +12,7 @@ The preferred way to work within the dashboard is directly within visual studio.
 ## Installed Server
 If you don't have visual studio, you can still work with the dashboard. You can find the html code within "programdata\mediabrowser-server\system\dashboard-ui".
 
-Before you begin, you'll want to shutdown the server, open the system configuration file, and set EnableDashboardResponseCaching to false. Without this you'll have to clear your browser cache in between testing changes.
+Before you begin, you'll want to shutdown the server, open the system configuration file, and set **EnableDashboardResponseCaching to false**. Without this you'll have to clear your browser cache in between testing changes.
 
 Once complete you'll be able to keep the server running, modify dashboard-ui files and simply refresh the browser.
 
