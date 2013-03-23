@@ -21,6 +21,7 @@
 * [Getting started](https://github.com/MediaBrowser/MediaBrowser/wiki/How-to-build-a-Server-Plugin)
 * [Automatic type discovery](https://github.com/MediaBrowser/MediaBrowser/wiki/Automatic-Type-Discovery)
 * [Dependency injection](https://github.com/MediaBrowser/MediaBrowser/wiki/Dependency-Injection)
+* [Creating api endpoints](https://github.com/MediaBrowser/MediaBrowser/wiki/Creating-Api-Endpoints)
 * [Other interfaces](https://github.com/MediaBrowser/MediaBrowser/wiki/Other-Interfaces)
 
 ## Dashboard Development
