@@ -21,7 +21,7 @@ You will then have to create request dto classes that describe the request. The 
     {
         public object Get(GetWeather request)
         {
-            var result = Kernel.Instance.WeatherProviders.First().GetWeatherInfoAsync(request.Location, CancellationToken.None).Result;
+            var result = GetWeatherInfo();
 
             return result;
         }
