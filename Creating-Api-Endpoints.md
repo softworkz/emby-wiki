@@ -42,4 +42,18 @@ Other http methods are supported - Post, Put, Delete, etc.
 The Api and ApiMember attributes, as well as IReturn are all optional. They only serve to improve documentation.
 
 ## Advanced Options
-If you need http compression, response caching, or the ability to set custom response headers, extend your Service to implement **IHasResultFactory**. This will add a ResultFactory property to your service. You can then call ResultFactory.GetResult, or some of the other more advanced result methods.
+If you need http compression, response caching, or the ability to set custom response headers, extend your Service to implement **IHasResultFactory**. This will add a ResultFactory property to your service. 
+
+The following are some of the methods available:
+
+### GetResult
+Gets a result object with the ability to specify a content type and response headers.
+
+### GetOptimizedResult
+Similar to GetResult, except that http compression is applied if the client supports it.
+
+### GetOptimizedResultUsingCache
+Similar to GetOptimizedResult, except that http caching headers will also be specified. You'll have to supply a function delegate to generate the response when the cache is not utilized.
+
+### ThrowError
+Throws an error with a specific response code and message.
