@@ -9,7 +9,6 @@ You will then have to create request dto classes that describe the request. The 
 
 `
 
-
     [Route("/Weather", "GET")]
     [Api(Description = "Gets weather information for a given location")]
     public class GetWeather : IReturn<WeatherInfo>
@@ -32,3 +31,5 @@ You will then have to create request dto classes that describe the request. The 
 WeatherService is the service that processes the request. GetWeather is api method. The route attribute describes the url and http method.
 
 The Api and ApiMember attributes, as well as IReturn are all optional. They only serve to improve documentation.
+
+## Advanced Options
