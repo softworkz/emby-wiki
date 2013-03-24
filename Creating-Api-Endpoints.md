@@ -3,7 +3,7 @@ Plugins are able to create their own api endpoints, whether it be for their own 
 Media Browser's api layer is built with **Service Stack**, so their examples are directly applicable.
 
 ## Create the Service
-Create a class that implements IRestfulService.
+Create a class that implements IRestfulService. In order to do this you will have to add the ServiceStack.Common nuget package to your project.
 
 You will then have to create request dto classes that describe the request. The following is a complete service example:
 
