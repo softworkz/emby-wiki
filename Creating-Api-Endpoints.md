@@ -27,5 +27,8 @@ You will then have to create request dto classes that describe the request. The 
             return result;
         }
     }
-
 `
+
+WeatherService is the service that processes the request. GetWeather is api method. The route attribute describes the url and http method.
+
+The Api and ApiMember attributes, as well as IReturn are all optional. They only serve to improve documentation.
