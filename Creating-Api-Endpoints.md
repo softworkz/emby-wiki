@@ -37,7 +37,7 @@ The Get method should return an object that is one of the following:
 * byte array (to be written to the response stream)
 * stream (to be copied to the response stream)
 
-Other http methods are supported - POST, PUT, DELETE, etc.
+Other http methods are supported - Post, Put, Delete, etc.
 
 The Api and ApiMember attributes, as well as IReturn are all optional. They only serve to improve documentation.
 
