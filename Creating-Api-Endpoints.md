@@ -55,5 +55,11 @@ Similar to GetResult, except that http compression is applied if the client supp
 ### GetOptimizedResultUsingCache
 Similar to GetOptimizedResult, except that http caching headers will also be specified. You'll have to supply a function delegate to generate the response when the cache is not utilized.
 
+### GetCachedResult
+Use this in situations where you need http caching but do not want http compression, such as with images for example.
+
+### GetStaticFileResult
+Use this so serve a file statically from the file system.
+
 ### ThrowError
 Throws an error with a specific response code and message.
