@@ -7,8 +7,8 @@ Create a class that implements IRestfulService. In order to do this you will hav
 
 You will then have to create request dto classes that describe the request. The following is a complete service example:
 
-`
 
+```c#
     [Route("/Weather", "GET")]
     [Api(Description = "Gets weather information for a given location")]
     public class GetWeather : IReturn<WeatherInfo>
@@ -26,7 +26,7 @@ You will then have to create request dto classes that describe the request. The 
             return result;
         }
     }
-`
+```
 
 WeatherService is the service that processes the request. GetWeather is the dto that describes the parameters. The route attribute describes the url and http method.
 
