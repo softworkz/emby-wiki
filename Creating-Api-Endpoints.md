@@ -28,7 +28,7 @@ You will then have to create request dto classes that describe the request. The 
     }
 `
 
-WeatherService is the service that processes the request. GetWeather is api method. The route attribute describes the url and http method.
+WeatherService is the service that processes the request. GetWeather is the dto that describes the parameters. The route attribute describes the url and http method.
 
 The Get method should return an object that is one of the following:
 
