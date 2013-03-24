@@ -42,7 +42,7 @@ Other http methods are supported - Post, Put, Delete, etc.
 The Api and ApiMember attributes, as well as IReturn are all optional. They only serve to improve documentation.
 
 ## Advanced Options
-If you need http compression, response caching, or the ability to set custom response headers, extend your Service to implement **IHasResultFactory**. This will add a ResultFactory property to your service. 
+If you need http compression, response caching, or the ability to set custom response headers, extend your Service to implement `IHasResultFactory`. This will add a `ResultFactory` property to your service. 
 
 The following are some of the methods available:
 
