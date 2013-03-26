@@ -1,4 +1,4 @@
-## Navigation
+## Menu
 * [Wiki home](https://github.com/MediaBrowser/MediaBrowser/wiki)
 * [Library Structure](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-Structure)
 
