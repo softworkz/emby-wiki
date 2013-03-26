@@ -30,6 +30,10 @@ The dashboard currently displays customized icons for the following clients:
 * Dashboard
 * Dlna
 * iOS
-* MediaBrowserTheater
-* WindowsPhone
-* WindowsRT
+* Media Browser Theater
+* Media Browser Classic
+* Windows Phone
+* Windows RT
+
+## User Interfaces vs Utilities
+While all api consumers are encouraged to report themselves using the request headers, only clients with user interfaces and logged in users need to authenticate and supply a user Id in the header.
