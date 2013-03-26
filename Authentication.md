@@ -36,4 +36,4 @@ The dashboard currently displays customized icons for the following clients:
 * Windows RT
 
 ## User Interfaces vs Utilities
-While all api consumers are encouraged to report themselves using the request headers, only clients with user interfaces and logged in users need to authenticate and supply a user Id in the header.
+At this time, only api consumers with user interfaces and logged in users need to authenticate and supply the request headers.
