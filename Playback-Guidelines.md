@@ -11,3 +11,8 @@ With direct streaming, it is also recommended to use either a file extension tha
 
 ## Encoding
 If none of these options apply, then the server's encoding features should be utilized.
+
+## Seeking
+Client-side seeking will not be available when transcoding. In order to seek you'll have to stop the stream and start a new one using the StartTimeTicks parameter. When direct streaming, the file will be served statically and client-side seeking will be possible.
+
+Note that the server caches transcoding output if the process completes before playback is stopped. This will allow the output to be served statically the next time the item is played.
