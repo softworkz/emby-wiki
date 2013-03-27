@@ -1,6 +1,7 @@
 ## Menu
 * [Wiki home](https://github.com/MediaBrowser/MediaBrowser/wiki)
-* [Library structure](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-Structure)
+* [Media library structure](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-Structure)
+* [Contributing](https://github.com/MediaBrowser/MediaBrowser/wiki/Contributing)
 
 ## Client Workflow
 * [Locating the server](https://github.com/MediaBrowser/MediaBrowser/wiki/Locating-the-Server)
