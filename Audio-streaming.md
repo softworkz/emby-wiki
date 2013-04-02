@@ -4,6 +4,8 @@ The base audio url is /Audio/{Id}/stream. Some players will have better results 
 * /Audio/{Id}/stream.mp3
 * /Audio/{Id}/stream.aac
 * /Audio/{Id}/stream.ogg
+* /Audio/{Id}/stream.oga
+* /Audio/{Id}/stream.webma
 * /Audio/{Id}/stream.wma
 * /Audio/{Id}/stream.flac
 
