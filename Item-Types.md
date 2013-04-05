@@ -23,5 +23,5 @@ Plugins are able to register their own custom types as well. When this happens t
 
 The following are some known plugin types. Plugin developers are free to add theirs to this wiki page, along with links to their documentation.
 
-### GameSystem, Game
+### ConsoleFolder, Game
 These types are added by [GameBrowser](https://github.com/RedshirtMB/gamebrowser-mb3) to represent a game system folder, and a Game, respectively.
