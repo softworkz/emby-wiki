@@ -9,11 +9,13 @@ If you'd like to contribute, there's two ways you can modify dashboard code:
 ## Visual Studio
 The preferred way to work within the dashboard is directly within visual studio. In between changes you will need to stop the server and use the rebuild command on the plugin project.
 
-## Installed Server
-If you don't have visual studio, you can still work with the dashboard. You can find the html code within "programdata\mediabrowser-server\system\dashboard-ui".
+You may choose to set the **DashboardSourcePath **configuration setting to your dashboard-ui source folder for easier development. This will remove the need to restart the server after making markup changes.
 
-Before you begin, you'll want to shutdown the server, open the system configuration file, and set **EnableDashboardResponseCaching to false**. Without this you'll have to clear your browser cache in between testing changes.
+## Installed Server
+If you don't have visual studio, you can still work with the dashboard.
+
+Simply shutdown the server, open the system configuration file, and set the set the **DashboardSourcePath ** configuration setting to your dashboard-ui source folder.
+
+You'll also want to set **EnableDashboardResponseCaching to false**. Without this you'll have to clear your browser cache in between testing changes.
 
 Once complete you'll be able to keep the server running, modify dashboard-ui files and simply refresh the browser.
-
-Once you've finished making changes you'll have to copy the files you modified or added to your git repository so that they can be committed and pushed. If you've added new files, see the above notes about marking them for build output copying. You will need visual studio in order to test and verify this.
