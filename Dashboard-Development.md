@@ -14,7 +14,7 @@ You may choose to set the **DashboardSourcePath **configuration setting to your 
 ## Installed Server
 If you don't have visual studio, you can still work with the dashboard.
 
-Simply shutdown the server, open the system configuration file, and set the set the **DashboardSourcePath ** configuration setting to your dashboard-ui source folder.
+Simply shutdown the server, open the system configuration file, and set the set the **DashboardSourcePath** configuration setting to your dashboard-ui source folder.
 
 You'll also want to set **EnableDashboardResponseCaching to false**. Without this you'll have to clear your browser cache in between testing changes.
 
