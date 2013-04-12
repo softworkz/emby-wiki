@@ -13,6 +13,7 @@ Library items have a number of interesting properties. Among these are, but not 
 * Studios
 * HomePageUrl
 * Budget
+* ProductionLocations
 
 When retrieving a single item, the entire object is returned. When querying for items, the return data will be stripped to include only a minimal amount of information. When querying, you can configure the fields that are returned in the output. See [browsing the Library.](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
 
@@ -56,9 +57,6 @@ These allow you to determine how to categorize and display items. See [Browsing 
 
 ### IsoType
 This setting is applicable to videos only. If a video is an Iso this will give you the type - Dvd or BluRay.
-
-### Locations
-This contains any locations associated with the item.
 
 ### LocalTrailerCount, TrailerUrls
 LocalTrailerCount is the number of downloaded local trailers that are available for an item. The actual trailer items can be retrieved separately using /Users/{UserId}/Items/{Id}/LocalTrailers.
