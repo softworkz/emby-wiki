@@ -40,6 +40,9 @@ This is the Imdb, Tmdb, or Tvdb rating of the item. At this time we do not have 
 ### DisplayMediaType
 This is a friendly version of MediaType that can be used for display purposes, if desired.
 
+### EndDate
+This is the date an item ended. Currently only used for people to represent death day.
+
 ### ImageTags
 This will tell you what images are available for an item. See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
@@ -51,6 +54,9 @@ These allow you to determine how to categorize and display items. See [Browsing 
 
 ### IsoType
 This setting is applicable to videos only. If a video is an Iso this will give you the type - Dvd or BluRay.
+
+### Locations
+This contains any locations associated with the item.
 
 ### LocalTrailerCount, TrailerUrls
 LocalTrailerCount is the number of downloaded local trailers that are available for an item. The actual trailer items can be retrieved separately using /Users/{UserId}/Items/{Id}/LocalTrailers.
