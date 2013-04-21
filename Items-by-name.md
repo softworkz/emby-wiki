@@ -3,7 +3,7 @@ In addition to library items, there are other related items that can be retrieve
 * Genre
 * Person
 * Studio
-* Year
+* Artist
 
 These can be retrieved individually on a per-name basis, e.g.
 
