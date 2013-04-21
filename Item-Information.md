@@ -23,7 +23,7 @@ Here are some other properties along with their descriptions:
 ### AirDays, AirTime, Status
 These are applicable to Series only and will give you information about when episodes air.
 
-### Album, AlbumArtist, Artist
+### Album, AlbumArtist, Artists
 These are applicable to audio files only.
 
 ### AspectRatio
