@@ -1,15 +1,15 @@
-In addition to library items, there are other related items that can be retrieved by name. These are:
+Media items will contain lists of related items, such as Artists, Genres, Persons and Studious. These related items are referred to as "items by name" and can be retrieved by their name. The endpoints are:
 
-* Artist
-* Genre
-* Person
-* Studio
-
-These can be retrieved individually on a per-name basis, e.g.
-
+`/Artist/{Name}`
+`/Genres/{Name}`
 `/Persons/{Name}`
+`/Studios/{Name}`
 
-This will return an item with identical structure to normal library items. From there images can be downloaded as necessary. See the built-in documentation for all the related endpoints and parameters.
+For example, to retrieve information about Akon, use the following:
+
+`/Artist/Akon?userId=xxx`
+
+This will return an item with identical structure to normal library items. UserId is optional, and if included, will include user data such as like/dislike/favorite statuses. These item can also have images.
 
 ## Querying for items by name
 
