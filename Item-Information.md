@@ -14,7 +14,6 @@ Library items have a number of interesting properties. Among these are, but not 
 * HomePageUrl
 * Budget
 * Revenue
-* ProductionLocations
 
 When retrieving a single item, the entire object is returned. When querying for items, the return data will be stripped to include only a minimal amount of information. When querying, you can configure the fields that are returned in the output. See [browsing the Library.](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
 
@@ -102,6 +101,9 @@ This is the aspect ratio of the primary image. Most image types have a predictab
 
 ### ProviderIds
 This is a dictionary of provider id's for an item - Tmdb, Tvdb, TvCom, etc.
+
+### ProductionLocations
+This is a list of strings indicating filming locations. For Persons, this will have one entry and will contain their place of birth.
 
 ### RecursiveItemCount
 For folders, this indicates the number of items available, recursively.
