@@ -1,9 +1,9 @@
 In addition to library items, there are other related items that can be retrieved by name. These are:
 
+* Artist
 * Genre
 * Person
 * Studio
-* Artist
 
 These can be retrieved individually on a per-name basis, e.g.
 
