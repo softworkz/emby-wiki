@@ -1,6 +1,6 @@
 Media items will contain lists of related items, such as Artists, Genres, Persons and Studious. These related items are referred to as "items by name" and can be retrieved by their name. The endpoints are:
 
-`/Artist/{Name}`
+`/Artists/{Name}`
 
 `/Genres/{Name}`
 
@@ -10,7 +10,7 @@ Media items will contain lists of related items, such as Artists, Genres, Person
 
 For example, you have an audio file with Akon as the artist. You want to allow the user to click on Akon and see artist information. To do this, use the following:
 
-`/Artist/Akon?userId=xxx`
+`/Artists/Akon?userId=xxx`
 
 This will return an item with identical structure to normal library items. UserId is optional, and if included, will include user data such as like/dislike/favorite statuses. These item can also have images.
 
