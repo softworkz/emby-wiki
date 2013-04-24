@@ -28,3 +28,10 @@ These can be retrieved from the entire library, or limited to a specific folder,
 `/Genres?IncludeItemTypes=Movie&Recursive=true&userId=xxx`
 
 As with media item querying, these endpoints also support **paging**, **filtering**, **sorting** and **configurable output fields**. See the build-in documentation for details.
+
+## Images
+
+The image endpoint locations are different, but function identically:
+
+* /Persons/{Name}/Images/{Type}
+* /Persons/{Name}/Images/{Type}/{Index}
