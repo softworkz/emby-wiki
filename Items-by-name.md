@@ -33,5 +33,11 @@ As with media item querying, these endpoints also support **paging**, **filterin
 
 The image endpoint locations are different, but function identically:
 
+* /Artists/{Name}/Images/{Type}
+* /Artists/{Name}/Images/{Type}/{Index}
+* /Genres/{Name}/Images/{Type}
+* /Genres/{Name}/Images/{Type}/{Index}
 * /Persons/{Name}/Images/{Type}
 * /Persons/{Name}/Images/{Type}/{Index}
+* /Studios/{Name}/Images/{Type}
+* /Studios/{Name}/Images/{Type}/{Index}
