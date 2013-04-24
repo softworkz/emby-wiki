@@ -44,7 +44,7 @@ This is the Imdb, Tmdb, or Tvdb rating of the item. At this time we do not have 
 This is a friendly version of MediaType that can be used for display purposes, if desired.
 
 ### EndDate
-This is the date an item ended. Currently only used for people to represent death day.
+This is the date an item ended. For Persons this represents death date. For series that have ended, this is the air date of the final episode.
 
 ### ImageTags
 This will tell you what images are available for an item. See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
