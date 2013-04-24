@@ -16,7 +16,7 @@ This will return an item with identical structure to normal library items. UserI
 
 ## Images
 
-The image endpoint locations are different, but function identically:
+The image endpoint locations are different from media items, but function identically:
 
 * /Artists/{Name}/Images/{Type}
 * /Artists/{Name}/Images/{Type}/{Index}
