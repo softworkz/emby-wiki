@@ -95,7 +95,7 @@ These are the people involved in the item. Each person has Name, Role, Type and 
 This is populated for folders to indicate the user's cumulative progress through all items in the folder.
 
 ### PremiereDate 
-This serves different purposes depending on the type of item. For episodes this is the air date. For series, this is the first air date. For audio files, this is the premiere date.
+This serves different purposes depending on the type of item. For episodes and series, this is the first air date. For movies, albums and songs, this is the release date. For persons this is date of birth. For artists, this is their formation date.
 
 ### PrimaryImageAspectRatio
 This is the aspect ratio of the primary image. Most image types have a predictable aspect ratio, but primary is the one exception. A typical use case when rendering a list of items is to determine the average AR, and then display them all using that value. See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
