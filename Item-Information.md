@@ -76,6 +76,9 @@ G, PG-13, R, TV-MA, etc.
 ### OverviewHtml
 An html version of the overview, possibly with links embedded.
 
+### IsOnTour
+This is for Artists and indicates if they are currently on tour.
+
 ### ParentIndexNumber
 Similiar to IndexNumber, this serves different purposes depending on the type of item. For episodes this is the season number. For audio files, this is the disc number.
 
