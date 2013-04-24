@@ -8,7 +8,7 @@ Media items will contain lists of related items, such as Artists, Genres, Person
 
 `/Studios/{Name}`
 
-For example, to retrieve information about Akon, use the following:
+For example, you have an audio file with Akon as the artist. You want to allow the user to click on Akon and see artist information. To do this, use the following:
 
 `/Artist/Akon?userId=xxx`
 
