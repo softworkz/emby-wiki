@@ -8,6 +8,8 @@ Media items will contain lists of related items, such as Artists, Genres, Person
 
 `/Studios/{Name}`
 
+**All '?' and '/' characters must be replaced by dashes '-'.**
+
 For example, you have an audio file with Akon as the artist. You want to allow the user to click on Akon and see artist information. To do this, use the following:
 
 `/Artists/Akon?userId=xxx`
