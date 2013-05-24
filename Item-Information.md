@@ -54,6 +54,9 @@ This will tell you what images are available for an item. See [images.](https://
 ### IndexNumber
 This serves different purposes depending on the type of item. For episodes this is the episode number. For seasons, this is the season number. For audio files, this is the track number.
 
+### IndexNumberEnd
+Denotes the ending index number, in case a file spans multiple episodes.
+
 ### IsFolder, MediaType, Type
 These allow you to determine how to categorize and display items. See [Browsing the Library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
 
