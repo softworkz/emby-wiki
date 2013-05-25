@@ -2,7 +2,7 @@
 * [Wiki home](https://github.com/MediaBrowser/MediaBrowser/wiki)
 * [Media library structure](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-Structure)
 * [Contributing](https://github.com/MediaBrowser/MediaBrowser/wiki/Contributing)
-
+* [Getting your plug-in in the catalog](https://github.com/MediaBrowser/MediaBrowser/wiki/Getting-your-plug-in-in-the-catalog)
 ## Client Workflow
 * [Locating the server](https://github.com/MediaBrowser/MediaBrowser/wiki/Locating-the-Server)
 * [Authentication](https://github.com/MediaBrowser/MediaBrowser/wiki/Authentication)
