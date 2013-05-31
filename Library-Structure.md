@@ -163,3 +163,78 @@ You can named the episodes numbering in many way, even if you have multiple epis
 
 Some of the supported numbering for episodes name are:
 
+* 01x02x03 show name.avi 
+* S01x01x03 show name.avi
+* S01E02E03 show name.avi
+* S01xE01xE02 show name.avi
+* 01x02x03 show name.avi 
+* S01x01X03 show name.avi
+* 01x02 01x03 show name.avi 
+* 01x02 - 01x03 show name.avi 
+* S01x02.S01x03 show name.avi 
+* S01x02 - S01x03 show name.avi
+* S01E02-E03 show name.avi
+* S01xE01xE02 show name.avi
+
+You can start with show name then episodes if you like, all supported.
+Also you can use "-", ".", "x", and "X" to indicated the episodes numbers from the season number.
+
+* Example for Seasons name: S01, 01 (is show as Season 1)
+* Example for episodes numbers: 02, E02 (is show as Episode 2)
+
+_So the above will be: Season 1 Episode number 2_
+
+<br>
+
+## Music Library
+
+
+Best to really ID3 tags your collection for best result, the supported structure normally is:
+
+<pre>\Music
+   \Artist Name
+      \Album Name
+         \Songs files</pre>
+
+
+<pre>\Music
+   \ABBA
+      \Super Trouper
+         \Lay All Your Love On Me.mp3</pre>
+
+
+<br>
+If you like, you can organized your collection as simple as:
+
+<pre>\Music
+   \Artist Name
+      \Songs files</pre>
+
+<pre>\Music
+   \ABBA
+      \Lay All Your Love On Me.mp3
+      \The Winner Takes It All.mp3</pre>
+
+_For the above to work right (Artist folder name, then all his songs collections in it) you must fully ID3 tags your songs files._
+
+<br>
+<br>
+
+
+## Artwork - Fan art
+
+#### For Primary Image names (poster, cover):
+
+* folder.jpg/png
+* poster.jpg/png
+* cover.jpg/png
+* default.jpg/png
+
+
+#### For Backdrops names:
+
+* backdrop.jpg, then you can add as many as you like, backdrop1.jpg, backdrop2.jpg .. etc.
+* fanart.jpg, then you can add fanart-1.jpg
+* background.jpg then you can add background-1.jpg
+
+
