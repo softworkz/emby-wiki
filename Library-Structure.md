@@ -34,8 +34,7 @@ Example:
       Home Alone.avi
 
    /The Dark Knight (2008)
-      The Dark Side.mkv
-</pre>
+      The Dark Side.mkv</pre>
 <br>
 
 #### Image format & Disc format
@@ -79,7 +78,7 @@ Or
       Home Alone.mkv
 </pre>
 
-Simply go the site [IMDB](http://www.themoviedb.org/) site and search that title, then when you click on it, you will find the ID movie on your browser for [Home Alone](http://www.themoviedb.org/movie/771-home-alone)
+Simply go the site [TMDB](http://www.themoviedb.org/) site and search that title, then when you click on it, you will find the ID movie on your browser for [Home Alone](http://www.themoviedb.org/movie/771-home-alone)
 <br>
 <br>
 
@@ -138,7 +137,49 @@ Example for above as:
      /Trailers</pre>
 
 
+For local trailers MB3 Server also support a trailer file in the same folder as the movie, with the filename being the same as the movie but ending in -trailer. For example:
+
+_Home Alone-trailer.mp4_
+
+<pre>/Movies
+   /Home Alone (1990)
+     /Home Alone.mkv
+     /Home Alone-trailer.mp4</pre>
+
+
+
+
+
 <br>
+
+####backdrop (Theme Video)
+
+You can add that sub-folder and put in it a collection of trailer or custom intro, in the movie folder title you like, then when you enter that movie title, it will play in  a window.
+
+Example of it:
+
+<pre>/Movies
+   /Home Alone (1990)
+     /VIDEO_TS
+     /backdrop</pre>
+
+<br>
+
+####theme-music (Theme songs)
+
+This nice addition, consider when you browsing you collection, and when you enter a title, music will start, to do that, you have to create the sub-folder ‘theme-music’ AND/OR theme.mp3 in the same folder as a movie, as example for both:
+
+<pre>/Movies
+   /Home Alone (1990)
+     /VIDEO_TS
+     /theme-music</pre>
+
+
+<pre>/Movies
+/Home Alone (1990)
+     /Home Alone.mkv
+     /theme.mp3</pre>
+
 <br>
 
 
@@ -234,7 +275,7 @@ _For the above to work right (Artist folder name, then all his songs collections
 #### For Backdrops names:
 
 * backdrop.jpg, then you can add as many as you like, backdrop1.jpg, backdrop2.jpg .. etc.
-* fanart.jpg, then you can add fanart-1.jpg
-* background.jpg then you can add background-1.jpg
+* fanart.jpg, then you can add fanart-1.jpg as many as you like, fanart-2.jpg, fanart-3.jpg .. etc.
+* background.jpg then you can add background-1.jpg as many as you like, background-2, background-3 .. etc.
 
 
