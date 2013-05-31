@@ -99,7 +99,7 @@ The above tag will till MB3 server to not fetch any metadata for that titles or 
 
 
 
-####Using box sets collections
+#### Using box sets collections
 
 
 Simply create a name for the collection, as example _Lord of the Rings_ and the tag _[boxset]_ to it, then add your bpx sets titles for Lord of the Rings to it:
@@ -110,11 +110,11 @@ Simply create a name for the collection, as example _Lord of the Rings_ and the 
       /The Lord of the Rings - The Two Towers
       /The Lord of the Rings - The Return of The King</pre>
 
-<br>
+
 ![SetBox Collection](http://i661.photobucket.com/albums/uu339/abobader/MediaBrowser3-Abo/abogithubmb3s1_zps0f31d4cc.jpg)
 
-<br>
-<br>
+
+
 
 ####Using other sub-folders names supporting:
 
@@ -125,4 +125,41 @@ You can put in that folder the extra that comes within your dvd/bluray contents,
 ####Trailers
 
 For your custom trailers for a title for that movie.
+
+Example for above as:
+
+<pre>/Movies
+   /Home Alone (1990)
+     /VIDEO_TS
+     /Trailers
+     /Specials
+
+   /The Dark Knight (2008)
+     /Trailers</pre>
+
+
+<br>
+<br>
+
+
+## TV Library
+
+TV Series need to have _Season_ name in the sub-folder of the show, then in that sub-folder, as example _Season 1_ the episodes numbers, as example:
+
+<pre>/TV Series
+   /Seinfeld
+     /Season 1
+       /S01E01 Seinfeld The Seinfeld Chronicles.mkv
+       /S01E02 Seinfeld The Stake Out.mkv
+
+     /Season 2
+       /S02E05 Seinfeld The Apartment.mkv</pre>
+
+
+You can named the episodes numbering in many way, even if you have multiple episodes in one file, as:
+
+* Seinfeld s01e01-e02.avi
+* S01x02 - S01x03 Seinfeld.avi
+
+Some of the supported numbering for episodes name are:
 
