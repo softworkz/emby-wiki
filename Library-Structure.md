@@ -63,7 +63,9 @@ Also you can use _image format_ (ISO, IMG .. etc) and _disc format_ (dvd/bluray 
 
 #### Using TAG for Movies
 
-You can as well use the tag _[tmdbid=xxx]_ for the movie folder name, if you find you are not getting the correct metadata for a title, example of this:
+_[tmdbid=xxxx]_
+
+You can as well use the tag _[tmdbid=xxxx]_ for the movie folder name, if you find you are not getting the correct metadata for a title, example of this:
 
 <pre>/Movies
    /Home Alone (1990)[tmdbid=771]
@@ -80,6 +82,9 @@ Or
 Simply go the site [IMDB](http://www.themoviedb.org/) site and search that title, then when you click on it, you will find the ID movie on your browser for [Home Alone](http://www.themoviedb.org/movie/771-home-alone)
 <br>
 <br>
+
+_[DontFetchMeta]_
+
 Another tag as _[DontFetchMeta]_ you can use that in the top folder as:
 
 <pre>D:\Home Movie [DontFetchMeta]</pre>
@@ -87,7 +92,7 @@ Another tag as _[DontFetchMeta]_ you can use that in the top folder as:
 Or to any individual titles as:
 
 <pre>/Movies
-   /Home Alone [DontFetchMeta]
+   /Home Alone [dontfetchmeta]
       Home Alone.iso</pre>
 
 The above tag will till MB3 server to not fetch any metadata for that titles or titles within the top folder, so either you can create your own custom metadata or edit it from the server dashboard index.
@@ -113,14 +118,11 @@ Simply create a name for the collection, as example _Lord of the Rings_ and the 
 
 ####Using other sub-folders names supporting:
 
-####Special
+####Specials
 
 You can put in that folder the extra that comes within your dvd/bluray contents, also if your movie within 2 parts, to put like part 2 on it for now.
 
 ####Trailers
 
-For your custom trailers for a tiles for that movie.
-
-
-
+For your custom trailers for a title for that movie.
 
