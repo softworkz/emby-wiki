@@ -226,6 +226,22 @@ Also you can use "-", ".", "x", and "X" to indicated the episodes numbers from t
 _So the above will be: Season 1 Episode number 2_
 
 <br>
+#### Using TAG for TV
+
+_[tvdbid=xxx]_
+
+You can as well use the tag _[tvdbid=xxx]_ for the movie folder name, if you find you are not getting the correct metadata for a title, example of this:
+
+<pre>/TV Series
+   /Seinfeld [tvdbid=79169]
+     /Season 1
+     /Season 2
+     /Season 3</pre>
+
+Simply go the site [TVDB](http://http://thetvdb.com/) site and search that title, then when you click on it, you will find the ID movie on your browser for [Seinfeld](http://http://thetvdb.com/?tab=series&id=79169)
+
+<br>
+<br>
 
 ## Music Library
 
@@ -259,6 +275,7 @@ If you like, you can organized your collection as simple as:
 _For the above to work right (Artist folder name, then all his songs collections in it) you must fully ID3 tags your songs files._
 
 <br>
+
 <br>
 
 
@@ -277,5 +294,3 @@ _For the above to work right (Artist folder name, then all his songs collections
 * backdrop.jpg, then you can add as many as you like, backdrop1.jpg, backdrop2.jpg .. etc.
 * fanart.jpg, then you can add fanart-1.jpg as many as you like, fanart-2.jpg, fanart-3.jpg .. etc.
 * background.jpg then you can add background-1.jpg as many as you like, background-2, background-3 .. etc.
-
-
