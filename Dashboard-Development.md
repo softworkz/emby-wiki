@@ -11,6 +11,9 @@ The preferred way to work within the dashboard is directly within visual studio.
 
 You may choose to set the **DashboardSourcePath** configuration setting to your dashboard-ui source folder for easier development. This will remove the need to restart the server after making markup changes.
 
+You'll also want to set EnableDashboardResponseCaching to false. Without this you'll have to clear your browser cache in between testing changes.
+
+
 ## Installed Server
 If you don't have visual studio, you can still work with the dashboard.
 
