@@ -18,7 +18,7 @@ Example:
       The Dark Side.mkv</pre>
 
 It is also possible to store movies together in one folder.
-
+<br/><br/>
 Example:
 
 <pre>/Movies
@@ -49,46 +49,7 @@ Examples:
 
 <br>
 
-#### Using TAG for Movies
-
-_[tmdbid=xxxx]_
-
-You can as well use the tag _[tmdbid=xxxx]_ for the movie folder name, if you find you are not getting the correct metadata for a title, example of this:
-
-<pre>/Movies
-   /Home Alone (1990)[tmdbid=771]
-      Home Alone.mkv
-</pre>
-
-Or
-
-<pre>/Movies
-   /Home Alone [tmdbid=771]
-      Home Alone.mkv
-</pre>
-
-Simply go the site [TMDB](http://www.themoviedb.org/) site and search that title, then when you click on it, you will find the ID movie on your browser for [Home Alone](http://www.themoviedb.org/movie/771-home-alone)
-<br>
-<br>
-
-_[DontFetchMeta]_
-
-Another tag as _[DontFetchMeta]_ you can use that in the top folder as:
-
-<pre>D:\Home Movie [DontFetchMeta]</pre>
-
-Or to any individual titles as:
-
-<pre>/Movies
-   /Home Alone [dontfetchmeta]
-      Home Alone.iso</pre>
-
-The above tag will till MB3 server to not fetch any metadata for that titles or titles within the top folder, so either you can create your own custom metadata or edit it from the server dashboard index.
-
-
-
 #### Using box sets collections
-
 
 Simply create a name for the collection, as example _Lord of the Rings_ and the tag _[boxset]_ to it, then add your bpx sets titles for Lord of the Rings to it:
 
