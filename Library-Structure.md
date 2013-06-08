@@ -6,8 +6,16 @@ There are three main library categories:
 
 ## Movies
 
-You can put all your movies titles in one top folder as "Movies", then your titles to be:
-_movies name (year).ext_.
+The **recommended** structure is to put each movie in it's own folder.
+
+Example:
+
+<pre>/Movies
+   /Home Alone (1990)
+      Home Alone.avi
+
+   /The Dark Knight (2008)
+      The Dark Side.mkv</pre>
 
 Example:
 
@@ -19,14 +27,6 @@ Example:
 <br>
 But that not the best way to organized your movies titles, the **recommended structure**, that every titles have it _individual folders_.
 
-Example:
-
-<pre>/Movies
-   /Home Alone (1990)
-      Home Alone.avi
-
-   /The Dark Knight (2008)
-      The Dark Side.mkv</pre>
 <br>
 
 #### Image format & Disc format
