@@ -62,7 +62,7 @@ Special features for movies can be stored in a specials folder under movie folde
    /Home Alone (1990)
      /Home Alone (1990).mkv
      /specials
-         /deleted-scenes.mkv
+         deleted-scenes.mkv
 </pre>
 
 ####Trailers
@@ -71,31 +71,31 @@ Trailers can be stored in a trailers folder under **movie or box set** folders.
 
 <pre>/Movies
    /Home Alone (1990)
-     /Home Alone (1990).mkv
      /trailers
-         /trailer.mkv
+         trailer.mkv
+     Home Alone (1990).mkv
 </pre>
 
 Alternatively, trailers can also be stored alongside the main movie using the -trailer suffix.
 
 <pre>/Movies
    /Home Alone (1990)
-     /Home Alone.mkv
-     /Home Alone-trailer.mp4
+     Home Alone.mkv
+     Home Alone-trailer.mp4
 </pre>
 
 ## TV Library
 
-The recommended folder structure is series/season/episode.
+The **recommended** folder structure is series/season/episode.
 
 <pre>/TV Series
    /Seinfeld
      /Season 1
-       /S01E01 Seinfeld The Seinfeld Chronicles.mkv
-       /S01E02 Seinfeld The Stake Out.mkv
+       S01E01 Seinfeld The Seinfeld Chronicles.mkv
+       S01E02 Seinfeld The Stake Out.mkv
 
      /Season 2
-       /S02E05 Seinfeld The Apartment.mkv
+       S02E05 Seinfeld The Apartment.mkv
 </pre>
 
 #### Episode file naming
@@ -122,52 +122,55 @@ Multi-episode files are supporting using the following naming conventions:
 
 ## Music Library
 
-
-Best to really ID3 tags your collection for best result, the supported structure normally is:
+The recommended folder structure for music is Artist\Album\Song
 
 <pre>\Music
    \Artist Name
       \Album Name
-         \Songs files</pre>
+         1- Song.mp3
+         2- Song.mp3
+</pre>
 
+Any naming convention for audio files is acceptable. Track numbers are retrieved using ID3 tags.
 
-<pre>\Music
-   \ABBA
-      \Super Trouper
-         \Lay All Your Love On Me.mp3</pre>
+## Images
 
+The following convention applies to folders of any type.
 
-<br>
-If you like, you can organized your collection as simple as:
+#### Primary Image
 
-<pre>\Music
-   \Artist Name
-      \Songs files</pre>
+* folder.jpg/jpeg/png
+* poster.jpg/jpeg/png
+* cover.jpg/jpeg/png
+* default.jpg/jpeg/png
 
-<pre>\Music
-   \ABBA
-      \Lay All Your Love On Me.mp3
-      \The Winner Takes It All.mp3</pre>
+#### Backdrops:
 
-_For the above to work right (Artist folder name, then all his songs collections in it) you must fully ID3 tags your songs files._
+* backdrop.jpg/jpeg/png, backdrop1.jpg/jpeg/png, backdrop2.jpg/jpeg/png, etc
+* fanart.jpg/jpeg/png, fanart-1.jpg/jpeg/png, fanart-2.jpg/jpeg/png, etc
+* background.jpg/jpeg/png, background-1.jpg/jpeg/png, background-2.jpg/jpeg/png, etc
 
-<br>
+#### Banner
+* banner.jpg/jpeg/png
 
-<br>
+#### Box
+* box.jpg/jpeg/png
 
+#### Box Rear
+* boxrear.jpg/jpeg/png
 
-## Artwork - Fan art
+#### Clear Art
+* art.jpg/jpeg/png
 
-#### For Primary Image names (poster, cover):
+#### Logo
+* logo.jpg/jpeg/png
 
-* folder.jpg/png
-* poster.jpg/png
-* cover.jpg/png
-* default.jpg/png
+#### Menu
+* menu.jpg/jpeg/png
 
+#### Thumb
+* thumb.jpg/jpeg/png
 
-#### For Backdrops names:
+#### Screenshots:
 
-* backdrop.jpg, then you can add as many as you like, backdrop1.jpg, backdrop2.jpg .. etc.
-* fanart.jpg, then you can add fanart-1.jpg as many as you like, fanart-2.jpg, fanart-3.jpg .. etc.
-* background.jpg then you can add background-1.jpg as many as you like, background-2, background-3 .. etc.
+* screenshot.jpg/jpeg/png, screenshot1.jpg/jpeg/png, screenshot2.jpg/jpeg/png, etc
