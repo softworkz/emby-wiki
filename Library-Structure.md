@@ -51,17 +51,15 @@ Examples:
 
 #### Using box sets collections
 
-Simply create a name for the collection, as example _Lord of the Rings_ and the tag _[boxset]_ to it, then add your bpx sets titles for Lord of the Rings to it:
+Movies can be grouped together into box sets.
+
+Example:
 
 <pre>/Movies
    /Lord of the Rings[boxset]
       /The Lord of the Rings - The Fellowship of The Ring
       /The Lord of the Rings - The Two Towers
       /The Lord of the Rings - The Return of The King</pre>
-
-
-![SetBox Collection](http://i661.photobucket.com/albums/uu339/abobader/MediaBrowser3-Abo/abogithubmb3s1_zps0f31d4cc.jpg)
-
 
 
 
