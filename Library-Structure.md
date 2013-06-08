@@ -1,18 +1,10 @@
-## Organize your Library
-
-It best to organized you media library in a way that MB3 Server will recognized them in the correct way.
-Doing that will insure that the metadata and fan art's will be correct for your titles.
-
-Let explain the 3 main library categories as:
+There are three main library categories:
 
 * Moves
 * TV Series
 * Music
 
-There are others castigators library media of course like Documentaries, Home video, Music Videos, and a like.
-I will explain later on how to manage these library as well.
-
-## Movie Library
+## Movies
 
 You can put all your movies titles in one top folder as "Movies", then your titles to be:
 _movies name (year).ext_.
