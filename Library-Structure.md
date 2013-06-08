@@ -5,6 +5,8 @@ Contents:
 * Music
 * Images
 * Subtitles
+* Theme Songs
+* Theme Videos
 
 ## Movies
 
