@@ -137,7 +137,7 @@ Any naming convention for audio files is acceptable. Track numbers are retrieved
 
 ## Images
 
-The following convention applies to folders of any type.
+The following image files can be stored within folders of any type.
 
 #### Primary Image
 
