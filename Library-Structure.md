@@ -1,8 +1,10 @@
-There are three main library categories:
+Contents:
 
 * Moves
 * TV Series
 * Music
+* Images
+* Subtitles
 
 ## Movies
 
@@ -84,7 +86,7 @@ Alternatively, trailers can also be stored alongside the main movie using the -t
      Home Alone-trailer.mp4
 </pre>
 
-## TV Library
+## TV Series
 
 The **recommended** folder structure is series/season/episode.
 
@@ -120,7 +122,7 @@ Multi-episode files are supporting using the following naming conventions:
 * Seinfeld s01e01-e02.avi
 * Seinfeld 1x01-x02.avi
 
-## Music Library
+## Music 
 
 The recommended folder structure for music is Artist\Album\Song
 
@@ -174,3 +176,17 @@ The following convention applies to folders of any type.
 #### Screenshots:
 
 * screenshot.jpg/jpeg/png, screenshot1.jpg/jpeg/png, screenshot2.jpg/jpeg/png, etc
+
+## Subtitles
+
+All video files can have external srt subtitles. The filename must match the video filename, or be suffixed with a language.
+
+<pre>/Movies
+   /Home Alone (1990)
+      Home Alone.mkv
+      Home Alone.srt
+      Home Alone.spa.srt
+      Home Alone.spanish.srt
+</pre>
+
+Languages can be specified either using the **three character ISO code**, which is preferred, or the full english name.
