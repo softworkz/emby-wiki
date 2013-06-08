@@ -17,6 +17,8 @@ Example:
    /The Dark Knight (2008)
       The Dark Side.mkv</pre>
 
+It is also possible to store movies together in one folder.
+
 Example:
 
 <pre>/Movies
@@ -24,14 +26,9 @@ Example:
     Casino Royale (2006).mkv
 </pre>
 
-<br>
-But that not the best way to organized your movies titles, the **recommended structure**, that every titles have it _individual folders_.
+#### ISO's and folder rips
 
-<br>
-
-#### Image format & Disc format
-
-Also you can use _image format_ (ISO, IMG .. etc) and _disc format_ (dvd/bluray rips):
+Examples:
 
 <pre>/Movies
    /Home Alone (1990)
