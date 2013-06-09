@@ -126,7 +126,7 @@ Multi-episode files are supporting using the following naming conventions:
 
 ####Trailers
 
-Both **series** and **seasons** support trailers, using subfolder convention.
+Both **series** and **seasons** support trailers, using the sub-folder convention.
 
 <pre>/TV
    /Dexter
