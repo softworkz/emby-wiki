@@ -26,7 +26,7 @@ It is also possible to store movies together in one folder.
     Casino Royale (2006).mkv
 </pre>
 
-#### ISO's and folder rips
+#### ISO's, Dvd's and Blu-ray rips
 
 Examples:
 
