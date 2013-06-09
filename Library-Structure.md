@@ -177,10 +177,10 @@ The following image files can be stored within folders of any type (movie, box s
 * boxrear.jpg/jpeg/png
 
 #### Clear Art
-* art.jpg/jpeg/png
+* art.png
 
 #### Logo
-* logo.jpg/jpeg/png
+* logo.png
 
 #### Menu
 * menu.jpg/jpeg/png
