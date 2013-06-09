@@ -124,6 +124,19 @@ Multi-episode files are supporting using the following naming conventions:
 * Seinfeld s01e01-e02.avi
 * Seinfeld 1x01-x02.avi
 
+####Trailers
+
+Both **series** and **seasons** support trailers, using subfolder convention.
+
+<pre>/TV
+   /Dexter
+     /trailers
+         trailer.mkv
+     /Season 1
+         /trailers
+             trailer.mkv
+</pre>
+
 ## Music 
 
 The recommended folder structure for music is Artist\Album\Song
