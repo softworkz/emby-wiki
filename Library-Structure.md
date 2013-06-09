@@ -205,3 +205,12 @@ All video files can have external srt subtitles. The filename must match the vid
 </pre>
 
 Languages can be specified using either the **three character ISO code**, which is preferred, or the full english name.
+
+## Theme Songs
+
+Coming soon.
+
+
+## Theme Videos
+
+Coming soon.
