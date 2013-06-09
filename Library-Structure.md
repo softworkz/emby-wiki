@@ -204,4 +204,4 @@ All video files can have external srt subtitles. The filename must match the vid
       Home Alone.spanish.srt
 </pre>
 
-Languages can be specified either using the **three character ISO code**, which is preferred, or the full english name.
+Languages can be specified using either the **three character ISO code**, which is preferred, or the full english name.
