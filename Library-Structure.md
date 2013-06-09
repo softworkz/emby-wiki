@@ -152,7 +152,7 @@ Any naming convention for audio files is acceptable. Track numbers are retrieved
 
 ## Images
 
-The following image files can be stored within folders of any type.
+The following image files can be stored within folders of any type (movie, box set, series, season, etc).
 
 #### Primary Image
 
