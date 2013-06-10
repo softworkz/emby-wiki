@@ -152,7 +152,7 @@ Any naming convention for audio files is acceptable. Track numbers are retrieved
 
 ## Images
 
-The following image files can be stored within folders of any type (movie, box set, series, season, etc).
+The following image files can be stored within folders of any type (movie, box set, series, season, etc). Client applications will see the images and utilize them where applicable.
 
 #### Primary Image
 
@@ -193,7 +193,16 @@ Languages can be specified using either the **three character ISO code**, which 
 
 ## Theme Songs
 
-Coming soon.
+Any folder (movie, season, series, box set, game, etc) can have theme songs. There are two supported conventions, the 'theme-music' sub-folder, or theme.xxx, where xxx is any valid audio extension.
+
+<pre>/Movies
+   /Home Alone (1990)
+      /theme-music
+          song1.mp3
+          song2.wma
+          song3.flac
+      theme.mp3
+</pre>
 
 
 ## Theme Videos
