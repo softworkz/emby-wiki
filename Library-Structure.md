@@ -207,4 +207,11 @@ Any folder (movie, season, series, box set, game, etc) can have theme songs. The
 
 ## Theme Videos
 
-Coming soon.
+Any folder (movie, season, series, box set, game, etc) can have theme videos using a 'backdrops' sub-folder. (Theme videos were originally called video backdrops)
+
+<pre>/Movies
+   /Home Alone (1990)
+      /backdrops
+          video1.mkv
+          video1.mp4
+</pre>
