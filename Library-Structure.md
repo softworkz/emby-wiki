@@ -167,29 +167,14 @@ The following image files can be stored within folders of any type (movie, box s
 * fanart.jpg/jpeg/png, fanart-1.jpg/jpeg/png, fanart-2.jpg/jpeg/png, etc
 * background.jpg/jpeg/png, background-1.jpg/jpeg/png, background-2.jpg/jpeg/png, etc
 
-#### Banner
+#### Additional image types
 * banner.jpg/jpeg/png
-
-#### Box
 * box.jpg/jpeg/png
-
-#### Box Rear
 * boxrear.jpg/jpeg/png
-
-#### Clear Art
-* art.png
-
-#### Logo
-* logo.png
-
-#### Menu
+* art.png (clear art)
+* logo.png (clear logo)
 * menu.jpg/jpeg/png
-
-#### Thumb
-* thumb.jpg/jpeg/png
-
-#### Screenshots:
-
+* thumb.jpg/jpeg/png (16*9 thumbnail)
 * screenshot.jpg/jpeg/png, screenshot1.jpg/jpeg/png, screenshot2.jpg/jpeg/png, etc
 
 ## Subtitles
