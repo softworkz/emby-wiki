@@ -41,6 +41,9 @@ The server's default weather provider is WorldWeatherOnline.com, but plugins are
 ### IBaseItemComparer
 Implement this to add a new sorting rule to the api's sorting routines. This rule can then be accessed by name when specifying a desired sort order. If a User is required to perform the sort, implement IUserBaseItemComparer.
 
+### IMetadataSaver
+Implement this interface to add new metadata saving formats (xbmc, plex, etc).
+
 ### IItemRepository, IUserRepository, IUserDataRepository, IDisplayPreferencesRepository
 
 Media Browser uses sqlite databases to store application data. If there's a plugin developer who feels an alternate storage medium would be more appropriate, they are welcome to implement any of these interface and create their own.
