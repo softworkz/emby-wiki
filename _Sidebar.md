@@ -2,7 +2,6 @@
 * [Wiki home](https://github.com/MediaBrowser/MediaBrowser/wiki)
 * [Media library structure](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-Structure)
 * [Contributing](https://github.com/MediaBrowser/MediaBrowser/wiki/Contributing)
-* [Getting your plug-in in the catalog](https://github.com/MediaBrowser/MediaBrowser/wiki/Getting-your-plug-in-in-the-catalog)
 
 ## Client Workflow
 * [Locating the server](https://github.com/MediaBrowser/MediaBrowser/wiki/Locating-the-Server)
@@ -27,6 +26,7 @@
 * [Dependency injection](https://github.com/MediaBrowser/MediaBrowser/wiki/Dependency-Injection)
 * [Creating api endpoints](https://github.com/MediaBrowser/MediaBrowser/wiki/Creating-Api-Endpoints)
 * [Other interfaces](https://github.com/MediaBrowser/MediaBrowser/wiki/Other-Interfaces)
+* [Getting your plug-in in the catalog](https://github.com/MediaBrowser/MediaBrowser/wiki/Getting-your-plug-in-in-the-catalog)
 
 ## Dashboard Development
 * [Getting started](https://github.com/MediaBrowser/MediaBrowser/wiki/Dashboard-Development)
