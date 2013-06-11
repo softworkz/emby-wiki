@@ -171,7 +171,7 @@ The following image files can be stored within folders of any type (movie, box s
 * banner.jpg/jpeg/png
 * box.jpg/jpeg/png
 * boxrear.jpg/jpeg/png
-* art.png (clear art)
+* clearart.png (clear art)
 * logo.png (clear logo)
 * menu.jpg/jpeg/png
 * thumb.jpg/jpeg/png (16*9 thumbnail)
