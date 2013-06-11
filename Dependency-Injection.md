@@ -28,6 +28,9 @@ Get information about the media library in a user-less fashion
 ### IUserManager
 Get information about each user as well as their customized media libraries
 
+### ILocalizationManager
+Get lists of countries, localized display strings, parental ratings, etc.
+
 ### IBlurayExaminer
 Get information about bluray folder structures
 
