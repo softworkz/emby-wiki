@@ -4,11 +4,12 @@ The server will create an ImagesByName folder within it's program data folder, l
 
 Inside this folder will be several sub-folders, including:
 
-* Artists
-* Genres
+* Artist
+* Genre
+* MusicGenres
 * People
-* Studios
-* Years
+* Studio
+* Year
 
 As the server scans media it will create folders for genres, people, etc in these locations. You are then able to add images as desired using the conventions discussed in [library structure.](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-Structure)
 
