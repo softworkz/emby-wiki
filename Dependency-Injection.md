@@ -19,9 +19,6 @@ Get access to the core's json serializer.
 ### IXmlSerializer
 Get access to the core's xml serializer.
 
-### IProtobufSerializer
-Get access to the core's protobuf serializer.
-
 ### ITaskManager 
 Queue, execute and cancel scheduled tasks
 
