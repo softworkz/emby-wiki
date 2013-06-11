@@ -4,6 +4,8 @@ Media items will contain lists of related items, such as Artists, Genres, Person
 
 `/Genres/{Name}`
 
+`/MusicGenres/{Name}`
+
 `/Persons/{Name}`
 
 `/Studios/{Name}`
