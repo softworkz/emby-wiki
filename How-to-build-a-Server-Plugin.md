@@ -18,7 +18,7 @@ If not, copy that and generate a new GUID using Tools -> Create Guid.
 
 5. Create a class called Plugin, and have it inherit from MediaBrowser.Common.Plugins.BasePlugin-T, where T is the name of the PluginConfiguration class you just created.  You will need to implement its constructor like so:
 
-    `public Plugin(IApplicationPaths applicationPaths, IXmlSerializer xmlSerializer) : base(applicationPaths, xmlSerializer)`
+> public Plugin(IApplicationPaths applicationPaths, IXmlSerializer xmlSerializer) : base(applicationPaths, xmlSerializer)
 
 ### Create the Build Event
 
