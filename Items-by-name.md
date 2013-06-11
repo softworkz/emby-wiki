@@ -26,6 +26,8 @@ The image endpoint locations are different from media items, but function identi
 * /Artists/{Name}/Images/{Type}/{Index}
 * /Genres/{Name}/Images/{Type}
 * /Genres/{Name}/Images/{Type}/{Index}
+* /MusicGenres/{Name}/Images/{Type}
+* /MusicGenres/{Name}/Images/{Type}/{Index}
 * /Persons/{Name}/Images/{Type}
 * /Persons/{Name}/Images/{Type}/{Index}
 * /Studios/{Name}/Images/{Type}
@@ -38,6 +40,8 @@ In addition to individual retrieval, there are querying endpoints that will retu
 `/Artists`
 
 `/Genres`
+
+`/MusicGenres`
 
 `/Persons`
 
