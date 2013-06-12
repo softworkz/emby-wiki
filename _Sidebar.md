@@ -13,6 +13,7 @@
 * [Images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 * [Items by name](https://github.com/MediaBrowser/MediaBrowser/wiki/Items-by-name)
 * [Web socket](https://github.com/MediaBrowser/MediaBrowser/wiki/Web-Socket)
+* [Remote control](https://github.com/MediaBrowser/MediaBrowser/wiki/Remote-control)
 
 ## Media Streaming
 * [Audio streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
