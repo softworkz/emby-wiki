@@ -1,4 +1,4 @@
-Clients can easily remote control other clients. The first thing to is make a call to **/Sessions**. 
+Clients can easily remote control other clients. The first step is to make a call to **/Sessions**. 
 
 This will return a list of active sessions. This is testable via swagger and the properties returned should be self-explanatory, e.g. UserName, UserId, LastActivityDate, etc. 
 
