@@ -47,6 +47,30 @@ Examples:
      /BDMV
 </pre>
 
+#### Multi-file movies
+
+Multi-file movies are supported. The movie must have it's own folder containing all parts of the movie. Additionally, each video file must be suffixed using one of the following conventions:
+
+* cdX
+* discX
+* diskX
+* dvdX
+* partX
+* ptX
+
+Where X is the part number. Spaces are allowed before the number, for example, "part 7" is accepted. Here is a complete example of a multi-file movie:
+
+<pre>/Movies
+   /Home Alone (1990)
+      Home Alone - part1.mkv
+      Home Alone - part2.mkv
+      Home Alone - part3.mkv
+
+</pre>
+
+Please note that at this time, each part will have to be played individually. Clients may only present metadata using information from the first part, while making the subsequent parts playable.
+
+
 #### Box Sets
 
 Movies can be grouped together into box sets.
