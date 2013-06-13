@@ -6,7 +6,7 @@ Inside this folder will be several sub-folders, including:
 
 * Artist
 * Genre
-* MusicGenres
+* MusicGenre
 * People
 * Studio
 * Year
