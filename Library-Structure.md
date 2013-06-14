@@ -152,6 +152,7 @@ Some of the supported naming conventions for episode files are:
 * show name S01x02.S01x03 episode name.avi 
 * show name S01x02 - S01x03 episode name.avi
 
+_For all these examples the episode is detected as episode #2 and episode #3_
 
 ####Trailers
 
