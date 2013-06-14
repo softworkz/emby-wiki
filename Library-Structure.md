@@ -126,27 +126,32 @@ The **recommended** folder structure is series/season/episode.
        S02E05 Seinfeld The Apartment.mkv
 </pre>
 
-#### Episode file naming
+#### Episode file naming (Multi-episode supported)
 Some of the supported naming conventions for episode files are:
 
-* 01x02x03 show name.avi 
-* S01x01x03 show name.avi
-* S01E02E03 show name.avi
-* S01xE01xE02 show name.avi
-* 01x02x03 show name.avi 
-* S01x01X03 show name.avi
-* 01x02 01x03 show name.avi 
-* 01x02 - 01x03 show name.avi 
-* S01x02.S01x03 show name.avi 
-* S01x02 - S01x03 show name.avi
-* S01E02-E03 show name.avi
-* S01xE01xE02 show name.avi
+* 01x02x03 episode name.avi 
+* S01x02x03 episode name.avi
+* S01E02E03 episode name.avi
+* S01xE02xE03 episode name.avi
+* S01E02-E03 episode name.avi
+* S01E02-X03 episode name.avi
+* 01x02 01x03 episode name.avi 
+* 01x02 - 01x03 episode name.avi 
+* 01x02 - x03 episode name.avi 
+* S01x02.S01x03 episode name.avi 
+* S01x02 - S01x03 episode name.avi
+* show name 01x02x03 episode name.avi 
+* show name S01x02x03 episode name.avi
+* show name S01E02E03 episode name.avi
+* show name S01xE02xE03 episode name.avi
+* show name S01E02-E03 episode name.avi
+* show name S01E02-X03 episode name.avi
+* show name 01x02 01x03 episode name.avi 
+* show name 01x02 - 01x03 episode name.avi 
+* show name 01x02 - x03 episode name.avi 
+* show name S01x02.S01x03 episode name.avi 
+* show name S01x02 - S01x03 episode name.avi
 
-#### Multi-episode files
-Multi-episode files are supporting using the following naming conventions:
-
-* Seinfeld s01e01-e02.avi
-* Seinfeld 1x01-x02.avi
 
 ####Trailers
 
