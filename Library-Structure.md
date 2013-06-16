@@ -73,16 +73,16 @@ Multi-disc movie:
 <pre>
 /Movies
    /Home Alone (1990)
-      Home Alone Disc 1
-          VIDEO_TS
-      Home Alone Disc 2
-          VIDEO_TS
+      /Home Alone Disc 1
+          /VIDEO_TS
+      /Home Alone Disc 2
+          /VIDEO_TS
 
    /Rocky (1976)
-      Rocky Disc 1
-          BDMV
-      Rocky Disc 2
-          BDMV
+      /Rocky Disc 1
+          /BDMV
+      /Rocky Disc 2
+          /BDMV
 
 </pre>
 
