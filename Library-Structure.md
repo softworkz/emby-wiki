@@ -47,9 +47,9 @@ Examples:
      /BDMV
 </pre>
 
-#### Multi-file movies
+#### Multi-file and multi-disc movies
 
-Multi-file movies are supported. The movie must have it's own folder containing all parts of the movie. Additionally, each video file must be suffixed using one of the following conventions:
+Multi-file and multi-disc movies are supported. The movie must have it's own folder containing all parts of the movie. Additionally, each video file or folder must be suffixed using one of the following conventions:
 
 * cdX
 * discX
@@ -60,7 +60,8 @@ Multi-file movies are supported. The movie must have it's own folder containing 
 
 Where X is the part number. Spaces are allowed before the number, for example, "part 7" is accepted. Here is a complete example of a multi-file movie:
 
-<pre>/Movies
+<pre>
+/Movies
    /Home Alone (1990)
       Home Alone - part1.mkv
       Home Alone - part2.mkv
@@ -68,7 +69,24 @@ Where X is the part number. Spaces are allowed before the number, for example, "
 
 </pre>
 
-Please note that at this time, each part will have to be played individually. Clients may only present metadata using information from the first part, while making the subsequent parts playable.
+Multi-disc movie:
+<pre>
+/Movies
+   /Home Alone (1990)
+      Home Alone Disc 1
+          VIDEO_TS
+      Home Alone Disc 2
+          VIDEO_TS
+
+   /Rocky (1976)
+      Rocky Disc 1
+          BDMV
+      Rocky Disc 2
+          BDMV
+
+</pre>
+
+Please note that at this time, each part will have to be played individually. Displayed metadata will be based on information from the first part, and the additional parts will be made playable through a menu.
 
 
 #### Box Sets
