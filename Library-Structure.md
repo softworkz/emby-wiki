@@ -131,6 +131,10 @@ Alternatively, trailers can also be stored alongside the main movie using the -t
      Home Alone-trailer.mp4
 </pre>
 
+####3D Videos
+
+Any video can be marked as 3D simply by placing [3D] or [SBS3D] in the file name. Alternatively this can be done manually by editing metadata within the dashboard.
+
 ## TV Series
 
 The **recommended** folder structure is series/season/episode.
