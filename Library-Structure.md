@@ -7,6 +7,7 @@ Contents:
 * Subtitles
 * Theme Songs
 * Theme Videos
+* Excluding folders
 
 ## Movies
 
@@ -263,3 +264,7 @@ Any folder (movie, season, series, box set, game, etc) can have theme videos usi
           video1.mkv
           video1.mp4
 </pre>
+
+## Excluding Folders
+
+To exclude a folder from the library scan, simply mark it hidden, or place a file inside named ignore.
