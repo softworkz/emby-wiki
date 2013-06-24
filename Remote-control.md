@@ -22,3 +22,17 @@ The following values should be included within post data:
 * ItemName - The name of the item to browse to
 * ItemType - The type of the item to browse to
 * Context (optional). movies, tv, music, games. Clients may choose to ignore this.
+
+###Sending a play command
+
+You can instruct a client to play something by posting to the following url:
+
+/Sessions/{Id}/Playing
+
+The following values should be included within post data:
+
+* ItemIds - A comma-delimited list of item id's
+* StartPositionTicks - The starting position of the first item. 
+* PlayCommand - PlayNow, PlayNext or PlayLast
+
+Note: StartPositionTicks is ignored when PlayCommand is PlayNext or PlayLast.
