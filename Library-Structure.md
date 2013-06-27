@@ -215,7 +215,7 @@ All video files can have external srt subtitles. The filename must match the vid
 
 Languages can be specified using either the **three character ISO code**, which is preferred, or the full english name.
 
-####Trailers
+##Trailers
 
 Trailers can be stored in a trailers sub-folder under **movie, box set, series, season or game** folders.
 
