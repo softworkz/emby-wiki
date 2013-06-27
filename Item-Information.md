@@ -122,8 +122,8 @@ This is applicable to Movies only. This will tell you how many special features 
 ### UserData
 Contains user state for an item, such as personal rating and playstate.
 
-### VideoFormat
-This applicable to videos only. This will allow you to determine if a video is 3D. A value of Standard is 2D. Digital3D or Sbs3D represent 3D.
+### Video3DFormat
+The 3D format, if applicable.
 
 ### VideoType
 This is applicable to Videos only. This will give you the type of video - VideoFile, Bluray, Dvd, HdDvd, Iso.
