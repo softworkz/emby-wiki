@@ -101,6 +101,8 @@ Movies can be grouped together into box sets.
       /The Lord of the Rings - The Return of The King
 </pre>
 
+In order to be detected as a boxset, the folder must have [boxset] within the name, or a collection.xml metadata file within it.
+
 ####Special Features
 
 Special features for movies can be stored in a specials folder under movie folders.
