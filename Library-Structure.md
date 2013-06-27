@@ -5,6 +5,7 @@ Contents:
 * Music
 * Images
 * Subtitles
+* Trailers
 * Theme Songs
 * Theme Videos
 * Excluding folders
@@ -114,25 +115,6 @@ Special features for movies can be stored in a specials folder under movie folde
          deleted-scenes.mkv
 </pre>
 
-####Trailers
-
-Trailers can be stored in a trailers folder under **movie or box set** folders.
-
-<pre>/Movies
-   /Home Alone (1990)
-     /trailers
-         trailer.mkv
-     Home Alone (1990).mkv
-</pre>
-
-Alternatively, trailers can also be stored alongside the main movie using the -trailer suffix.
-
-<pre>/Movies
-   /Home Alone (1990)
-     Home Alone.mkv
-     Home Alone-trailer.mp4
-</pre>
-
 ####3D Videos
 
 Any video can be marked as 3D simply by placing [3D] or [SBS3D] in the file name. Alternatively this can be done manually by editing metadata within the dashboard.
@@ -178,19 +160,6 @@ Some of the supported naming conventions for episode files are:
 * show name S01x02 - S01x03 episode name.avi
 
 _For all these examples the episode is detected as episode #2 and episode #3_
-
-####Trailers
-
-Both **series** and **seasons** support trailers, using the sub-folder convention.
-
-<pre>/TV
-   /Dexter
-     /trailers
-         trailer.mkv
-     /Season 1
-         /trailers
-             trailer.mkv
-</pre>
 
 ## Music 
 
@@ -245,6 +214,25 @@ All video files can have external srt subtitles. The filename must match the vid
 </pre>
 
 Languages can be specified using either the **three character ISO code**, which is preferred, or the full english name.
+
+####Trailers
+
+Trailers can be stored in a trailers sub-folder under **movie, box set, series, season or game** folders.
+
+<pre>/Movies
+   /Home Alone (1990)
+     /trailers
+         trailer.mkv
+     Home Alone (1990).mkv
+</pre>
+
+Alternatively, trailers can also be stored alongside the main movie using the -trailer suffix.
+
+<pre>/Movies
+   /Home Alone (1990)
+     Home Alone.mkv
+     Home Alone-trailer.mp4
+</pre>
 
 ## Theme Songs
 
