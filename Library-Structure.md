@@ -117,7 +117,16 @@ Special features for movies can be stored in a specials folder under movie folde
 
 ####3D Videos
 
-Any video can be marked as 3D simply by placing [3D] or [SBS3D] in the file name. Alternatively this can be done manually by editing metadata within the dashboard.
+Any video can be marked as 3D by placing one of the following tags within the filename:
+
+* [fsbs] - Full side by side
+* [ftab] - Full top and bottom
+* [hsbs] - Half side by side
+* [htab] - Half top and bottom
+
+This will indicate the 3D format, which will be needed when streaming video and extracting images. The MB2 conventions of [3d] and [sbs3d] are still supported and will default to HSBS.
+
+Alternatively this can be done by editing metadata within the server dashboard.
 
 ## TV Series
 
