@@ -113,7 +113,7 @@ In addition to movies within the boxset folder, movies can also be added from el
    /Home Alone (1990)
      /Home Alone (1990).mkv
 
-/Movies
+/Boxsets
    /Home Alone Collection [boxset]
      /homealone.lnk (points to /Home Alone (1990) folder)
 </pre>
