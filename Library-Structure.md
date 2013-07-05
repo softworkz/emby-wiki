@@ -104,7 +104,17 @@ Movies can be grouped together into box sets.
 
 In order to be detected as a boxset, the folder must have [boxset] within the name, or a collection.xml metadata file within it.
 
-In addition to movies within the boxset folder, movies can also be added from elsewhere in the library using shortcut files. Simply place a shortcut file that points to the movie folder within the boxset folder. The path being pointed to from the shortcut must also exist in the library. It is simply a link to a pre-existing library item.
+In addition to movies within the boxset folder, movies can also be added from elsewhere in the library using shortcut files (.lnk). Simply place a shortcut file that points to the movie folder within the boxset folder. The path being pointed to from the shortcut must also exist in the library. It is simply a link to a pre-existing library item.
+
+<pre>
+/Movies
+   /Home Alone (1990)
+     /Home Alone (1990).mkv
+
+/Movies
+   /Home Alone Collection [boxset]
+     /homealone.lnk (points to /Home Alone (1990) folder)
+</pre>
 
 ####Special Features
 
