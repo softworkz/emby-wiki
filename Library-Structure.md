@@ -285,4 +285,4 @@ Any folder (movie, season, series, box set, game, etc) can have theme videos usi
 
 ## Excluding Folders
 
-To exclude a folder from the library scan, simply mark it hidden, or place a file inside named ignore.
+To exclude a folder from the library scan, simply mark it hidden, or place a file inside named .ignore.
