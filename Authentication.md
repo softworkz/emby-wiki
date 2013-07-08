@@ -2,11 +2,17 @@ Media Browser libraries are user-based, so the first step in the client workflow
 
 ## User Login
 
-* Make a call to /Users to get all users. Display them on a login screen
+* Make a call to /Users/Public to get all public users. Also make a call to /Server/Configuration to get the server configuration.
 
-* The HasPassword property will indicate if a user has a password that requires entry
+* Depending on the results, you should either display the users visually, or present a traditional username/password text entry form.
 
-* Authenticate using /Users/{Id}/Authenticate. There is currently no response body sent back. A 200 status code indicates success, while anything in the 400 or 500 range indicates failure.
+* **Only display the users visually if at least one public user is returned, and configuration.ManualLoginClients does not have an entry pertaining to your client**. Current values are Mobile, MediaBrowserTheater, and Roku.
+
+* The HasPassword property will indicate if a user has a password that requires entry, but always display the password field on a manual entry form.
+
+## Authenticating a user
+
+* Authenticate using /Users/{Name}/AuthenticateByName. There is currently no response body sent back. A 200 status code indicates success, while anything in the 400 or 500 range indicates failure.
 
 * The password must be sent in the body, and must be an **Sha1**.
 
