@@ -10,6 +10,8 @@ Media Browser libraries are user-based, so the first step in the client workflow
 
 * The HasPassword property will indicate if a user has a password that requires entry, but always display the password field on a manual entry form.
 
+* Clients are free to completely forego a visible user list and simply present a traditional login form. In this case, none of the above api calls will be necessary.
+
 ## Authenticating a user
 
 * Authenticate using /Users/{Name}/AuthenticateByName. There is currently no response body sent back. A 200 status code indicates success, while anything in the 400 or 500 range indicates failure.
