@@ -41,6 +41,7 @@ The dashboard currently displays customized icons for the following clients:
 * iOS
 * Media Browser Theater
 * Media Browser Classic
+* Roku
 * Windows Phone
 * Windows RT
 
