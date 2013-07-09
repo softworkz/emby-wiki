@@ -26,11 +26,12 @@ Media Browser libraries are user-based, so the first step in the client workflow
 
 At the moment this is used only for logging purposes. After authentication, add the following request header on every request:
 
-> Authorization=MediaBrowser UserId="e8837bc1-ad67-520e-8cd2-f629e3155721", Client="Android", Device="Samsung Galaxy SIII", DeviceId="xxx"
+> Authorization=MediaBrowser UserId="e8837bc1-ad67-520e-8cd2-f629e3155721", Client="Android", Device="Samsung Galaxy SIII", DeviceId="xxx", Version="1.0.0.0"
 
 * Device is the product name of the device
 * DeviceId is the device's unique id
 * Client is the type of client (Android, Dashboard, Dlna, iOS, PC, WindowsPhone, WindowsRT, other)
+* Version is the client application version
 
 The dashboard currently displays customized icons for the following clients:
 
