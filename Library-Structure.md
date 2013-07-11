@@ -120,7 +120,7 @@ In addition to movies within the boxset folder, movies can also be added from el
 
 ####Special Features
 
-Special features for movies can be stored in a specials folder under movie folders.
+Special features for movies can be stored in a specials folder under movie folders. **Nested folders are not supported**.
 
 <pre>/Movies
    /Home Alone (1990)
