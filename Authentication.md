@@ -20,11 +20,11 @@ Media Browser libraries are user-based, so the first step in the client workflow
 
 * For each user, if PrimaryImageTag has a value, that indicates the user has an image. The image can then be downloaded using /Users/{Id}/Images/{Type}. See [images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images).
 
-* Once you've authenticated, you are free to offer "Remember login" settings so that this screen does not have to be presented in the future. Given that we're a simple personal media player, we do not use any kind of security tokens so there won't be any session expiration.
+* Once you've authenticated, you are free to offer "Remember login" settings so that this screen does not have to be presented in the future.
 
 ## Authorization Request Header
 
-At the moment this is used only for logging purposes. After authentication, add the following request header on every request:
+Add the following request header on every request:
 
 > Authorization=MediaBrowser UserId="e8837bc1-ad67-520e-8cd2-f629e3155721", Client="Android", Device="Samsung Galaxy SIII", DeviceId="xxx", Version="1.0.0.0"
 
@@ -44,6 +44,3 @@ The dashboard currently displays customized icons for the following clients:
 * Roku
 * Windows Phone
 * Windows RT
-
-## User Interfaces vs Utilities
-At this time, only api consumers with user interfaces and logged in users need to authenticate and supply the request headers.
