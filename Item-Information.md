@@ -116,6 +116,9 @@ For folders, this indicates the number of items available, recursively.
 ### SeriesId, SeriesName
 These properties are applicable only to Episodes and Seasons. This will give you some basic information about the TV Series.
 
+### SoundtrackIds
+For Movies, Games and Series. It is a list of album id's in case you want to display the soundtracks. For MusicAlbums, it is the opposite, it is the list of items that the album is the soundtrack for.
+
 ### SpecialFeatureCount
 This is applicable to Movies only. This will tell you how many special features are available. The actual special feature items can then be retrieved using /Users/{UserId}/Items/{Id}/SpecialFeatures.
 
