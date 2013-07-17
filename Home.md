@@ -10,3 +10,4 @@ Specifically, we are seeking:
 * A .NET developer to add live-tv support
 * Any developer who wishes to use our api for any purpose
 * WPF/.NET developers to contribute to Media Browser Theater, whether by means of direct contribution, and/or theme or plugin development.
+* Strong .NET developers are always welcome
