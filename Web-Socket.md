@@ -23,7 +23,7 @@ MessageType is the name of the event or action, Data is any related data. Data c
 
 ### Identification message
 
-As soon as the connection is established, an identification message should be sent which includes the client name, device id, and application version. For example
+As soon as the connection is established, an identification message should be sent by the client which includes the client name, device id, and application version. For example
 
 `
 {
@@ -45,10 +45,17 @@ Data = A library update info structure. See [LibraryUpdateInfo.cs](https://githu
 This indicates the server needs to be restarted. There is no data associated with this.
 
 #### UserDeleted
+Data = the user id that has been deleted
+
 #### UserUpdated
+Data = the user object that has been updated
+
 #### Browse
+
 #### Play
+
 #### UpdatePlaystate
+
 #### NotificationAdded
 #### NotificationUpdated
 #### NotificationsMarkedRead
