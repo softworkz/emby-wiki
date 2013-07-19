@@ -82,4 +82,4 @@ In addition to the above messages, there are dynamic messages that can be sent o
 
 Send a web socket message to the server using **MessageType = "SessionsStart", Data = "1000,1000"**. The server will then send messages with the sessions list beginning in 1000ms, and every 1000ms thereafter. This is equivalent to the /Sessions api call without any filtering, which will have to be done client-side. This is useful to help **avoid the need for continuous polling** over the http interface, which comes at a much higher cost.
 
-Adjust the intervals as desired, but **make sure to send a message using MessageType = "SessionsStop" when finished**.
+Adjust the intervals as desired, but **make sure to send a message using MessageType = "SessionsStop" when finished** The server will continue to send the messages until this happens.
