@@ -36,3 +36,14 @@ The following values should be included within post data:
 * PlayCommand - PlayNow, PlayNext or PlayLast
 
 Note: StartPositionTicks is ignored when PlayCommand is PlayNext or PlayLast.
+
+###Sending a playstate command
+
+The following commands are available:
+
+* /Sessions/{Id}/Stop
+* /Sessions/{Id}/Pause
+* /Sessions/{Id}/Unpause
+* /Sessions/{Id}/NextTrack
+* /Sessions/{Id}/PreviousTrack
+* /Sessions/{Id}/Seek?PositionTicks=xxx
