@@ -66,7 +66,12 @@ A remote control play command has been sent from the server. Data = a json objec
 * StartPositionTicks - If supplied, this is the position in which the first title should start at.
 
 #### UpdatePlaystate
+A remote control update playstate command has been sent from the server. Data = a json object with the following properties:
+* Command - Stop, Pause, Unpause, NextTrack, PreviousTrack, Seek
+* SeekPositionTicks - Used with the seek command.
 
 #### NotificationAdded
 #### NotificationUpdated
 #### NotificationsMarkedRead
+
+## Dynamic Messages
