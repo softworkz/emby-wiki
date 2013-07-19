@@ -60,6 +60,10 @@ A remote control browse command has been sent from the server. Data = a json obj
 * ItemType
 
 #### Play
+A remote control play command has been sent from the server. Data = a json object with the following properties:
+* ItemIds - an array of item id's to play
+* PlayCommand - PlayNow, PlayNext or PlayLast
+* StartPositionTicks - If supplied, this is the position in which the first title should start at.
 
 #### UpdatePlaystate
 
