@@ -99,3 +99,8 @@ For example, Data = "itemId|1000000|false". Position ticks must be part of the v
 
 #### Playback stopped
 MessageType = "PlaybackStopped", Data="itemId|positionTicks"
+
+## Context messages
+As the user browses around you may send context messages to the server to let it know where the user is. The format is MessageType="Context", Data= "ItemType|ItemId|ItemName|context".
+
+All values must be present, but empty values are ok. The context argument refers to the section of the ui being viewed, e.g. movies, tv, games, music, etc. This can also be empty if using a generic presentation.
