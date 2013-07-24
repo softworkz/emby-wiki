@@ -7,6 +7,7 @@ Inside this folder will be several sub-folders, including:
 * Artist
 * Genre
 * MusicGenre
+* GameGenre
 * People
 * Studio
 * Year
