@@ -9,6 +9,10 @@ If the client device is capable of playing the file without encoding, it is reco
 
 With direct streaming, it is also recommended to use either a file extension that matches the original file, or use the alias with no extension.
 
+## Stream Copy
+
+If direct play and direct stream are not possible, the next best alternative is stream copy. This will avoid encoding and simply swap the video container. This is achieved by passing "copy" as the codec value for audio and/or video, e.g. AudioCodec=copy&VideoCodec=copy.
+
 ## Encoding
 If none of these options apply, then the server's encoding features should be utilized.
 
