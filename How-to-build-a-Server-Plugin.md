@@ -24,7 +24,7 @@ If not, copy that and generate a new GUID using Tools -> Create Guid.
 
 Right click the project -> Properties. Create a post-build event that will copy the assembly to the server's plugins directory. For example:
 
-`xcopy "$(TargetPath)" "C:\ProgramData\MediaBrowser-Server\Plugins\" /y`
+`xcopy "$(TargetPath)" "%AppData%\MediaBrowser-Server\Plugins\" /y`
 
 ### Test the Plugin
 
