@@ -41,9 +41,31 @@ Note: StartPositionTicks is ignored when PlayCommand is PlayNext or PlayLast.
 
 The following commands are available:
 
-* /Sessions/{Id}/Stop
-* /Sessions/{Id}/Pause
-* /Sessions/{Id}/Unpause
-* /Sessions/{Id}/NextTrack
-* /Sessions/{Id}/PreviousTrack
-* /Sessions/{Id}/Seek?PositionTicks=xxx
+* /Sessions/{Id}/Playing/Stop
+* /Sessions/{Id}/Playing/Pause
+* /Sessions/{Id}/Playing/Unpause
+* /Sessions/{Id}/Playing/NextTrack
+* /Sessions/{Id}/Playing/PreviousTrack
+* /Sessions/{Id}/Playing/Seek?PositionTicks=xxx
+
+###Sending a system command
+
+The following commands are available:
+
+* /Sessions/{Id}/System/GoHome
+* /Sessions/{Id}/System/GoToSettings
+* /Sessions/{Id}/System/Mute
+* /Sessions/{Id}/System/Unmute
+* /Sessions/{Id}/System/ToggleMute
+* /Sessions/{Id}/System/VolumeUp
+* /Sessions/{Id}/System/VolumeDown
+
+###Sending a message command
+
+This will tell the client to display a message to the user.
+
+* /Sessions/{Id}/Message?text=xxx&header=xxx&timeoutms=5000
+
+If timeoutMs is omitted, the message will be considered modal and the user will be required to confirm it.
+
+Clients are allowed some flexibility here. They are allowed to ignore both header and timeoutMs if these are not feasible to implement.
