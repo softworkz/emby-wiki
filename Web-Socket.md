@@ -74,6 +74,12 @@ A remote control update playstate command has been sent from the server. Data = 
 #### NotificationUpdated
 #### NotificationsMarkedRead
 
+#### SystemCommand
+Data = The command to execute - GoHome, GoToSettings, Mute, Unmute, ToggleMute, VolumeUp, VolumeDown.
+
+#### MessageCommand
+Data = a json structure with Header, Text and TimeoutMs properties. This is an instruction to display a message to the user. If a timeout is specified, the message should disappear after that duration. If TimeoutMs is not specified, the message should remain visible until the user confirms it. Clients are allowed flexibility and are permitted to ignore TimeoutMs if it is not feasible to implement.
+
 ## Dynamic Messages
 
 In addition to the above messages, there are dynamic messages that can be sent on an interval when the client asks for them.
