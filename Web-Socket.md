@@ -99,9 +99,9 @@ Playback check-ins can also be sent over the web socket, allowing the client to 
 MessageType = "PlaybackStart", Data=ItemId
 
 #### Playback progress
-MessageType = "PlaybackProgress", Data="itemId|positionTicks|isPaused"
+MessageType = "PlaybackProgress", Data="itemId|positionTicks|isPaused|isMuted"
 
-For example, Data = "itemId|1000000|false". Position ticks must be part of the value, but empty is ok if it cannot be determined, e.g. "itemId||false".
+For example, Data = "itemId|1000000|false|true". Position ticks must be part of the value, but empty is ok if it cannot be determined, e.g. "itemId||false|true".
 
 #### Playback stopped
 MessageType = "PlaybackStopped", Data="itemId|positionTicks"
