@@ -9,6 +9,7 @@ Contents:
 * Theme Songs
 * Theme Videos
 * Excluding folders
+* Shortcut files
 
 ## Movies
 
@@ -294,3 +295,22 @@ Any folder (movie, season, series, box set, game, etc) can have theme videos usi
 ## Excluding Folders
 
 To exclude a folder from the library scan, simply mark it hidden, or place a file inside named .ignore.
+
+## Shortcut Files
+
+Custom folders can be created containing shortcut files to media already existing in the library. For example, you may have an "All Movies" folder, as well as a "Kids Movies" folder. By placing a shortcut file within kids movies, it is possible add links to movies already in the library.
+
+In order to be detected as a boxset, the folder must have [boxset] within the name, or a collection.xml metadata file within it.
+
+In addition to movies within the boxset folder, movies can also be added from elsewhere in the library using shortcut files (.lnk). Simply place a shortcut file that points to the movie folder within the boxset folder. **The path being pointed to from the shortcut must also exist in the library, using exactly the same path**. It is simply a link to a pre-existing library item.
+
+**Shortcut example**:
+
+<pre>
+/All Movies
+   /Home Alone (1990)
+     /Home Alone (1990).mkv
+
+/Kids Movies
+   /homealone.lnk (points to /Home Alone (1990) folder)
+</pre>
