@@ -300,8 +300,6 @@ To exclude a folder from the library scan, simply mark it hidden, or place a fil
 
 Custom folders can be created containing shortcut files to media already existing in the library. For example, you may have an "All Movies" folder, as well as a "Kids Movies" folder. By placing a shortcut file within kids movies, it is possible add links to movies already in the library.
 
-In order to be detected as a boxset, the folder must have [boxset] within the name, or a collection.xml metadata file within it.
-
 **The path being pointed to from the shortcut must also exist in the library, using exactly the same path**. It is simply a link to a pre-existing library item.
 
 **Shortcut example**:
