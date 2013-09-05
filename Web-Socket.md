@@ -40,6 +40,9 @@ The client name **must match** the value used in http authorization headers.
 
 Once connected and identified, you'll be able to receive the following MessageTypes from the web socket:
 
+#### ServerRestarting, ServerShuttingDown
+This will tell you when the server is restarting or shutting down.
+
 #### LibraryChanged
 Data = A library update info structure. See [LibraryUpdateInfo.cs](https://github.com/MediaBrowser/MediaBrowser/blob/master/MediaBrowser.Model/Entities/LibraryUpdateInfo.cs)
 
