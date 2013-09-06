@@ -12,3 +12,12 @@ For a complete list or parameters, see the built-in documentation as well as:
 [Video Streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Video-Streaming)
 
 Currently we do not support HLS adaptive bitrate streaming, although this is in the backlog for a future release.
+
+## Baseline Stream
+
+To include a baseline, audio-only stream in the HLS master playlist, use the following parameters:
+
+* AppendBaselineStream
+* BaselineStreamAudioBitRate
+
+For example, AppendBaselineStream=true&BaselineStreamAudioBitRate=64000
