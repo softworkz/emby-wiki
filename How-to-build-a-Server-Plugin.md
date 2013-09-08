@@ -10,7 +10,7 @@ First install Media Browser Server, or download the code. Get the server up and 
 
 2. Make sure AssemblyInfo.cs has a Guid, e.g:
 
-`[assembly: Guid("{02CF7D91-16F4-48D4-BC97-16D89C16AA0A}")]`
+`[assembly: Guid("02CF7D91-16F4-48D4-BC97-16D89C16AA0A")]`
 
 If not, copy that and generate a new GUID using Tools -> Create Guid.
 
