@@ -119,6 +119,8 @@ In addition to movies within the boxset folder, movies can also be added from el
      /homealone.lnk (points to /Home Alone (1990) folder)
 </pre>
 
+If Home Alone was added to the library as \\my-server\movies\Home Alone (1990), then **the path contained in the shortcut must point to** \\my-server\movies\Home Alone (1990), and not D:\Movies\Home Alone (1990)
+
 ####Special Features
 
 Special features for movies can be stored in a specials folder under movie folders. **Nested folders are not supported**.
@@ -312,3 +314,5 @@ Custom folders can be created containing shortcut files to media already existin
 /Kids Movies
    /homealone.lnk (points to /Home Alone (1990) folder)
 </pre>
+
+If Home Alone was added to the library as \\my-server\movies\Home Alone (1990), then **the path contained in the shortcut must point to** \\my-server\movies\Home Alone (1990), and not D:\Movies\Home Alone (1990)
