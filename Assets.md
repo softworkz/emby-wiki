@@ -1,1 +1,1 @@
-.
+This will provide the images, icons, fonts and color schemes that are suggested for use by clients and plugins.
