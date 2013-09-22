@@ -58,3 +58,17 @@ These can be retrieved from the entire library, or limited to a specific folder,
 `/Genres?IncludeItemTypes=Movie&Recursive=true&userId=xxx`
 
 As with media item querying, these endpoints also support **paging**, **filtering**, **sorting** and **configurable output fields**. See the build-in documentation for details.
+
+## Item Counts
+Each artist, genre, studio, person, etc, will have the following additional properties available, to indicate how many items in the library they apply to:
+
+* TotalCount
+* AdultVideoCount
+* MovieCount
+* SeriesCount
+* EpisodeCount
+* GameCount
+* TrailerCount
+* SongCount
+* AlbumCount
+* MusicVideoCount
