@@ -4,6 +4,8 @@ Media items will contain lists of related items, such as Artists, Genres, Person
 
 `/Genres/{Name}`
 
+`/GameGenres/{Name}`
+
 `/MusicGenres/{Name}`
 
 `/Persons/{Name}`
@@ -26,6 +28,8 @@ The image endpoint locations are different from media items, but function identi
 * /Artists/{Name}/Images/{Type}/{Index}
 * /Genres/{Name}/Images/{Type}
 * /Genres/{Name}/Images/{Type}/{Index}
+* /GameGenres/{Name}/Images/{Type}
+* /GameGenres/{Name}/Images/{Type}/{Index}
 * /MusicGenres/{Name}/Images/{Type}
 * /MusicGenres/{Name}/Images/{Type}/{Index}
 * /Persons/{Name}/Images/{Type}
@@ -38,6 +42,8 @@ The image endpoint locations are different from media items, but function identi
 In addition to individual retrieval, there are querying endpoints that will return lists of these items. 
 
 `/Artists`
+
+`/GameGenres`
 
 `/Genres`
 
