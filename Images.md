@@ -52,6 +52,19 @@ If an item does not have backdrops or logos, there are properties that will indi
 * ParentBackdropItemId - The id of an ancestor item with backdrop images
 * ParentBackdropImageTags - The cache tags of the ancestor backdrop images
 
+## Image Format
+
+By default, images are returned in the original format, which generally will be either png or jpg. If the user has image enhancer plugins installed such as Cover Art, the default output format will be forced to png.
+
+If a specific output format is needed, this can be controlled using the **format param**. Available values are:
+
+* bmp
+* gif
+* jpp
+* png
+
+If forcing to jpg it's possible that some transparency will be lost. It's recommended to apply a background color of your choosing using the **backgroundColor param**, which accepts html color values, such as #000000 or red.
+
 ## Adding a Played Indicator
 
 A played indicator overlay can be added onto the image using **Indicator=Played**
