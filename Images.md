@@ -47,5 +47,15 @@ If an item does not have backdrops or logos, there are properties that will indi
 
 * ParentLogoItemId - The id of an ancestor item with a logo
 * ParentLogoImageTag - The cache tag of the ancestor logo image
+* ParentArtItemId - The id of an ancestor item with an art image
+* ParentArtImageTag - The cache tag of the ancestor art image
 * ParentBackdropItemId - The id of an ancestor item with backdrop images
 * ParentBackdropImageTags - The cache tags of the ancestor backdrop images
+
+## Adding a Played Indicator
+
+A played indicator overlay can be added onto the image using **Indicator=Played**
+
+## Adding a Percent Played Indicator
+
+A percent played overlay can be added onto the image using **Indicator=PercentPlayed&PercentPlayed=47**
