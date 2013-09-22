@@ -11,17 +11,14 @@ This is a generic video file.
 ### Folder
 This is a generic folder.
 
-### Episode, Movie, Trailer
+### Episode, Movie, Trailer, AdultVideo, MusicVideo
 These are specialized representations of Video.
 
 ### BoxSet, MusicAlbum, MusicArtist, Season, Series
 These are specialized representations of Folder.
 
-## Plugin Types
+### Game,GameSystem
+Game is a media item and GameSystem is folder containing games.
 
-Plugins are able to register their own custom types as well. When this happens the plugin developer will publish information to help you customize your display for the new types. You can also ignore them and treat them generically.
-
-The following are some known plugin types. Plugin developers are free to add theirs to this wiki page, along with links to their documentation.
-
-### ConsoleFolder, Game
-These types are added by [GameBrowser](https://github.com/RedshirtMB/gamebrowser-mb3) to represent a game system folder, and a Game, respectively.
+### Book
+A media item that represents a book.
