@@ -44,6 +44,8 @@ Implement this to add a new sorting rule to the api's sorting routines. This rul
 ### IMetadataSaver
 Implement this interface to add new metadata saving formats (xbmc, plex, etc).
 
-### IItemRepository, IUserRepository, IUserDataRepository, IDisplayPreferencesRepository
+### ILibraryPreScanTask, ILibraryPostScanTask
+Implement this interface to add operations that execute before and after library scans.
 
-Media Browser uses sqlite databases to store application data. If there's a plugin developer who feels an alternate storage medium would be more appropriate, they are welcome to implement any of these interface and create their own.
+### IIsoMounter
+Implement this interface to support custom iso mounting programs, as an alternative to the core's silent mounting.
