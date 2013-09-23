@@ -33,6 +33,16 @@ As with Playback Progress, you should add the **PositionTicks** argument to this
 
 After this API call is made, the server dashboard will update to reflect that the user is not currently playing an item.
 
+## Manually marking watched/unwatched
+
+An Item can be marked watched manually by sending a POST to 
+
+/Users/{UserId}/PlayedItems/{Id}
+
+To mark an item unwatched, send a DELETE to
+
+/Users/{UserId}/PlayedItems/{Id}
+
 ## More Info
 
 For more information on these three methods, consult the Swagger API documentation. The [MediaBrowser.ApiClient](https://github.com/MediaBrowser/MediaBrowser.ApiClient) repository also has examples of these methods.
