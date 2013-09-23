@@ -36,3 +36,15 @@ Get information about bluray folder structures
 
 ### IIsoManager
 Mounts and unmounts iso files
+
+### INetworkManager
+Get information about the user's computer network
+
+### IZipClient
+Unzip files and streams
+
+### IDtoService
+Create dto's from domain objects
+
+### INotificationsRepository
+Add entries to a user's notifications inbox
