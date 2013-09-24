@@ -99,7 +99,9 @@ Adjust the intervals as desired, but **make sure to send a message using Message
 Playback check-ins can also be sent over the web socket, allowing the client to send them more often due to the reduced overhead.
 
 #### Playback start
-MessageType = "PlaybackStart", Data=ItemId
+MessageType = "PlaybackStart", Data="itemId|CanSeek|QueueableMediaTypes"
+
+For example: Data="itemId|true|audio,video"
 
 #### Playback progress
 MessageType = "PlaybackProgress", Data="itemId|positionTicks|isPaused|isMuted"
