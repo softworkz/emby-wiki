@@ -6,6 +6,11 @@ To let the server know playback started, make an HTTP POST call to /Users/{UserI
 
 **UserId** and **Id** are required values.
 
+Optional values:
+
+* CanSeek (**true**/false). This indicates to the server if the player is seekable
+* QueueableMediaTypes (audio,video,book,game). This is a comma-delimited list of media types that are supported for queuing.
+
 Once this API call is made, the server dashboard will show the current item that the user is watching.
 
 ## Playback Progress
