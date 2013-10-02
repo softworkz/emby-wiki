@@ -67,8 +67,8 @@ If forcing to jpg it's possible that some transparency will be lost. It's recomm
 
 ## Adding a Played Indicator
 
-A played indicator overlay can be added onto the image using **Indicator=Played**
+A played indicator overlay can be added onto the image using **AddPlayedIndicator=true**
 
 ## Adding a Percent Played Indicator
 
-A percent played overlay can be added onto the image using **Indicator=PercentPlayed&PercentPlayed=47**
+A percent played overlay can be added onto the image using **PercentPlayed=47**
