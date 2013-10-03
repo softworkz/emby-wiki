@@ -55,6 +55,11 @@ Data = the user id that has been deleted
 #### UserUpdated
 Data = the user object that has been updated
 
+#### UserDataChanged
+A user changed their personal rating for an item, or their playstate was updated. Data = a json object with the following properties:
+* UserId
+* UserDataList - a list of updated user data objects
+
 #### Browse
 A remote control browse command has been sent from the server. Data = a json object with the following properties:
 * Context - (movies, tv, games, etc. this can be blank and clients are free to ignore it if using a generic presentation).
