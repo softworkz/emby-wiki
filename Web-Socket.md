@@ -23,14 +23,14 @@ MessageType is the name of the event or action, Data is any related data. Data c
 
 ### Identification message
 
-As soon as the connection is established, an identification message should be sent by the client which includes the client name, device id, and application version. For example
+As soon as the connection is established, an identification message should be sent by the client which includes the client name, device id, application version and device name. For example
 
 `
 {
 
     MessageType: "Identity",
 
-    Data: "Dashboard|df787898fdsf7ds80|1.0.0.0"
+    Data: "Dashboard|df787898fdsf7ds80|1.0.0.0|nexus7"
 }
 `
 
