@@ -230,7 +230,7 @@ The following image files can be stored within folders of any type (movie, box s
 * box.jpg/jpeg/png
 * boxrear.jpg/jpeg/png
 * clearart.png
-* disc.png
+* disc.jpg/jpeg/png or cdart.jpg/jpeg/png
 * logo.png (clear logo)
 * menu.jpg/jpeg/png
 * thumb.jpg/jpeg/png (16*9 thumbnail)
