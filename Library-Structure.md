@@ -1,6 +1,6 @@
 Contents:
 
-* Moves
+* Movies
 * TV Series
 * Music
 * Images
