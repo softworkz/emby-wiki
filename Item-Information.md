@@ -10,12 +10,15 @@ Library items have a number of interesting properties. Among these are, but not 
 * ProductionYear
 * Language
 * ParentId
-* Studios
-* HomePageUrl
 * Budget
-* Revenue
 * CriticRating
 * CriticRatingSummary
+* GameSystem
+* HomePageUrl
+* Path
+* Revenue
+* SortName
+* Studios
 
 When retrieving a single item, the entire object is returned. When querying for items, the return data will be stripped to include only a minimal amount of information. When querying, you can configure the fields that are returned in the output. See [browsing the Library.](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
 
@@ -88,9 +91,6 @@ Similiar to IndexNumber, this serves different purposes depending on the type of
 
 ### ParentLogoItemId, ParentLogoImageTag, ParentBackdropItemId, ParentBackdropImageTags 
 See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
-
-### Path
-This is the file system path of the item. This will generally not be needed by clients unless they're supporting direct play.
 
 ### People
 These are the people involved in the item. Each person has Name, Role, Type and PrimaryImageTag properties. 
