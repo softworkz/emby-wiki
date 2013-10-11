@@ -2,23 +2,28 @@ Library items have a number of interesting properties. Among these are, but not 
 
 * Name
 * Id
-* DateCreated
-* Overview
-* Taglines
-* Genres
-* RunTimeTicks
-* ProductionYear
-* Language
-* ParentId
 * Budget
 * CriticRating
 * CriticRatingSummary
+* DateCreated
 * GameSystem
+* Genres
 * HomePageUrl
+* IsHD
+* Language
+* Overview
+* ParentId
 * Path
+* People
+* Players
+* ProductionYear
 * Revenue
+* RunTimeTicks
+* SeasonCount
 * SortName
 * Studios
+* Taglines
+* Type
 
 When retrieving a single item, the entire object is returned. When querying for items, the return data will be stripped to include only a minimal amount of information. When querying, you can configure the fields that are returned in the output. See [browsing the Library.](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
 
