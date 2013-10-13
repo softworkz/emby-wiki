@@ -2,6 +2,7 @@ Contents:
 
 * Movies
 * TV Series
+* TV Series on DVD
 * Music
 * Images
 * Subtitles
@@ -186,6 +187,15 @@ Some of the supported naming conventions for episode files are:
 * show name S01x02 - S01x03 episode name.avi
 
 _For all these examples the episode is detected as episode #2 and episode #3_
+
+## TV Series on DVD
+ TODO
+?? How to arrange ISO files of TV Series  ??
+Example Files:
+* Futurama Volume 2 - Disc 1.iso
+* Futurama Volume 2 - Disc 2.iso
+* Futurama Volume 2 - Disc 3.iso
+* Futurama Volume 2 - Disc 4.iso
 
 ## Music 
 
