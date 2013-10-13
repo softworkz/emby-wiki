@@ -224,27 +224,27 @@ The following image files can be stored within folders of any type (movie, box s
 
 #### Primary Image
 
-* folder.jpg/jpeg/png
-* poster.jpg/jpeg/png
-* cover.jpg/jpeg/png
-* default.jpg/jpeg/png
+* folder.jpg/jpeg/png/tbn
+* poster.jpg/jpeg/png/tbn
+* cover.jpg/jpeg/png/tbn
+* default.jpg/jpeg/png/tbn
 
 #### Backdrops:
 
-* backdrop.jpg/jpeg/png, backdrop1.jpg/jpeg/png, backdrop2.jpg/jpeg/png, etc
-* fanart.jpg/jpeg/png, fanart-1.jpg/jpeg/png, fanart-2.jpg/jpeg/png, etc
-* background.jpg/jpeg/png, background-1.jpg/jpeg/png, background-2.jpg/jpeg/png, etc
+* backdrop.jpg/jpeg/png/tbn, backdrop1.jpg/jpeg/png/tbn, backdrop2.jpg/jpeg/png/tbn, etc
+* fanart.jpg/jpeg/png/tbn, fanart-1.jpg/jpeg/png/tbn, fanart-2.jpg/jpeg/png/tbn, etc
+* background.jpg/jpeg/png/tbn, background-1.jpg/jpeg/png/tbn, background-2.jpg/jpeg/png/tbn, etc
 
 #### Additional image types
-* banner.jpg/jpeg/png
-* box.jpg/jpeg/png
-* boxrear.jpg/jpeg/png
+* banner.jpg/jpeg/png/tbn
+* box.jpg/jpeg/png/tbn
+* boxrear.jpg/jpeg/png/tbn
 * clearart.png
-* disc.jpg/jpeg/png or cdart.jpg/jpeg/png
+* disc.jpg/jpeg/png/tbn or cdart.jpg/jpeg/png/tbn
 * logo.png (clear logo)
-* menu.jpg/jpeg/png
-* thumb.jpg/jpeg/png (16*9 thumbnail)
-* screenshot.jpg/jpeg/png, screenshot1.jpg/jpeg/png, screenshot2.jpg/jpeg/png, etc
+* menu.jpg/jpeg/png/tbn
+* thumb.jpg/jpeg/png/tbn (16*9 thumbnail)
+* screenshot.jpg/jpeg/png/tbn, screenshot1.jpg/jpeg/png/tbn, screenshot2.jpg/jpeg/png/tbn, etc
 
 ## Subtitles
 
