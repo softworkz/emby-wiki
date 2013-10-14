@@ -2,7 +2,7 @@ First install Media Browser Server, or download the code. Get the server up and 
 
 ### Create your Visual Studio 2012 Solution
 
->QuickStart: The below steps outline the complete process but you can also download our server plug-in template for a quick start to creating add-on functionality to MB Server.  Just download [this file](http://www.mediabrowser3.com/downloads/ServerPluginCollection.zip) into your Visual Studio 2012/Templates/ProjectTemplates folder.  Then re-start VS and create a new project based on the "Server Plug-in with Collection Folder" template.  Then all you will need to do is add the Server Nuget package and confirm your post-build event is copying to where your server data folder resides.
+>QuickStart: The below steps outline the complete process but you can also download our server plug-in template for a quick start to creating add-on functionality to MB Server.  Just download [this file](http://mb3admin.com/downloads/ServerPluginCollection.zip) into your Visual Studio 2012/Templates/ProjectTemplates folder.  Then re-start VS and create a new project based on the "Server Plug-in with Collection Folder" template.  Then all you will need to do is add the Server Nuget package and confirm your post-build event is copying to where your server data folder resides.
 
 1. Create a class library project
 
