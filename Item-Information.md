@@ -78,6 +78,8 @@ RemoteTrailers are a list of known online trailers. When supporting trailers, pr
 ### LocationType
 This indicates if the item is a file system item, remote, or virtual.
 
+FileSystem items are items the user has physical copies of on their file system. Remote items point to a url address. Virtual items entirely virtual and are not playable (e.g. missing episodes).
+
 ### MediaStreams
 This is applicable to Audio and Video only. This will provide detailed information about the audio, video and subtitle tracks embedded within the file.
 
