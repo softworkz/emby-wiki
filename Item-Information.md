@@ -130,6 +130,9 @@ A list of known provider id's can be found [here](https://github.com/MediaBrowse
 ### RecursiveItemCount
 For folders, this indicates the number of items available, recursively.
 
+### RecursiveUnplayedItemCount
+For folders, this indicates the number of unplayed items available, recursively.
+
 ### SeriesId, SeriesName
 These properties are applicable only to Episodes and Seasons. This will give you some basic information about the TV Series.
 
