@@ -33,8 +33,8 @@ Here are some other properties along with their descriptions:
 ### AirDays, AirTime, Status
 These are applicable to Series only and will give you information about when episodes air.
 
-### Album, AlbumArtist, Artist, AlbumId, AlbumPrimaryImageTag
-These are applicable to audio files only.
+### Album, AlbumArtist, Artists, AlbumId, AlbumPrimaryImageTag
+These are applicable to audio files and music albums only.
 
 ### AspectRatio
 This is generally the original aspect ratio that the video was filmed in. The actual aspect ratio of the user's video can be found in the MediaStreams property.
