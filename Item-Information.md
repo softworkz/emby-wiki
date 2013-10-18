@@ -100,6 +100,9 @@ See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
 If an item does not have it's own art, backdrop or logo, these properties will contain information about parent items with those images in order to allow inheritance.
 
+### PartCount
+For multi-file videos this will indicate the number of parts.
+
 ### People
 These are the people involved in the item. Each person has Name, Role, Type and PrimaryImageTag properties. 
 
