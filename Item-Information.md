@@ -112,8 +112,12 @@ This is populated for folders to indicate the user's cumulative progress through
 ### PremiereDate 
 This serves different purposes depending on the type of item. For episodes and series, this is the first air date. For movies, albums and songs, this is the release date. For persons this is date of birth. For artists, this is their formation date.
 
-### PrimaryImageAspectRatio
-This is the aspect ratio of the primary image. Most image types have a predictable aspect ratio, but primary is the one exception. A typical use case when rendering a list of items is to determine the average AR, and then display them all using that value. See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
+### OriginalPrimaryImageAspectRatio, PrimaryImageAspectRatio
+This is the aspect ratio of the primary image. Most image types have a predictable aspect ratio, but primary is the one exception. A typical use case when rendering a list of items is to determine the average AR, and then display them all using that value. 
+
+OriginalPrimaryImageAspectRatio ratio is the AR of the original image file. PrimaryImageAspectRatio is the AR after image enhancers have been applied (e.g. Cover Art).
+
+See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
 ### ProductionLocations
 This is a list of strings indicating filming locations. For Persons, this will have one entry and will contain their place of birth.
