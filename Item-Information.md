@@ -86,6 +86,9 @@ This is applicable to Audio and Video only. This will provide detailed informati
 ### OfficialRating
 G, PG-13, R, TV-MA, etc.
 
+### OriginalRunTimeTicks
+Contains the runtime of the original work (Movie, Episode, etc). RunTimeTicks on the other hand is the runtime of the user's actual file.
+
 ### OverviewHtml
 An html version of the overview, possibly with links embedded.
 
