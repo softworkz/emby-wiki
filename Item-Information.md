@@ -95,8 +95,10 @@ This is for Artists and indicates if they are currently on tour.
 ### ParentIndexNumber
 Similiar to IndexNumber, this serves different purposes depending on the type of item. For episodes this is the season number. For audio files, this is the disc number.
 
-### ParentLogoItemId, ParentLogoImageTag, ParentBackdropItemId, ParentBackdropImageTags 
+### ParentArtItemId, ParentArtImageTag, ParentLogoItemId, ParentLogoImageTag, ParentBackdropItemId, ParentBackdropImageTags 
 See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
+
+If an item does not have it's own art, backdrop or logo, these properties will contain information about parent items with those images in order to allow inheritance.
 
 ### People
 These are the people involved in the item. Each person has Name, Role, Type and PrimaryImageTag properties. 
