@@ -110,13 +110,13 @@ This serves different purposes depending on the type of item. For episodes and s
 ### PrimaryImageAspectRatio
 This is the aspect ratio of the primary image. Most image types have a predictable aspect ratio, but primary is the one exception. A typical use case when rendering a list of items is to determine the average AR, and then display them all using that value. See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
 
+### ProductionLocations
+This is a list of strings indicating filming locations. For Persons, this will have one entry and will contain their place of birth.
+
 ### ProviderIds
 This is a dictionary of provider id's for an item - Tmdb, Tvdb, TvCom, etc.
 
 A list of known provider id's can be found [here](https://github.com/MediaBrowser/MediaBrowser/blob/master/MediaBrowser.Model/Entities/MetadataProviders.cs), although plugins can inject additional ones.
-
-### ProductionLocations
-This is a list of strings indicating filming locations. For Persons, this will have one entry and will contain their place of birth.
 
 ### RecursiveItemCount
 For folders, this indicates the number of items available, recursively.
