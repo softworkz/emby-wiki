@@ -51,6 +51,9 @@ For folders, this indicates the number of child items available.
 ### CommunityRating
 This is the Imdb, Tmdb, or Tvdb rating of the item. At this time we do not have the ability to identify the source.
 
+### CumulativeRunTimeTicks
+For folders, this represents the cumulative runtime.
+
 ### EndDate
 This is the date an item ended. For Persons this represents death date. For series that have ended, this is the air date of the final episode.
 
