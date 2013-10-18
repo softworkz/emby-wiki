@@ -113,6 +113,8 @@ This is the aspect ratio of the primary image. Most image types have a predictab
 ### ProviderIds
 This is a dictionary of provider id's for an item - Tmdb, Tvdb, TvCom, etc.
 
+A list of known provider id's can be found [here](https://github.com/MediaBrowser/MediaBrowser/blob/master/MediaBrowser.Model/Entities/MetadataProviders.cs), although plugins can inject additional ones.
+
 ### ProductionLocations
 This is a list of strings indicating filming locations. For Persons, this will have one entry and will contain their place of birth.
 
