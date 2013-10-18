@@ -50,9 +50,6 @@ For folders, this indicates the number of child items available.
 ### CommunityRating
 This is the Imdb, Tmdb, or Tvdb rating of the item. At this time we do not have the ability to identify the source.
 
-### DisplayMediaType
-This is a friendly version of MediaType that can be used for display purposes, if desired.
-
 ### EndDate
 This is the date an item ended. For Persons this represents death date. For series that have ended, this is the air date of the final episode.
 
@@ -67,6 +64,8 @@ Denotes the ending index number, in case a file spans multiple episodes.
 
 ### IsFolder, MediaType, Type
 These allow you to determine how to categorize and display items. See [Browsing the Library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
+
+MediaTypes: Audio, Video, Book, Game, Photo.
 
 ### IsoType
 This setting is applicable to videos only. If a video is an Iso this will give you the type - Dvd or BluRay.
