@@ -137,7 +137,7 @@ These properties are applicable only to Episodes and Seasons. This will give you
 For Movies, Games and Series. It is a list of album id's in case you want to display the soundtracks. For MusicAlbums, it is the opposite, it is the list of items that the album is the soundtrack for.
 
 ### SpecialFeatureCount
-This is applicable to Movies only. This will tell you how many special features are available. The actual special feature items can then be retrieved using /Users/{UserId}/Items/{Id}/SpecialFeatures.
+This is applicable to Movies and Series only. This will tell you how many special features are available. The actual special feature items can then be retrieved using /Users/{UserId}/Items/{Id}/SpecialFeatures.
 
 ### UserData
 Contains user state for an item, such as personal rating and playstate.
