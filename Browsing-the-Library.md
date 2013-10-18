@@ -57,5 +57,5 @@ You are not limited to displaying items based on the file system. If you would l
 ### Display all Movies
 > http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?Recursive=true&IncludeItemTypes=Movie
 
-### Display all Episodes based on a search term
-> http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?Recursive=true&SearchTerm=test&IncludeItemTypes=Episode
+### Display all Episodes
+> http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?Recursive=true&IncludeItemTypes=Episode
