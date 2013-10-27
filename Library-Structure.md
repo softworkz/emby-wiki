@@ -232,6 +232,11 @@ TV Seasons (in addition to above):
 * seasonXX-poster.jpg/jpeg/png/tbn (in series folder)
 * season-specials-poster.jpg/jpeg/png/tbn (in series folder)
 
+Episodes):
+
+* {name}.jpg/jpeg/png/tbn (in metadata sub-folder)
+* {name}-thumb.jpg/jpeg/png/tbn (in season folder)
+
 #### Backdrops:
 
 * backdrop.jpg/jpeg/png/tbn, backdrop1.jpg/jpeg/png/tbn, backdrop2.jpg/jpeg/png/tbn, etc
