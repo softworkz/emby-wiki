@@ -220,7 +220,7 @@ If you edit an album and fill a tmdb id, tvdb id, and/or gamesdb id, we'll be ab
 
 ## Images
 
-The following image files can be stored within folders of any type (movie, box set, series, season, etc). Client applications will see the images and utilize them where applicable.
+The following image files can be stored within folders of any type (movie, box set, series, season, etc). **All images support the jpg, jpeg, png and tbn extensions**.
 
 #### Primary Image
 
@@ -228,12 +228,30 @@ The following image files can be stored within folders of any type (movie, box s
 * poster.jpg/jpeg/png/tbn
 * cover.jpg/jpeg/png/tbn
 * default.jpg/jpeg/png/tbn
+* movie.jpg/jpeg/png/tbn
+* {moviename}-poster.jpg/jpeg/png/tbn
+
+TV Series (in addition to above):
+
+* show.jpg/jpeg/png/tbn
+
+TV Seasons (in addition to above):
+
+* seasonXX-poster.jpg/jpeg/png/tbn (in series folder)
+* season-specials-poster.jpg/jpeg/png/tbn (in series folder)
 
 #### Backdrops:
 
 * backdrop.jpg/jpeg/png/tbn, backdrop1.jpg/jpeg/png/tbn, backdrop2.jpg/jpeg/png/tbn, etc
 * fanart.jpg/jpeg/png/tbn, fanart-1.jpg/jpeg/png/tbn, fanart-2.jpg/jpeg/png/tbn, etc
 * background.jpg/jpeg/png/tbn, background-1.jpg/jpeg/png/tbn, background-2.jpg/jpeg/png/tbn, etc
+* art.jpg/jpeg/png/tbn, art-1.jpg/jpeg/png/tbn, art-2.jpg/jpeg/png/tbn, etc
+* image files stored in an "extrafanart" sub-folder
+
+TV Seasons (in addition to above):
+
+* seasonXX-fanart.jpg/jpeg/png/tbn (in series folder)
+* season-specials-fanart.jpg/jpeg/png/tbn (in series folder)
 
 #### Additional image types
 * banner.jpg/jpeg/png/tbn
