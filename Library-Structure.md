@@ -158,6 +158,7 @@ The **recommended** folder structure is series/season/episode.
 
      /Season 2
        S02E05 Seinfeld The Apartment.mkv
+       S02E06 Seinfeld Number Six.iso
 </pre>
 
 #### Episode file naming (Multi-episode supported)
@@ -187,15 +188,6 @@ Some of the supported naming conventions for episode files are:
 * show name S01x02 - S01x03 episode name.avi
 
 _For all these examples the episode is detected as episode #2 and episode #3_
-
-## TV Series on DVD
- TODO
-?? How to arrange ISO files of TV Series  ??
-Example Files:
-* Futurama Volume 2 - Disc 1.iso
-* Futurama Volume 2 - Disc 2.iso
-* Futurama Volume 2 - Disc 3.iso
-* Futurama Volume 2 - Disc 4.iso
 
 ## Music 
 
