@@ -1,9 +1,9 @@
 ### Menu
 * [Wiki home](https://github.com/MediaBrowser/MediaBrowser/wiki)
+* [Media library structure](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-Structure)
 * [Movie library](https://github.com/MediaBrowser/MediaBrowser/wiki/Movie-Library)
 * [TV library](https://github.com/MediaBrowser/MediaBrowser/wiki/TV-Library)
 * [Music library](https://github.com/MediaBrowser/MediaBrowser/wiki/Music-Library)
-* [Media library structure](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-Structure)
 * [Images by name](https://github.com/MediaBrowser/MediaBrowser/wiki/Images-by-name)
 * [Assets](https://github.com/MediaBrowser/MediaBrowser/wiki/assets)
 
