@@ -1,6 +1,7 @@
 ### Menu
 * [Wiki home](https://github.com/MediaBrowser/MediaBrowser/wiki)
 * [Movie library structure](https://github.com/MediaBrowser/MediaBrowser/wiki/Movie-Library-Structure)
+* [TV library structure](https://github.com/MediaBrowser/MediaBrowser/wiki/Movie-Library-Structure)
 * [Media library structure](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-Structure)
 * [Images by name](https://github.com/MediaBrowser/MediaBrowser/wiki/Images-by-name)
 * [Assets](https://github.com/MediaBrowser/MediaBrowser/wiki/assets)
