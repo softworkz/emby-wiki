@@ -1,5 +1,3 @@
-## Movies
-
 The **recommended** structure is to put each movie in it's own folder. 
 
 <pre>/Movies
