@@ -2,7 +2,6 @@ Contents:
 
 * Movies
 * TV Series
-* TV Series on DVD
 * Music
 * Images
 * Subtitles
