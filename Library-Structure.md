@@ -215,50 +215,50 @@ The following image files can be stored within folders of any type (movie, box s
 
 #### Primary Image
 
-* folder.jpg/jpeg/png/tbn
-* poster.jpg/jpeg/png/tbn
-* cover.jpg/jpeg/png/tbn
-* default.jpg/jpeg/png/tbn
-* movie.jpg/jpeg/png/tbn
-* {moviename}-poster.jpg/jpeg/png/tbn
+* folder.ext
+* poster.ext
+* cover.ext
+* default.ext
+* movie.ext
+* {moviename}-poster.ext
 
 TV Series (in addition to above):
 
-* show.jpg/jpeg/png/tbn
+* show.ext
 
 TV Seasons (in addition to above):
 
-* seasonXX-poster.jpg/jpeg/png/tbn (in series folder)
-* season-specials-poster.jpg/jpeg/png/tbn (in series folder)
+* seasonXX-poster.ext (in series folder)
+* season-specials-poster.ext (in series folder)
 
 Episodes):
 
-* {name}.jpg/jpeg/png/tbn (in metadata sub-folder)
-* {name}-thumb.jpg/jpeg/png/tbn (in season folder)
+* {name}.ext (in metadata sub-folder)
+* {name}-thumb.ext (in season folder)
 
 #### Backdrops:
 
-* backdrop.jpg/jpeg/png/tbn, backdrop1.jpg/jpeg/png/tbn, backdrop2.jpg/jpeg/png/tbn, etc
-* fanart.jpg/jpeg/png/tbn, fanart-1.jpg/jpeg/png/tbn, fanart-2.jpg/jpeg/png/tbn, etc
-* background.jpg/jpeg/png/tbn, background-1.jpg/jpeg/png/tbn, background-2.jpg/jpeg/png/tbn, etc
-* art.jpg/jpeg/png/tbn, art-1.jpg/jpeg/png/tbn, art-2.jpg/jpeg/png/tbn, etc
+* backdrop.ext, backdrop1.ext, backdrop2.ext, etc
+* fanart.ext, fanart-1.ext, fanart-2.ext, etc
+* background.ext, background-1.ext, background-2.ext, etc
+* art.ext, art-1.ext, art-2.ext, etc
 * image files stored in an "extrafanart" sub-folder
 
 TV Seasons (in addition to above):
 
-* seasonXX-fanart.jpg/jpeg/png/tbn (in series folder)
-* season-specials-fanart.jpg/jpeg/png/tbn (in series folder)
+* seasonXX-fanart.ext (in series folder)
+* season-specials-fanart.ext (in series folder)
 
 #### Additional image types
-* banner.jpg/jpeg/png/tbn
-* box.jpg/jpeg/png/tbn
-* boxrear.jpg/jpeg/png/tbn
+* banner.ext
+* box.ext
+* boxrear.ext
 * clearart.png
-* disc.jpg/jpeg/png/tbn or cdart.jpg/jpeg/png/tbn
+* disc.ext or cdart.ext
 * logo.png (clear logo)
-* menu.jpg/jpeg/png/tbn
-* thumb.jpg/jpeg/png/tbn (16*9 thumbnail)
-* screenshot.jpg/jpeg/png/tbn, screenshot1.jpg/jpeg/png/tbn, screenshot2.jpg/jpeg/png/tbn, etc
+* menu.ext
+* thumb.ext (16*9 thumbnail)
+* screenshot.ext, screenshot1.ext, screenshot2.ext, etc
 
 ## Subtitles
 
