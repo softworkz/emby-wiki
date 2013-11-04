@@ -6,11 +6,11 @@ After you have developed a plug-in for MediaBrowser, the next step is to get it 
 
 - Then go to the "Packages" area.  This is where you will define your plug-ins (as a user-installed package) and upload versions of them.
 
-![Package Admin](http://www.mb3admin.com/images/packageadmin.jpg)
+![Package Admin](http://www.mb3admin.com/images/packageadmin2.jpg)
 
 Create a New Package to define your plug-in and fill in the fields appropriately.
 
-![New Package](http://www.mb3admin.com/images/editpackage.jpg)
+![New Package](http://www.mb3admin.com/images/editpackage2.jpg)
 
 - **Name** - The name that will appear for this plug-in in the catalog
 - **GUID** - The Assembly unique id.  Paste this from your assemblyinfo.cs file.  It is used to identify this item for updates
