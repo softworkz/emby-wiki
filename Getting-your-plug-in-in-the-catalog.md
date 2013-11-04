@@ -13,6 +13,7 @@ Create a New Package to define your plug-in and fill in the fields appropriately
 ![New Package](http://www.mb3admin.com/images/editpackage.jpg)
 
 - **Name** - The name that will appear for this plug-in in the catalog
+- **GUID** - The Assembly unique id.  Paste this from your assemblyinfo.cs file.  It is used to identify this item for updates
 - **Short Description** - A one line description of the plug-in
 - **Overview** - A full description of the plug-in and its features.  This can be html.
 - **Website** - A link to a developer website for more information.
