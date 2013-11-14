@@ -1,3 +1,5 @@
+>Please see our [Development Policy](https://github.com/MediaBrowser/MediaBrowser/wiki/Development-Policy) before beginning development.
+
 First install Media Browser Server, or download the code. Get the server up and running.
 
 ### Create your Visual Studio 2012 Solution
