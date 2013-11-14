@@ -10,7 +10,7 @@ This includes but is not limited to:
 * Using 'web scraping' techniques to obtain data that would otherwise be only available via subscription or other pay-for means
 * Including or otherwise distributing code or libraries in a manner that violates the license terms of those particular libraries or the license terms of Media Browser (GPL 2.1).
 
-Any code contribution or plug-in that violates this rule will be removed from the product or plug-in catalog without notice.  We appreciate your cooperation and, as a software developer, you should fully embrace this policy as it also protects you against other freely distributing the results of your hard work.
+Any code contribution or plug-in that violates this rule will be removed from the product or plug-in catalog without notice.  We appreciate your cooperation and, as a software developer, you should fully embrace this policy as it also protects you against others freely distributing the results of your hard work.
 
 ***
 
