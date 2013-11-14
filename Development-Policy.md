@@ -1,4 +1,4 @@
-## Before beginning any development please be aware of the following policy for any code included in either the Media Browser core components or plug-ins presented in our plug-in catalog.
+### Before beginning any development please be aware of the following policy for any code included in either the Media Browser core components or plug-ins presented in our plug-in catalog.
 
 We hope to provide a free and open environment for contributing valuable functionality to the Media Browser universe and encourage all contributions as long as they follow one simple rule: 
 
