@@ -1,4 +1,4 @@
-After you have developed a plug-in for MediaBrowser, the next step is to get it into the catalog so users can install it.
+After you have developed a plug-in for MediaBrowser, the next step is to get it into the catalog so users can install it.  Please be sure your plug-in adheres to our [Development Policy](https://github.com/MediaBrowser/MediaBrowser/wiki/Development-Policy) before placing it in the catalog.  It will be removed by an administrator if it violates this policy.
 
 - First, request a developer id from the MB team by emailing admin AT mediabrowser3 DOT com or posting in the dev forum that you are ready to publish.
 
