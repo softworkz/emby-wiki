@@ -1,6 +1,5 @@
 ### Menu
 * [Wiki home](https://github.com/MediaBrowser/MediaBrowser/wiki)
-* [Development Policy](https://github.com/MediaBrowser/MediaBrowser/wiki/Development-Policy)
 * [Media library structure](https://github.com/MediaBrowser/MediaBrowser/wiki/Library-Structure)
 * [Images by name](https://github.com/MediaBrowser/MediaBrowser/wiki/Images-by-name)
 * [Assets](https://github.com/MediaBrowser/MediaBrowser/wiki/assets)
@@ -30,6 +29,7 @@
 * [Creating api endpoints](https://github.com/MediaBrowser/MediaBrowser/wiki/Creating-Api-Endpoints)
 * [Other interfaces](https://github.com/MediaBrowser/MediaBrowser/wiki/Other-Interfaces)
 * [Getting your plug-in in the catalog](https://github.com/MediaBrowser/MediaBrowser/wiki/Getting-your-plug-in-in-the-catalog)
+* [Development Policy](https://github.com/MediaBrowser/MediaBrowser/wiki/Development-Policy)
 
 ### Dashboard Development
 * [Getting started](https://github.com/MediaBrowser/MediaBrowser/wiki/Dashboard-Development)
