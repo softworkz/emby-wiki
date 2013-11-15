@@ -240,6 +240,7 @@ Episodes):
 
 * backdrop.ext, backdrop1.ext, backdrop2.ext, etc
 * fanart.ext, fanart-1.ext, fanart-2.ext, etc
+* {movie}-fanart.ext
 * background.ext, background-1.ext, background-2.ext, etc
 * art.ext, art-1.ext, art-2.ext, etc
 * image files stored in an "extrafanart" sub-folder
