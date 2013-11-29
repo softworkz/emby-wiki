@@ -38,6 +38,8 @@ Most image types generally have a predictable aspect ratio. Primary is the one e
 ### Tag
 The image tag on the item object also doubles as a caching value. If you add this parameter back onto your image url, you will receive strong http caching headers. This allows you to cache the image forever, unconditionally, based on the url. If the image changes, the tag will also change, thus creating a whole new url.
 
+Note: It is recommended to cache based on the url **after the hostname and port**. This will allow the same cache to be utilized whether connected internally (lan/wifi) or externally (mobile).
+
 This is an optional parameter. You do not have to specify the tag, but without it you will only receive conditional http response caching.
 
 ## Image Inheritance
