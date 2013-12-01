@@ -322,7 +322,11 @@ Any folder (movie, season, series, box set, game, etc) can have theme videos usi
 
 ## Excluding Folders
 
-To exclude a folder from the library scan, simply mark it hidden, or place a file inside named .ignore.
+To exclude a folder from Media Browser , simply mark it hidden, or place a file inside named .ignore.
+
+##Don't Fetch MetaData For An Item
+
+To stop Media Browser from attempting to fetch metadata for any particular item you can uncheck the check box "Enable internet metadata providers for this item." In the Metadata Settings for the item in the Metadata Manager.
 
 ## Shortcut Files
 
