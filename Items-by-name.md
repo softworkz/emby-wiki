@@ -1,4 +1,4 @@
-Media items will contain lists of related items, such as Artists, Genres, Persons and Studious. These related items are referred to as "items by name" and can be retrieved by their name. The endpoints to retrieve a **single item by name** are:
+Media items will contain lists of related items, such as Artists, Genres, Persons and Studios. These related items are referred to as "items by name" and can be retrieved by their name. The endpoints to retrieve a **single item by name** are:
 
 `/Artists/{Name}`
 
