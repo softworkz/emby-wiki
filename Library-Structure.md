@@ -205,13 +205,12 @@ Any naming convention for audio files is acceptable. Track numbers are retrieved
 ## Music Videos
 These are setup using a similar conventions as movies. When setting up the media collection, make sure to choose "Music Videos" as the type.
 
-Once setup, you can optionally edit music videos and fill in their artist and album information. If you do, the music videos will appear on the artist's detail page.
+Once setup, you can optionally edit music videos and fill in their artist and album information. If you do, the music videos can be linked to other items in your library from the same artist.
 
 Songs can be mixed together under one artist folder:
 
 <pre>\Music Videos
    \Artist Name
-      \Song Name
          artist-song.mp4
          artist-song1.mp4
 </pre>
