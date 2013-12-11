@@ -224,6 +224,7 @@ Or separated into their own song folders
          artist-song.mp4
 </pre>
 
+For images, both conventions utilize the same image file names as movies.
 
 ## Album soundtrack links
 If you edit an album and fill a tmdb id, tvdb id, and/or gamesdb id, we'll be able to link soundtrack albums in your library to their corresponding movie, tv series or game. We'll then display this on the detail page for each item.
