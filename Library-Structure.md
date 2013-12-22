@@ -147,7 +147,7 @@ Alternatively this can be done by editing metadata within the server dashboard.
 
 ## TV Series
 
-The **recommended** folder structure is series/season/episode.
+The folder structure is series/season/episode or series/episode without using season folders.
 
 <pre>/TV Series
    /Seinfeld
@@ -158,6 +158,13 @@ The **recommended** folder structure is series/season/episode.
      /Season 2
        S02E05 Seinfeld The Apartment.mkv
        S02E06 Seinfeld Number Six.iso
+
+
+   /Glee
+       S01E01.mkv
+       S01E02.mkv
+       S02E05.mkv
+       S02E06.iso
 </pre>
 
 #### Episode file naming (Multi-episode supported)
