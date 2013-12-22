@@ -196,6 +196,8 @@ Some of the supported naming conventions for episode files are:
 
 _For all these examples the episode is detected as episode #2 and episode #3_
 
+Iso files are accepted in place of video files, using the same naming convention.
+
 ## Music 
 
 The recommended folder structure for music is Artist\Album\Song
