@@ -2,7 +2,7 @@ Media Browser libraries are user-based, so the first step in the client workflow
 
 ## User Login
 
-* Make a call to /Users/Public to get all public users. Also make a call to /Server/Configuration to get the server configuration.
+* Make a call to /Users/Public to get all public users. Also make a call to /System/Configuration to get the server configuration.
 
 * Depending on the results, you should either display the users visually, or present a traditional username/password text entry form.
 
