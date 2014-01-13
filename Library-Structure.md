@@ -154,11 +154,13 @@ The folder structure is series/season/episode or series/episode without using se
      /Season 1
        S01E01 Seinfeld The Seinfeld Chronicles.mkv
        S01E02 Seinfeld The Stake Out.mkv
+       S01E03 Seinfeld Number Six.iso
 
      /Season 2
-       S02E05 Seinfeld The Apartment.mkv
-       S02E06 Seinfeld Number Six.iso
-
+       /S02E01-E04
+           /video_ts
+       /S02E01-E04
+           /bdmv
 
    /Glee
        S01E01.mkv
