@@ -159,7 +159,7 @@ The folder structure is series/season/episode or series/episode without using se
      /Season 2
        /S02E01-E04
            /video_ts
-       /S02E01-E04
+       /S02E05-E08
            /bdmv
 
    /Glee
