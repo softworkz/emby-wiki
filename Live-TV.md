@@ -36,3 +36,6 @@ Most of the data attached to recordings is self-explanatory and will not be reha
 
 ## Name & EpisodeTitle
 For programs, recordings and timers that are part of a series, **Name will always equal the series name**, while EpisodeTitle is the title of the episode. Please note that **episode title will not always be available**.
+
+## Recording Playback
+Playback should be nearly identical to library items. Clients can use the Path property to play directly, if possible, and/or examine MediaStreams to determine the ideal streaming method.
