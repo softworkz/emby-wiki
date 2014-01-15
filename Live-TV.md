@@ -1,1 +1,1 @@
-.
+Begin live tv support by making a call to **/LiveTv/Info**. The ActiveServiceName will tell you if there is a live tv service plugin installed on the server.
