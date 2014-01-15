@@ -20,7 +20,7 @@ To display recordings by group, first get the list of groups using **/LiveTv/Rec
 Recordings can be queried using **/LiveTv/Recordings**. Some of the available query params are:
 
 * ChannelId
-* IsRecording (active recordings)
+* IsInProgress
 * GroupId
 * SeriesTimerId
 
