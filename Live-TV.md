@@ -31,7 +31,7 @@ Most of the data attached to recordings is self-explanatory and will not be reha
 
 * Status, StatusName - The recording status. StatusName is a displayable value.
 * CompletionPercentage - Only applicable if in progress.
-* Path - The physical path to the recording file. Some clients may prefer to play the file directly.
+* Path - The physical path to the recording file (if available). Some clients may prefer to play the file directly.
 * MediaStreams - Only available for completed recordings.
 
 ## Name & EpisodeTitle
