@@ -17,5 +17,22 @@ To display recordings by group, first get the list of groups using **/LiveTv/Rec
 
 ### Recordings
 
-Recordings can be queried using **/LiveTv/Recordings**.
+Recordings can be queried using **/LiveTv/Recordings**. Some of the available query params are:
 
+* ChannelId
+* IsRecording (active recordings)
+* GroupId
+* SeriesTimerId
+
+
+### Recording Info
+
+Most of the data attached to recordings is self-explanatory and will not be rehashed here. They are very similar to library items. Only the properties requiring explanation are listed below.
+
+* Status, StatusName - The recording status. StatusName is a displayable value.
+* CompletionPercentage - Only applicable if in progress.
+* Path - The physical path to the recording file. Some clients may prefer to play the file directly.
+* MediaStreams - Only available for completed recordings.
+
+## Name & EpisodeTitle
+For programs, recordings and timers that are part of a series, **Name will always equal the series name**, while EpisodeTitle is the title of the episode. Please note that **episode title will not always be available**.
