@@ -1,4 +1,6 @@
-Begin live tv support by making a call to **/LiveTv/Info**. The ActiveServiceName will tell you if there is a live tv service plugin installed on the server.
+Begin live tv support by making a call to **/LiveTv/Info**. 
+
+The IsEnabled property will tell you if Live Tv is installed and enabled on the server. The EnabledUsers property contains a list of user id's that have access to live tv.
 
 ### Channels
 
