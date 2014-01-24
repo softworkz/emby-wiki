@@ -41,3 +41,6 @@ For programs, recordings and timers that are part of a series, **Name will alway
 
 ## Recording Playback
 Playback should be nearly identical to library items. Clients can use the Path property to play directly, if possible, and/or examine MediaStreams to determine the ideal streaming method.
+
+## Timers
+A timer represents a single scheduled recording in the future. Timers can be queried using **/LiveTv/Timers**. If desired they can be filtered based on **ChannelId** or **SeriesTimerId**. A single time can be retrieved by Id using **/LiveTv/Timers/{Id}**. 
