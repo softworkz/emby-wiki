@@ -45,4 +45,4 @@ Playback should be nearly identical to library items. Clients can use the Path p
 ## Timers
 A timer represents a single scheduled recording in the future. Timers can be queried using **/LiveTv/Timers**. If desired they can be filtered based on **ChannelId** or **SeriesTimerId**. A single time can be retrieved by Id using **/LiveTv/Timers/{Id}**. 
 
-To schedule a new timer, first make a call to **/LiveTv/Timers/Defaults**. This will return a default timer object. If the timer is based on a program, pass **ProgramId** on the query string. The default timer will be populated with default times and padding values based on configuration. To create or update a timer, POST to **/LiveTv/Timers** or **/LiveTv/Timers/{Id}**.
+To schedule a new timer, first make a call to **/LiveTv/Timers/Defaults**. This will return a default timer object. If the timer is based on a program, pass **ProgramId** on the query string. The default timer will be populated with default times and padding values based on configuration. To create or update a timer, POST the object to **/LiveTv/Timers** or **/LiveTv/Timers/{Id}**.
