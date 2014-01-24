@@ -1,3 +1,5 @@
+This document will cover the core concepts of the Live Tv api but will not rehash each individual parameter. Developers should read this documentation along with testing it out in Swagger. 
+
 Begin live tv support by making a call to **/LiveTv/Info**. 
 
 The IsEnabled property will tell you if Live Tv is installed and enabled on the server. The EnabledUsers property contains a list of user id's that have access to live tv.
