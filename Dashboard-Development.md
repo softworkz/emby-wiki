@@ -13,6 +13,7 @@ You may choose to set the **DashboardSourcePath** configuration setting to your 
 
 You'll also want to set **EnableDashboardResponseCaching** to false. Without this you'll have to clear your browser cache in between testing changes.
 
+These changes should be made in the `ProgramData-Server/config/system.xml` file. This folder can be found in the root solution folder.
 
 ## Installed Server
 If you don't have visual studio, you can still work with the dashboard.
