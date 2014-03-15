@@ -176,7 +176,7 @@ The Xbmc media stub feature is also supported, using the .disc file extension. D
 
 <pre>/Movies
    /Home Alone (1990)
-     /Home Alone (1990).disc
+     /Home Alone (1990).dvd.disc
 </pre>
 
 To denote a dummy video as bluray, dvd or hddvd, have the filename end in .bluray.disc, .dvd.disc, or .hddvd.disc.
