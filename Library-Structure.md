@@ -9,7 +9,6 @@ Contents:
 * Theme Songs
 * Theme Videos
 * Excluding folders
-* Shortcut files
 
 ## Movies
 
@@ -90,36 +89,6 @@ Multi-disc movie:
 </pre>
 
 Please note that at this time, each part will have to be played individually. Displayed metadata will be based on information from the first part, and the additional parts will be made playable through a menu.
-
-
-#### Box Sets
-
-Movies can be grouped together into box sets.
-
-<pre>/Movies
-   /Lord of the Rings[boxset]
-      /The Lord of the Rings - The Fellowship of The Ring
-      /The Lord of the Rings - The Two Towers
-      /The Lord of the Rings - The Return of The King
-</pre>
-
-In order to be detected as a boxset, the folder must have [boxset] within the name, or a collection.xml metadata file within it.
-
-In addition to movies within the boxset folder, movies can also be added from elsewhere in the library using shortcut files (.lnk). Simply place a shortcut file that points to the movie folder within the boxset folder. **The path being pointed to from the shortcut must also exist in the library, using exactly the same path**. It is simply a link to a pre-existing library item.
-
-**Shortcut example**:
-
-<pre>
-/Movies
-   /Home Alone (1990)
-     /Home Alone (1990).mkv
-
-/Boxsets
-   /Home Alone Collection [boxset]
-     /homealone.lnk (points to /Home Alone (1990) folder)
-</pre>
-
-If Home Alone was added to the library as \\my-server\movies\Home Alone (1990), then **the path contained in the shortcut must point to** \\my-server\movies\Home Alone (1990), and not D:\Movies\Home Alone (1990)
 
 ####Special Features
 
@@ -356,22 +325,3 @@ To exclude a folder from Media Browser , simply mark it hidden, or place a file 
 ##Don't Fetch MetaData For An Item
 
 To stop Media Browser from attempting to fetch metadata for any particular item you can uncheck the check box "Enable internet metadata providers for this item." In the Metadata Settings for the item in the Metadata Manager.
-
-## Shortcut Files
-
-Custom folders can be created containing shortcut files to media already existing in the library. For example, you may have an "All Movies" folder, as well as a "Kids Movies" folder. By placing a shortcut file within kids movies, it is possible add links to movies already in the library.
-
-**The path being pointed to from the shortcut must also exist in the library, using exactly the same path**. It is simply a link to a pre-existing library item.
-
-**Shortcut example**:
-
-<pre>
-/All Movies
-   /Home Alone (1990)
-     /Home Alone (1990).mkv
-
-/Kids Movies
-   /homealone.lnk (points to /Home Alone (1990) folder)
-</pre>
-
-If Home Alone was added to the library as \\my-server\movies\Home Alone (1990), then **the path contained in the shortcut must point to** \\my-server\movies\Home Alone (1990), and not D:\Movies\Home Alone (1990)
