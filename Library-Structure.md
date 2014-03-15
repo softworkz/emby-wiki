@@ -2,6 +2,7 @@ Contents:
 
 * Movies
 * TV Series
+* Media Stubs
 * Music
 * Images
 * Subtitles
@@ -169,6 +170,17 @@ _For all these examples the episode is detected as episode #2 and episode #3_
 
 Iso files are accepted in place of video files, using the same naming convention.
 
+## Media Stubs
+
+The Xbmc media stub feature is also supported, using the .disc file extension. Dummy videos can created, e.g. Movies, Episodes, etc.
+
+<pre>/Movies
+   /Home Alone (1990)
+     /Home Alone (1990).disc
+</pre>
+
+To denote a dummy video as bluray, dvd or hddvd, have the filename end in .bluray.disc, .dvd.disc, or .hddvd.disc.
+
 ## Music 
 
 The recommended folder structure for music is Artist\Album\Song
@@ -320,8 +332,4 @@ Any folder (movie, season, series, box set, game, etc) can have theme videos usi
 
 ## Excluding Folders
 
-To exclude a folder from Media Browser , simply mark it hidden, or place a file inside named .ignore.
-
-##Don't Fetch MetaData For An Item
-
-To stop Media Browser from attempting to fetch metadata for any particular item you can uncheck the check box "Enable internet metadata providers for this item." In the Metadata Settings for the item in the Metadata Manager.
+To exclude a folder from Media Browser, simply mark it hidden, or place a file inside named .ignore.
