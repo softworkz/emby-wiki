@@ -52,13 +52,13 @@ The following commands are available:
 
 The following commands are available:
 
-* /Sessions/{Id}/System/GoHome
-* /Sessions/{Id}/System/GoToSettings
-* /Sessions/{Id}/System/Mute
-* /Sessions/{Id}/System/Unmute
-* /Sessions/{Id}/System/ToggleMute
-* /Sessions/{Id}/System/VolumeUp
-* /Sessions/{Id}/System/VolumeDown
+* /Sessions/{Id}/Command/GoHome
+* /Sessions/{Id}/Command/GoToSettings
+* /Sessions/{Id}/Command/Mute
+* /Sessions/{Id}/Command/Unmute
+* /Sessions/{Id}/Command/ToggleMute
+* /Sessions/{Id}/Command/VolumeUp
+* /Sessions/{Id}/Command/VolumeDown
 
 ###Sending a message command
 
