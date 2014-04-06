@@ -104,17 +104,17 @@ Adjust the intervals as desired, but **make sure to send a message using Message
 Playback check-ins can also be sent over the web socket, allowing the client to send them more often due to the reduced overhead.
 
 #### Playback start
-MessageType = "PlaybackStart", Data="itemId|CanSeek|QueueableMediaTypes"
+MessageType = "PlaybackStart", Data="itemId|CanSeek|QueueableMediaTypes|MediaSourceId|AudioStreamIndex|SubtitleStreamIndex"
 
 For example: Data="itemId|true|audio,video"
 
 #### Playback progress
-MessageType = "PlaybackProgress", Data="itemId|positionTicks|isPaused|isMuted"
+MessageType = "PlaybackProgress", Data="itemId|positionTicks|isPaused|isMuted|MediaSourceId|AudioStreamIndex|SubtitleStreamIndex"
 
 For example, Data = "itemId|1000000|false|true". Position ticks must be part of the value, but empty is ok if it cannot be determined, e.g. "itemId||false|true".
 
 #### Playback stopped
-MessageType = "PlaybackStopped", Data="itemId|positionTicks"
+MessageType = "PlaybackStopped", Data="itemId|positionTicks|MediaSourceId"
 
 ## Context messages
 As the user browses around you may send context messages to the server to let it know where the user is. The format is MessageType="Context", Data= "ItemType|ItemId|ItemName|context".
