@@ -4,12 +4,14 @@ When a client is ready to start media playback, there are three API methods that
 
 To let the server know playback started, make an HTTP POST call to /Users/{UserId}/PlayingItems/{Id}
 
-**UserId** and **Id** are required values.
+**UserId**, **MediaSourceId** and **Id** are required values.
 
 Optional values:
 
 * CanSeek (**true**/false). This indicates to the server if the player is seekable
 * QueueableMediaTypes (audio,video,book,game). This is a comma-delimited list of media types that are supported for queuing.
+* AudioStreamIndex
+* SubtitleStreamIndex
 
 Once this API call is made, the server dashboard will show the current item that the user is watching.
 
@@ -17,7 +19,7 @@ Once this API call is made, the server dashboard will show the current item that
 
 To report progress make an HTTP POST call to /Users/{UserId}/PlayingItems/{Id}/Progress
 
-**UserId** and **Id** are required values.
+**UserId**, **MediaSourceId** and **Id** are required values.
 
 If the client media player has the current position available, then the **PositionTicks** argument should be added to the URL. 1 tick = 10,000 ms. 
 
@@ -32,7 +34,7 @@ Playback progress should be reported as often as is reasonable based on the devi
 
 Once playback is stopped, make a call using the HTTP DELETE method to /Users/{UserId}/PlayingItems/{Id}
 
-**UserId** and **Id** are required values.
+**UserId**, **MediaSourceId** and **Id** are required values.
 
 As with Playback Progress, you should add the **PositionTicks** argument to this API call.
 
