@@ -109,7 +109,9 @@ MessageType = "PlaybackStart", Data="itemId|CanSeek|QueueableMediaTypes|MediaSou
 For example: Data="itemId|true|audio,video"
 
 #### Playback progress
-MessageType = "PlaybackProgress", Data="itemId|positionTicks|isPaused|isMuted|MediaSourceId|AudioStreamIndex|SubtitleStreamIndex"
+MessageType = "PlaybackProgress", Data="itemId|positionTicks|isPaused|isMuted|volumeLevel|MediaSourceId|AudioStreamIndex|SubtitleStreamIndex"
+
+volumeLevel is on a scale of 0-100.
 
 For example, Data = "itemId|1000000|false|true". Position ticks must be part of the value, but empty is ok if it cannot be determined, e.g. "itemId||false|true".
 
