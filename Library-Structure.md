@@ -50,6 +50,18 @@ Examples:
      /BDMV
 </pre>
 
+#### Multi-resolution movies
+
+Multiple resolutions of the same content can be stored in a single movie folder.
+
+<pre>/Movies
+   /300
+     /300 - 1080p.mkv
+     /300 - 720p.mkv
+</pre>
+
+Each version must begin with the folder name, followed by " - ". If this requirement is not met, they will be treated as separate videos. Alternatively they can be grouped together manually using the server's web interface.
+
 #### Multi-file and multi-disc movies
 
 Multi-file and multi-disc movies are supported. The movie must have it's own folder containing all parts of the movie. Additionally, each video file or folder must be suffixed using one of the following conventions:
