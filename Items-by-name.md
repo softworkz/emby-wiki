@@ -22,20 +22,7 @@ This will return an item with identical structure to normal library items. UserI
 
 ## Images
 
-The image endpoint locations are different from media items, but function identically:
-
-* /Artists/{Name}/Images/{Type}
-* /Artists/{Name}/Images/{Type}/{Index}
-* /Genres/{Name}/Images/{Type}
-* /Genres/{Name}/Images/{Type}/{Index}
-* /GameGenres/{Name}/Images/{Type}
-* /GameGenres/{Name}/Images/{Type}/{Index}
-* /MusicGenres/{Name}/Images/{Type}
-* /MusicGenres/{Name}/Images/{Type}/{Index}
-* /Persons/{Name}/Images/{Type}
-* /Persons/{Name}/Images/{Type}/{Index}
-* /Studios/{Name}/Images/{Type}
-* /Studios/{Name}/Images/{Type}/{Index}
+Images can be retrieved in the same fashion as media items using the object Id's.
 
 ## Querying for items by name
 
