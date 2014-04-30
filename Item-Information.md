@@ -84,8 +84,11 @@ This indicates if the item is a file system item, remote, or virtual.
 
 FileSystem items are items the user has physical copies of on their file system. Remote items point to a url address. Virtual items entirely virtual and are not playable (e.g. missing episodes).
 
+### MediaSources
+Contains raw media information about the available media sources for this library item.
+
 ### MediaStreams
-This is applicable to Audio and Video only. This will provide detailed information about the audio, video and subtitle tracks embedded within the file.
+This is applicable to Audio and Video only. This will provide detailed information about the audio, video and subtitle tracks embedded within the file. **Note:** This has now been superseded by MediaSources. Going forward MediaStreams should only be used for display purposes.
 
 ### OfficialRating
 G, PG-13, R, TV-MA, etc.
