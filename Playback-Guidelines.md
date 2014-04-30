@@ -1,7 +1,19 @@
 This info applies to both audio and video playback.
 
 ## MediaSources
-The first step towards playing content is to examine the MediaSources property. The server allows multiple sources for a single content item, so it is up to the client to choose the optimal source.
+The first step towards playing content is to examine the MediaSources property. The server allows multiple sources for a single content item, so it is up to the client to choose the optimal source. 
+
+Each MediaSource has the following properties that can be examined:
+
+* Bitrate (represents the total file bitrate)
+* Container (mkv, mp4, etc)
+* LocationType (FileSystem, Remote, etc)
+* MediaStreams
+* Path
+* Size (in bytes)
+* VideoType (VideoFile, Dvd, etc)
+
+The following is the algorithm to determine the optimal MediaSource:
 
 ## Direct Play
 If the client device is capable of playing the file without encoding, and if the device has direct access to the media over the network, it is recommended to bypass the server altogether and just play the file directly. This will spare the server's cpu and generally will result in the best possible performance. You should examine media info to help make this determination.
