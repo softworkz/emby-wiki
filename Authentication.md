@@ -6,7 +6,7 @@ Media Browser libraries are user-based, so the first step in the client workflow
 
 * Depending on the results, you should either display the users visually, or present a traditional username/password text entry form.
 
-* **Only display the users visually if at least one public user is returned, and configuration.ManualLoginClients does not have an entry pertaining to your client**. Current values are Mobile, MediaBrowserTheater, and Roku.
+* **Only display the users visually if at least one public user is returned, and configuration.RequireManualLoginForMobileApps is false or configuration.RequireManualLoginForOtherApps is false (depending on your app). 
 
 * The HasPassword property will indicate if a user has a password that requires entry, but always display the password field on a manual entry form.
 
@@ -36,6 +36,7 @@ Add the following request header on every request:
 The dashboard currently displays customized icons for the following clients:
 
 * Android
+* Chromecast
 * Dashboard
 * Dlna
 * iOS
@@ -44,3 +45,4 @@ The dashboard currently displays customized icons for the following clients:
 * Roku
 * Windows Phone
 * Windows RT
+* Xbmc
