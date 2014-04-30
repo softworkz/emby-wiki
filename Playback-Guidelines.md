@@ -12,6 +12,7 @@ Each MediaSource has the following properties that can be examined:
 * MediaStreams
 * Name
 * Path
+* RunTimeTicks
 * Size (in bytes)
 * VideoType (VideoFile, Dvd, Iso, Bluray)
 
