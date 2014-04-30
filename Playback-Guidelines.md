@@ -32,10 +32,10 @@ Using the above information, determine the number of MediaSources that can be **
 * If multiple, present a selection screen
 
 ### Step 2: Direct Stream
-Using the above information, determine the number of MediaSources that can be **direct played**.
-* If none, proceed to step 2
-* If one, play that source
-* If multiple, present a selection screen
 
-## Seeking
-Client-side seeking will not be available when transcoding. In order to seek you'll have to stop the stream and start a new one using the StartTimeTicks parameter. When direct streaming, the file will be served statically and client-side seeking will be possible.
+Given the following criteria:
+* User defined max bitrate (quality setting)
+
+Find the first MediaSource that can the client is capable of direct streaming. All MediaSource properties will need to be examined in order to make this determination based on client capabilities.
+
+If one is found, play that source. If none, proceed to step 3.
