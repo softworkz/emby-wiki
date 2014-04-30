@@ -22,3 +22,8 @@ Game is a media item and GameSystem is folder containing games.
 
 ### Book
 A media item that represents a book.
+
+## Type Detection
+Try to avoid this as much as possible and instead look at the properties of the item to determine your courses of action. This will allow your code to continue to function as new types are added.
+
+Basic media types are Audio, Video, Game, Book and Photo. Checking item.MediaType is preferred over item.Type when basic media information is all that's needed.
