@@ -15,5 +15,8 @@ Item **Id** and **MediaSourceId** are the only required parameters.
 
 All of the optional parameters can be viewed using the swagger documentation. 
 
+## Direct Stream
+To direct stream an audio file, simply use the static=true parameter.
+
 ## Seeking
 When direct streaming, the file will be served statically and client-side seeking will be possible. When transcoding, this will not be possible. In order to seek you'll have to stop the stream and start a new one using the StartTimeTicks parameter. 
