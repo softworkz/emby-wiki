@@ -59,5 +59,3 @@ Each artist, genre, studio, person, etc, will have the following additional prop
 * SongCount
 * AlbumCount
 * MusicVideoCount
-
-These count properties are all available as sort orders, as well.
