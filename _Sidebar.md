@@ -17,10 +17,10 @@
 * [Live TV](https://github.com/MediaBrowser/MediaBrowser/wiki/Live-TV)
 
 ### Media Streaming
+* [Playback guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Guidelines)
 * [Audio streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
 * [Video streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Video-Streaming)
 * [Http live streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Http-Live-Streaming)
-* [Playback guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Guidelines)
 * [Playback check-ins](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Check-ins)
 
 ### Server Plugin Development
