@@ -1,7 +1,7 @@
 This info applies to both audio and video playback.
 
 ## MediaSources
-The first step towards playing content is to examine the MediaSources property. The server allows multiple sources for a single content item, so it is up to the client to choose the optimal source. 
+The first step towards playing content is to examine the MediaSources property. The server allows multiple sources for a single content item. It is up to the client to choose the optimal source based on it's own requirements. 
 
 Each MediaSource has the following properties that can be examined:
 
