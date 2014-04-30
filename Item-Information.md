@@ -90,14 +90,8 @@ This is applicable to Audio and Video only. This will provide detailed informati
 ### OfficialRating
 G, PG-13, R, TV-MA, etc.
 
-### OriginalRunTimeTicks
-Contains the runtime of the original work (Movie, Episode, etc). RunTimeTicks on the other hand is the runtime of the user's actual file.
-
 ### OverviewHtml
 An html version of the overview, possibly with links embedded.
-
-### IsOnTour
-This is for Artists and indicates if they are currently on tour.
 
 ### ParentIndexNumber
 Similiar to IndexNumber, this serves different purposes depending on the type of item. For episodes this is the season number. For audio files, this is the disc number.
@@ -142,9 +136,6 @@ For folders, this indicates the number of unplayed items available, recursively.
 
 ### SeriesId, SeriesName
 These properties are applicable only to Episodes and Seasons. This will give you some basic information about the TV Series.
-
-### SoundtrackIds
-For Movies, Games and Series. It is a list of album id's in case you want to display the soundtracks. For MusicAlbums, it is the opposite, it is the list of items that the album is the soundtrack for.
 
 ### SpecialFeatureCount
 This is applicable to Movies and Series only. This will tell you how many special features are available. The actual special feature items can then be retrieved using /Users/{UserId}/Items/{Id}/SpecialFeatures.
