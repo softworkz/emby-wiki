@@ -21,7 +21,6 @@ The following values should be included within post data:
 * ItemId - The id of the item to browse to
 * ItemName - The name of the item to browse to
 * ItemType - The type of the item to browse to
-* Context (optional). movies, tv, music, games. Clients may choose to ignore this.
 
 ###Sending a play command
 
