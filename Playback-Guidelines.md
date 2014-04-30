@@ -26,7 +26,8 @@ Before we discuss the algorithm to examine MediaSources, let us first define a f
 The following is the algorithm to determine the optimal MediaSource:
 
 ### Step 1: Direct Play
-Using the above information, determine the number of MediaSources that can be **direct played**.
+Clients that never direct play may skip this step. Using the above information, determine the number of MediaSources that can be **direct played**.
+
 * If none, proceed to step 2
 * If one, play that source
 * If multiple, present a selection screen
@@ -36,6 +37,16 @@ Using the above information, determine the number of MediaSources that can be **
 Given the following criteria:
 * User defined max bitrate (quality setting)
 
-Find the first MediaSource that can the client is capable of direct streaming. All MediaSource properties will need to be examined in order to make this determination based on client capabilities.
+Find the first MediaSource that can the client is capable of direct streaming that falls within the bitrate setting. All MediaSource properties will need to be examined in order to make this determination based on client capabilities.
 
-If one is found, play that source. If none, proceed to step 3.
+If any are found, play the first matching source. If none, proceed to step 3.
+
+### Step 2: Transcoding
+
+If transcoding is needed, the first step is to determine the optimal source.
+
+**For Audio**: Simply take the first MediaSource
+
+**For Video**: Choose the first MediaSource containing a VideoCodec the client natively understands (usually h264). This will make the transcoding process more efficient. If none are found, simply take the first MediaSource.
+
+Once the MediaSource is chosen, it is time to proceed to the streaming phase. See the articles on Audio streaming, Video streaming and Http Live streaming.
