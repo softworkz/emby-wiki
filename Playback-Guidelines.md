@@ -53,3 +53,7 @@ If transcoding is needed, the first step is to determine the optimal source.
 **For Video**: Choose the first MediaSource containing a VideoCodec the client natively understands (usually h264). This will make the transcoding process more efficient. If none are found, simply take the first MediaSource.
 
 Once the MediaSource is chosen, it is time to proceed to the streaming phase. See the articles on Audio streaming, Video streaming and Http Live streaming.
+
+## MediaSource Runtime
+
+If using the metadata runtime within the application's media player, make sure to use the runtime value from the MediaSource and not the containing item. Each MediaSource may have slightly different runtimes.
