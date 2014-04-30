@@ -21,6 +21,8 @@ Before we discuss the algorithm to examine MediaSources, let us first define a f
 
 **Transcode** - The client streams the file from the server with encoding applied in order to convert it to a format that it can understand.
 
+
+## MediaSource choice:
 The following is the algorithm to determine the optimal MediaSource:
 
 ### Step 1: Direct Play
