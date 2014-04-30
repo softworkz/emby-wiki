@@ -7,8 +7,10 @@ Each MediaSource has the following properties that can be examined:
 
 * Bitrate (represents the total file bitrate)
 * Container (mkv, mp4, etc)
+* Id
 * LocationType (FileSystem, Remote, etc)
 * MediaStreams
+* Name
 * Path
 * Size (in bytes)
 * VideoType (VideoFile, Dvd, Iso, Bluray)
@@ -30,7 +32,7 @@ Clients that never direct play may skip this step. Using the above information, 
 
 * If none, proceed to step 2
 * If one, play that source
-* If multiple, present a selection screen
+* If multiple, present a selection screen, using MediaSource.Name as the display name.
 
 ### Step 2: Direct Stream
 
