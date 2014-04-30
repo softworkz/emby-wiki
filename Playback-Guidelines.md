@@ -13,6 +13,12 @@ Each MediaSource has the following properties that can be examined:
 * Size (in bytes)
 * VideoType (VideoFile, Dvd, etc)
 
+Before we discuss the algorithm to examine MediaSources, let us first define a few terms:
+
+**Direct Play** - The client plays the file by accessing the file system directly using the Path property. The server is bypassed with this mechanism. Whenever possible this is the most desirable form of playback.
+
+**Direct Stream** - The client streams the file from the server **as-is**, in it's original format, without any encoding or remuxing applied. Aside from Direct Play, this is the next most desirable playback method.
+
 The following is the algorithm to determine the optimal MediaSource:
 
 ## Direct Play
@@ -24,10 +30,5 @@ If the client device is capable of playing the file without encoding, it is reco
 
 With direct streaming, it is also recommended to use either a file extension that matches the original file, or use the alias with no extension.
 
-## Encoding
-If none of these options apply, then the server's encoding features should be utilized. Please see the encoding articles for details.
-
 ## Seeking
 Client-side seeking will not be available when transcoding. In order to seek you'll have to stop the stream and start a new one using the StartTimeTicks parameter. When direct streaming, the file will be served statically and client-side seeking will be possible.
-
-Note that the server caches transcoding output if the process completes before playback is stopped. This will allow the output to be served statically the next time the item is played.
