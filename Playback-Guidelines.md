@@ -11,7 +11,7 @@ Each MediaSource has the following properties that can be examined:
 * MediaStreams
 * Path
 * Size (in bytes)
-* VideoType (VideoFile, Dvd, etc)
+* VideoType (VideoFile, Dvd, Iso, Bluray)
 
 Before we discuss the algorithm to examine MediaSources, let us first define a few terms:
 
@@ -23,6 +23,8 @@ Before we discuss the algorithm to examine MediaSources, let us first define a f
 
 The following is the algorithm to determine the optimal MediaSource:
 
+### Step 1: Direct Play
+ff
 
 ## Seeking
 Client-side seeking will not be available when transcoding. In order to seek you'll have to stop the stream and start a new one using the StartTimeTicks parameter. When direct streaming, the file will be served statically and client-side seeking will be possible.
