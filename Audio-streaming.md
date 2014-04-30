@@ -9,6 +9,8 @@ The base audio url is /Audio/{Id}/stream. Some players will have better results 
 * /Audio/{Id}/stream.wma
 * /Audio/{Id}/stream.flac
 
+If using a url with an extension, the extension **should be based upon the output format**, rather than the input.
+
 Generally, it is recommend to use a url with a file extension that matches the format you wish to encode to as many players will perform better seeing the file extension in the url.
 
 Item **Id** and **MediaSourceId** are the only required parameters.
