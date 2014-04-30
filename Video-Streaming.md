@@ -14,22 +14,14 @@ The base video url is /Video/{Id}/stream. Some players will have better results 
 * /Videos/{Id}/stream.avi
 * /Videos/{Id}/stream.m2ts
 
-Generally, it is recommend to use a url with a file extension that matches the format you wish to encode to.
+Generally, it is recommend to use a url with a file extension that matches the format you wish to encode to as many players will perform better seeing the file extension in the url.
 
-Item Id is the only required parameter.
+Item **Id** and **MediaSourceId** are the only required parameters.
 
-All of the optional parameters can be viewed using the swagger documentation. If you are using a url without a file extension, then you must supply both VideoCodec, and AudioCodec or you'll receive an error.
+All of the optional parameters can be viewed using the swagger documentation. 
 
-## Formats
-Unlike audio, some of these formats have limitations that prevent them from being practical for encoding. If you are encoding, you **must** choose one of these aliases:
+## Direct Stream
+To direct stream a video file, simply use the static=true parameter.
 
-* /Videos/{Id}/stream
-* /Videos/{Id}/stream.mp4
-* /Videos/{Id}/stream.asf
-* /Videos/{Id}/stream.ogv
-* /Videos/{Id}/stream.ts
-* /Videos/{Id}/stream.webm
-
-Even though the server is capable of encoding to all of the formats listed at the beginning, most clients are not able to play them until the transcoding completes. In order to solve this, **you must choose mp4, asf, ogv, ts, or webm**. Mp4 should generally be the starting point, as that will support H264.
-
-When direct streaming this limitation does not apply.
+## Seeking
+When direct streaming, the file will be served statically and client-side seeking will be possible. When transcoding, this will not be possible. In order to seek you'll have to stop the stream and start a new one using the StartTimeTicks parameter. 
