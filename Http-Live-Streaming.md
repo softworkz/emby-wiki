@@ -4,6 +4,12 @@ The url is:
 
 * /Videos/{Id}/stream.m3u8
 
+The required paramaters are:
+
+* Id (in path)
+* MediaSourceId
+* DeviceId
+
 For a complete list or parameters, see the built-in documentation.
 
 ## Baseline Stream
