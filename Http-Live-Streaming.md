@@ -10,7 +10,7 @@ The required paramaters are:
 * MediaSourceId
 * DeviceId
 
-For a complete list or parameters, see the built-in documentation.
+For a complete list of parameters, see the built-in documentation.
 
 ## Baseline Stream
 
