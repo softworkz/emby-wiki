@@ -22,22 +22,21 @@ Once this API call is made, the server dashboard will show the current item that
 
 ### ItemId vs Item
 
-### Item Properties
-
-Name (string),
-MediaType (string - Audio, Video, Book, Game),
-RunTimeTicks (long, optional),
-PremiereDate (Date, optional),
-ProductionYear (int, optional),
-IndexNumber (int, optional),
-IndexNumberEnd (int, optional),
-ParentIndexNumber (int, optional),
-SeriesName (string),
-Album (string),
-Artists (Array[string])
-
 If the user is playing a server library item, simply supply the ItemId property and omit Item. If the user is playing content that is not part of the server library, it can still be reported by supplying an object containing information describing the media.
 
+### Item Properties
+
+* Name (string),
+* MediaType (string - Audio, Video, Book, Game),
+* RunTimeTicks (long, optional),
+* PremiereDate (Date, optional),
+* ProductionYear (int, optional),
+* IndexNumber (int, optional),
+* IndexNumberEnd (int, optional),
+* ParentIndexNumber (int, optional),
+* SeriesName (string),
+* Album (string),
+* Artists (Array[string])
 
 ## Playback Progress
 
