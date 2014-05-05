@@ -8,8 +8,7 @@ The body of the request should be a JSON object with the following properties (w
 
 * QueueableMediaTypes (Array[string] - Audio,Video),
 * CanSeek (boolean),
-* Item (BaseItemInfo),
-* ItemId (string),
+* ItemId (string) or Item {object},
 * MediaSourceId (string),
 * AudioStreamIndex (int, optional),
 * SubtitleStreamIndex (int, optional),
@@ -21,21 +20,15 @@ The body of the request should be a JSON object with the following properties (w
 
 Once this API call is made, the server dashboard will show the current item that the user is watching.
 
+### ItemId vs Item
+
+If the user is playing a server library item, simply supply the ItemId property and omit Item. If the user is playing content that is not part of the server library, it can still be reported by supplying an object containing information describing the media.
+
 ## Playback Progress
 
-To report progress make an HTTP POST call to /Users/{UserId}/PlayingItems/{Id}/Progress
+To report progress make an HTTP POST call to /Sessions/Playing/Progress
 
-**UserId**, **MediaSourceId** and **Id** are required values.
-
-If the client media player has the current position available, then the **PositionTicks** argument should be added to the URL. 1 tick = 10,000 ms. 
-
-Optional values:
-
-* IsPaused
-* IsMuted
-* VolumeLevel (0-100)
-* AudioStreamIndex
-* SubtitleStreamIndex
+The contents of the request are identical to the playback start message.
 
 Playback progress should be reported as often as is reasonable based on the device and connection to the server. The server dashboard will show a users current activity for several minutes after each progress update, so it's best to not let too much time pass between updates.  
 
