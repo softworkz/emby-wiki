@@ -6,18 +6,18 @@ To let the server know playback started, make an HTTP POST call to /Sessions/Pla
 
 The body of the request should be a JSON object with the following properties (when if available)
 
-QueueableMediaTypes (Array[string] - Audio,Video),
-CanSeek (boolean),
-Item (BaseItemInfo),
-ItemId (string),
-MediaSourceId (string),
-AudioStreamIndex (int, optional),
-SubtitleStreamIndex (int, optional),
-IsPaused (boolean),
-IsMuted (boolean),
-PositionTicks (long, optional),
-VolumeLevel (int, optional 0-100),
-PlayMethod (string) = ['Transcode' or 'DirectStream' or 'DirectPlay']
+* QueueableMediaTypes (Array[string] - Audio,Video),
+* CanSeek (boolean),
+* Item (BaseItemInfo),
+* ItemId (string),
+* MediaSourceId (string),
+* AudioStreamIndex (int, optional),
+* SubtitleStreamIndex (int, optional),
+* IsPaused (boolean),
+* IsMuted (boolean),
+* PositionTicks (long, optional),
+* VolumeLevel (int, optional 0-100),
+* PlayMethod (string) = ['Transcode' or 'DirectStream' or 'DirectPlay']
 
 Once this API call is made, the server dashboard will show the current item that the user is watching.
 
