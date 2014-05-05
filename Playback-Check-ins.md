@@ -54,6 +54,16 @@ Once playback is stopped, make an HTTP POST call to **/Sessions/Playing/Stopped*
 
 The contents of the request are identical to the playback start message.
 
+## Web Socket
+
+For improved performance, these messages can also be sent to the server via the web socket connection. The structure of the messages are as follows:
+
+* {MessageType: "ReportPlaybackStart", Data: {...}}
+* {MessageType: "ReportPlaybackProgress", Data: {...}}
+* {MessageType: "ReportPlaybackStopped", Data: {...}}
+
+Where Data is an identical object to the HTTP request objects.
+
 ## Manually marking watched/unwatched
 
 An Item can be marked watched manually by sending a POST to 
