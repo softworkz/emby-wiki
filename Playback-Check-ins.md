@@ -2,9 +2,9 @@ When a client is ready to start media playback, there are three API methods that
 
 ## Playback Started
 
-To let the server know playback started, make an HTTP POST call to /Sessions/Playing
+To let the server know playback started, make an HTTP POST call to **/Sessions/Playing**
 
-The body of the request should be a JSON object with the following properties (when if available)
+The body of the request should be a JSON object with the following properties:
 
 * QueueableMediaTypes (Array[string] - Audio,Video),
 * CanSeek (boolean),
@@ -17,6 +17,8 @@ The body of the request should be a JSON object with the following properties (w
 * PositionTicks (long, optional),
 * VolumeLevel (int, optional 0-100),
 * PlayMethod (string) = ['Transcode' or 'DirectStream' or 'DirectPlay']
+
+The content type of the request should be **application/json**.
 
 Once this API call is made, the server dashboard will show the current item that the user is watching.
 
@@ -40,7 +42,7 @@ If the user is playing a server library item, simply supply the ItemId property 
 
 ## Playback Progress
 
-To report progress make an HTTP POST call to /Sessions/Playing/Progress
+To report progress make an HTTP POST call to **/Sessions/Playing/Progress**
 
 The contents of the request are identical to the playback start message.
 
