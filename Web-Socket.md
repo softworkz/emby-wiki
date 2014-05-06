@@ -103,22 +103,9 @@ Adjust the intervals as desired, but **make sure to send a message using Message
 
 Playback check-ins can also be sent over the web socket, allowing the client to send them more often due to the reduced overhead.
 
-#### Playback start
-MessageType = "PlaybackStart", Data="itemId|CanSeek|QueueableMediaTypes|MediaSourceId|AudioStreamIndex|SubtitleStreamIndex"
-
-For example: Data="itemId|true|audio,video"
-
-#### Playback progress
-MessageType = "PlaybackProgress", Data="itemId|positionTicks|isPaused|isMuted|volumeLevel|MediaSourceId|AudioStreamIndex|SubtitleStreamIndex"
-
-volumeLevel is on a scale of 0-100.
-
-For example, Data = "itemId|1000000|false|true". Position ticks must be part of the value, but empty is ok if it cannot be determined, e.g. "itemId||false|true".
-
-#### Playback stopped
-MessageType = "PlaybackStopped", Data="itemId|positionTicks|MediaSourceId"
+See the playback check-in article.
 
 ## Context messages
-As the user browses around you may send context messages to the server to let it know where the user is. The format is MessageType="Context", Data= "ItemType|ItemId|ItemName|context".
+As the user browses around you may send context messages to the server to let it know where the user is. The format is MessageType="Context", Data= "ItemType|ItemId|ItemName".
 
-All values must be present, but empty values are ok. The context argument refers to the section of the ui being viewed, e.g. movies, tv, games, music, etc. This can also be empty if using a generic presentation.
+All values must be present, but empty values are ok.
