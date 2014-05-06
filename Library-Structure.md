@@ -105,12 +105,12 @@ Please note that at this time, each part will have to be played individually. Di
 
 ####Special Features
 
-Special features for movies can be stored in a specials folder under movie folders. **Nested folders are not supported**.
+Special features for movies can be stored in an extras folder under movie folders. **Nested folders are not supported**.
 
 <pre>/Movies
    /Home Alone (1990)
      /Home Alone (1990).mkv
-     /specials
+     /extras
          deleted-scenes.mkv
 </pre>
 
