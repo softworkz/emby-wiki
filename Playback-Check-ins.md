@@ -30,6 +30,7 @@ If the user is playing a server library item, simply supply the ItemId property 
 
 * Name (string),
 * MediaType (string - Audio, Video, Book, Game),
+* Type (string - Movie, Episode, Trailer, Video, Audio, Book, Game),
 * RunTimeTicks (long, optional),
 * PremiereDate (Date, optional),
 * ProductionYear (int, optional),
