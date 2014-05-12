@@ -128,3 +128,9 @@ Below are the list of known core command **names**, along with the list of prope
 Playback check-ins can also be sent over the web socket, allowing the client to send them more often due to the reduced overhead.
 
 See the playback check-in article.
+
+## Examples
+
+Sample code that parses web socket messages can be found here:
+
+https://github.com/MediaBrowser/MediaBrowser.ApiClient/blob/master/MediaBrowser.ApiInteraction/WebSocket/BaseApiWebSocket.cs
