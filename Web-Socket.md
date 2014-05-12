@@ -89,7 +89,7 @@ The standard web socket message format is utilized. The Data property is an obje
 * Name
 * Arguments.
 
-Below are the list of known core commands, along with the list of properties available in Arguments.
+Below are the list of known core command **names**, along with the list of properties available in Arguments.
 
 * MoveUp,
 * MoveDown,
