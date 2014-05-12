@@ -59,10 +59,7 @@ Data = the user id that has been deleted
 Data = the user object that has been updated
 
 #### NotificationAdded
-A user has marked notifications read. Presentations should refresh their notification list.
-
-#### NotificationUpdated
-A user has marked notifications read. Presentations should refresh their notification list.
+A user has new notifications. Presentations should refresh their notification list.
 
 #### NotificationsMarkedRead
 A user has marked notifications read. Presentations should refresh their notification list.
