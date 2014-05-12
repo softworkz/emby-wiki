@@ -40,11 +40,10 @@ The client name **must match** the value used in http authorization headers.
 
 Once connected and identified, you'll be able to receive the following MessageTypes from the web socket:
 
-#### ServerRestarting, ServerShuttingDown
-This will tell you when the server is restarting or shutting down.
-
-#### RestartRequired
-This indicates the server needs to be restarted. There is no data associated with this.
+#### UserDataChanged
+A user changed their personal rating for an item, or their playstate was updated. Data = a json object with the following properties:
+* UserId
+* UserDataList - a list of updated user data objects
 
 #### UserDeleted
 Data = the user id that has been deleted
@@ -52,10 +51,15 @@ Data = the user id that has been deleted
 #### UserUpdated
 Data = the user object that has been updated
 
-#### UserDataChanged
-A user changed their personal rating for an item, or their playstate was updated. Data = a json object with the following properties:
-* UserId
-* UserDataList - a list of updated user data objects
+#### NotificationAdded
+#### NotificationUpdated
+#### NotificationsMarkedRead
+
+#### RestartRequired
+This indicates the server needs to be restarted. There is no data associated with this.
+
+#### ServerRestarting, ServerShuttingDown
+This will tell you when the server is restarting or shutting down.
 
 #### Play
 A remote control play command has been sent from the server. Data = a json object with the following properties:
@@ -67,10 +71,6 @@ A remote control play command has been sent from the server. Data = a json objec
 A remote control update playstate command has been sent from the server. Data = a json object with the following properties:
 * Command - Stop, Pause, Unpause, NextTrack, PreviousTrack, Seek
 * SeekPositionTicks - Used with the seek command.
-
-#### NotificationAdded
-#### NotificationUpdated
-#### NotificationsMarkedRead
 
 ## Playback check-ins
 
