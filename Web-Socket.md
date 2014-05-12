@@ -40,6 +40,9 @@ The client name **must match** the value used in http authorization headers.
 
 Once connected and identified, you'll be able to receive the following MessageTypes from the web socket:
 
+#### GeneralCommand
+See below section on commands.
+
 #### UserDataChanged
 A user changed their personal rating for an item, or their playstate was updated. Data = a json object with the following properties:
 * UserId
@@ -77,10 +80,48 @@ A remote control update playstate command has been sent from the server. Data = 
 * Command - Stop, Pause, Unpause, NextTrack, PreviousTrack, Seek
 * SeekPositionTicks - Used with the seek command.
 
-#### GeneralCommand
+## General Commands
 
+Most remote control commands are implemented in a pass-through fashion. That is the server simply takes the command and passes it directly to the client without modification.
 
-## Playback check-ins
+The standard web socket message format is utilized. The Data property is an object describing the remote control command. The command will have two properties:
+
+Name
+Arguments.
+
+Below are the list of known core commands, along with the list of properties available in Arguments.
+
+* MoveUp = 0,
+* MoveDown = 1,
+* MoveLeft = 2,
+* MoveRight = 3,
+* PageUp = 4,
+* PageDown = 5,
+* PreviousLetter = 6,
+* NextLetter = 7,
+* ToggleOsd = 8,
+* ToggleContextMenu = 9,
+* Select = 10,
+* Back = 11,
+* TakeScreenshot = 12,
+* SendKey = 13,
+* SendString = 14,
+* GoHome = 15,
+* GoToSettings = 16,
+* VolumeUp = 17,
+* VolumeDown = 18,
+* Mute = 19,
+* Unmute = 20,
+* ToggleMute = 21,
+* SetVolume = 22,
+* SetAudioStreamIndex = 23,
+* SetSubtitleStreamIndex = 24,
+* ToggleFullscreen = 25,
+* DisplayContent = 26,
+* GoToSearch = 27,
+* DisplayMessage = 28
+
+## Playback Check-ins
 
 Playback check-ins can also be sent over the web socket, allowing the client to send them more often due to the reduced overhead.
 
