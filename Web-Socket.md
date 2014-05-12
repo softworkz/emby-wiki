@@ -36,7 +36,7 @@ As soon as the connection is established, an identification message should be se
 
 The client name **must match** the value used in http authorization headers.
 
-After the web socket has connected, the client should report it's remote control capabilities using /Sessions/Capabilities. This should be repeated anytime the socket reconnects.
+**After the web socket has connected, the client should report it's remote control capabilities using /Sessions/Capabilities**. This should be repeated anytime the socket reconnects.
 
 ## Messages
 
