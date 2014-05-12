@@ -115,7 +115,7 @@ Below are the list of known core command **names**, along with the list of prope
 * ToggleMute,
 * SetVolume (Arguments: Volume 0-100 scale),
 * SetAudioStreamIndex = (Arguments: Index),
-* SetSubtitleStreamIndex = (Arguments: Index. Use -1 to turn off subtitles),
+* SetSubtitleStreamIndex = (Arguments: Index. If -1 turn off subtitles),
 * ToggleFullscreen ,
 * DisplayContent (Arguments: ItemName, ItemId, ItemType),
 * GoToSearch,
