@@ -15,6 +15,8 @@ Each MediaSource has the following properties that can be examined:
 * RunTimeTicks
 * Size (in bytes)
 * VideoType (VideoFile, Dvd, Iso, Bluray)
+* DefaultAudioStreamIndex
+* DefaultSubtitleStreamIndex
 
 Before we discuss the algorithm to examine MediaSources, let us first define a few terms:
 
