@@ -52,8 +52,13 @@ Data = the user id that has been deleted
 Data = the user object that has been updated
 
 #### NotificationAdded
+A user has marked notifications read. Presentations should refresh their notification list.
+
 #### NotificationUpdated
+A user has marked notifications read. Presentations should refresh their notification list.
+
 #### NotificationsMarkedRead
+A user has marked notifications read. Presentations should refresh their notification list.
 
 #### RestartRequired
 This indicates the server needs to be restarted. There is no data associated with this.
@@ -71,6 +76,9 @@ A remote control play command has been sent from the server. Data = a json objec
 A remote control update playstate command has been sent from the server. Data = a json object with the following properties:
 * Command - Stop, Pause, Unpause, NextTrack, PreviousTrack, Seek
 * SeekPositionTicks - Used with the seek command.
+
+#### GeneralCommand
+
 
 ## Playback check-ins
 
