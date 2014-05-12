@@ -86,8 +86,8 @@ Most remote control commands are implemented in a pass-through fashion. That is 
 
 The standard web socket message format is utilized. The Data property is an object describing the remote control command. The command will have two properties:
 
-Name
-Arguments.
+* Name
+* Arguments.
 
 Below are the list of known core commands, along with the list of properties available in Arguments.
 
