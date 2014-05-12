@@ -46,9 +46,6 @@ This will tell you when the server is restarting or shutting down.
 #### RestartRequired
 This indicates the server needs to be restarted. There is no data associated with this.
 
-#### LibraryChanged
-Data = A library update info structure. See [LibraryUpdateInfo.cs](https://github.com/MediaBrowser/MediaBrowser/blob/master/MediaBrowser.Model/Entities/LibraryUpdateInfo.cs)
-
 #### UserDeleted
 Data = the user id that has been deleted
 
