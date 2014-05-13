@@ -2,14 +2,6 @@ Clients can easily remote control other clients. The first step is to make a cal
 
 This will return a list of active sessions. This is testable via swagger and the properties returned should be self-explanatory, e.g. UserName, UserId, LastActivityDate, etc. 
 
-NowViewingContext is the section of the application currently being viewed. Possible values are:
-
-* movies
-* music
-* tv
-* games
-* (blank) for general and/or clients that are entirely folder-based.
-
 ###Sending a browse command
 
 You can instruct a client to browse to something by posting to the following url:
