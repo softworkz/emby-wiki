@@ -50,7 +50,7 @@ An example session is:
     "Id": "4de66e1e6b8a4cae89542dc6f7ee7623",
     "UserId": "e8837bc1ad67520e8cd2f629e3155721",
     "UserPrimaryImageTag": "605eed331af1e1a8770643ee6fd1c2b9",
-    "UserName": "Luke",
+    "UserName": "John",
     "AdditionalUsers": [],
     "ApplicationVersion": "3.0.5243.22734",
     "Client": "Media Browser Theater",
@@ -82,7 +82,6 @@ An example session is:
     "IsPaused": false,
     "IsMuted": false,
     "DeviceId": "LIVINGROOM-PC",
-    "SupportsRemoteControl": false,
     "PlayState": {
       "CanSeek": false,
       "IsPaused": false,
