@@ -1,4 +1,6 @@
-Clients can easily remote control other clients. The first step is to make a call to **/Sessions**. Add the **ControllableByUserId** param to only receive sessions that are controllable by a given user.
+Clients can easily remote control other clients. 
+
+The first step is to make a call to **/Sessions**. Add the **ControllableByUserId** param to only receive sessions that are controllable by a given user.
 
 An example session is:
 
