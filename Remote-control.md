@@ -29,12 +29,43 @@ The following commands are available:
 
 ###Sending a general command
 
-The following commands are available:
+General commands are sent using /Sessions/{Id}/Command/{CommandName}
 
-* /Sessions/{Id}/Command/GoHome
-* /Sessions/{Id}/Command/GoToSettings
-* /Sessions/{Id}/Command/Mute
-* /Sessions/{Id}/Command/Unmute
-* /Sessions/{Id}/Command/ToggleMute
-* /Sessions/{Id}/Command/VolumeUp
-* /Sessions/{Id}/Command/VolumeDown
+If arguments are required, the body of the request should be of contentType application/json and have the following structure:
+> {
+> Arguments:{
+> "Name": "Value"
+> }
+> }
+
+Below are the list of known core command **names**, along with the list of properties available in Arguments.
+
+* MoveUp,
+* MoveDown,
+* MoveLeft,
+* MoveRight,
+* PageUp,
+* PageDown,
+* PreviousLetter (scroll list to previous letter),
+* NextLetter (scroll list to next letter),
+* ToggleOsd  (show or hide video player OSD),
+* ToggleContextMenu (show or hide information relating to selected list item),
+* Select (enter),
+* Back,
+* TakeScreenshot,
+* SendKey (tbd),
+* SendString (Enter text into application - Arguments: String),
+* GoHome,
+* GoToSettings,
+* VolumeUp,
+* VolumeDown,
+* Mute,
+* Unmute,
+* ToggleMute,
+* SetVolume (Arguments: Volume 0-100 scale),
+* SetAudioStreamIndex = (Arguments: Index),
+* SetSubtitleStreamIndex = (Arguments: Index. If -1 turn off subtitles),
+* ToggleFullscreen ,
+* DisplayContent (Arguments: ItemName, ItemId, ItemType),
+* GoToSearch,
+* DisplayMessage (Arguments: Header, Text, TimeoutMs - if timeout is omitted, message should be modal)
