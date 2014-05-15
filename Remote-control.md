@@ -4,7 +4,6 @@ An example session is:
 
 ```json
   {
-    "CanSeek": false,
     "SupportedCommands": [
       "MoveUp",
       "MoveDown",
@@ -79,8 +78,6 @@ An example session is:
       "Chapters": []
     },
     "DeviceName": "LIVINGROOM-PC",
-    "IsPaused": false,
-    "IsMuted": false,
     "DeviceId": "LIVINGROOM-PC",
     "PlayState": {
       "CanSeek": false,
