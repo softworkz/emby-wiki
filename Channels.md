@@ -39,7 +39,7 @@ Use CanFilter to determine if channel content can be filtered.
 
 ## Images and Playback
 
-Channels use the same type of object structure as normal library items. As a result, images and media playback can be handled using the same routines you've already written.
+Channels use the same type of object structure as normal library items. As a result, core functions such as images, media playback and marking watched/favorite can be handled using the same routines you've already written.
 
 ## Search
 
