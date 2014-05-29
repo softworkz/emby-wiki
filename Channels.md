@@ -13,3 +13,13 @@ Use **/Channels/{Id}/Features** to download an object describing the channel's c
 * DefaultSortFields (Default available sort orders - Name, CommunityRating, PremiereDate, DateCreated, Runtime, PlayCount, CommunityPlayCount)
 * SupportsSortOrderToggle (Indicates if ascending/descending orders are supported).
 * CanFilter - Indicates if channel content can be filtered
+
+## Channel Items
+
+Channel content is returned using a hierarchical structure. Top level channel content can be retrieved using **/Channels/{Id}/Items?userId=xxx**.
+
+From there, each sub-item can be examined using the **IsFolder** and **MediaType** properties.
+
+If the item is a folder, it's content can be retrieved using **/Channels/{Id}/Items?userId=xxx&folderId=xxx**.
+
+If the item is media, it's MediaType will be either Audio, Photo or Video.
