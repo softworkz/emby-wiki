@@ -24,6 +24,11 @@ If the item is a folder, it's content can be retrieved using **/Channels/{Id}/It
 
 If the item is media, it's MediaType will be either Audio, Photo or Video.
 
+Channel items contain an identical object structure as normal library items, except with the addition of some additional data:
+
+* ChannelId
+* ChannelName
+
 ## Sorting and Filtering
 
 Almost all channels will require paging. Use the MaxPageSize property of the channel features object to determine the maximum size that can be requested. The server will return an error response if a larger size is requested.
