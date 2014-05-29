@@ -24,6 +24,14 @@ If the item is a folder, it's content can be retrieved using **/Channels/{Id}/It
 
 If the item is media, it's MediaType will be either Audio, Photo or Video.
 
+## Sorting and Filtering
+
+Almost all channels will require paging. Use the MaxPageSize property of the channel features object to determine the maximum size that can be requested. The server will return an error response if a larger size is requested.
+
+The DefaultSortFields property indicate what sort fields are available. It is labeled as default to allow for future overrides for different kinds of folders within the same channel (audio album, photo album, etc).
+
+Use CanFilter to determine if channel content can be filtered.
+
 ## Images and Playback
 
 Channels use the same type of object structure as normal library items. As a result, images and media playback can be handled using the same routines you've already written.
