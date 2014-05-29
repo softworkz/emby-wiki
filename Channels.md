@@ -23,3 +23,11 @@ From there, each sub-item can be examined using the **IsFolder** and **MediaType
 If the item is a folder, it's content can be retrieved using **/Channels/{Id}/Items?userId=xxx&folderId=xxx**.
 
 If the item is media, it's MediaType will be either Audio, Photo or Video.
+
+## Images and Playback
+
+Channels use the same type of object structure as normal library items. As a result, images and media playback can be handled using the same routines you've already written.
+
+## Search
+
+Coming soon.
