@@ -6,7 +6,7 @@ A list of available channels for a user can be downloaded using **/Channels?user
 
 Use **/Channels/{Id}/Features** to download an object describing the channel's capabilities. This object contains the following:
 
-* CanSearch (not yet utilized)
+* CanSearch
 * MediaTypes (Audio, Photo, Video)
 * ContentTypes (Clip, Podcast, Trailer, Movie, Episode, Song)
 * MaxPageSize (The maximum number of records that can be requested at a time)
