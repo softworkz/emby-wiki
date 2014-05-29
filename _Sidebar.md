@@ -14,6 +14,7 @@
 * [Items by name](https://github.com/MediaBrowser/MediaBrowser/wiki/Items-by-name)
 * [Web socket](https://github.com/MediaBrowser/MediaBrowser/wiki/Web-Socket)
 * [Remote control](https://github.com/MediaBrowser/MediaBrowser/wiki/Remote-control)
+* [Channels](https://github.com/MediaBrowser/MediaBrowser/wiki/Channels)
 * [Live TV](https://github.com/MediaBrowser/MediaBrowser/wiki/Live-TV)
 
 ### Media Streaming
