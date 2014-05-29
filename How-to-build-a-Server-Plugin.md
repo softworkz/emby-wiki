@@ -8,7 +8,7 @@ First install Media Browser Server, or download the code. Get the server up and 
 
 1. Create a class library project
 
-2. Go to Properties -> AssemblyInfo.cs. Change AssemblyVersion to "1.0.*" so that it auto-udpates, and remove the AssemblyFileVersion line altogether. This will keep both the assembly and file version numbers in sync.
+2. Go to Properties -> AssemblyInfo.cs. Change AssemblyVersion to "1.0.*" so that it auto-updates, and remove the AssemblyFileVersion line altogether. This will keep both the assembly and file version numbers in sync.
 
 2. Make sure AssemblyInfo.cs has a Guid, e.g:
 
