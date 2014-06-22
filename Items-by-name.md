@@ -2,6 +2,8 @@ Media items will contain lists of related items, such as Artists, Genres, Person
 
 `/Artists/{Name}`
 
+`/AlbumArtists/{Name}`
+
 `/Genres/{Name}`
 
 `/GameGenres/{Name}`
