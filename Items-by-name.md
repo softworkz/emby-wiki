@@ -32,6 +32,8 @@ In addition to individual retrieval, there are querying endpoints that will retu
 
 `/Artists`
 
+`/Artists/AlbumArtists`
+
 `/GameGenres`
 
 `/Genres`
