@@ -1,16 +1,14 @@
 Media Browser libraries are user-based, so the first step in the client workflow is to authenticate the user.
 
-## User Login
+## User Login - Mobile Clients
 
-* Make a call to /Users/Public to get all public users. Also make a call to /System/Configuration to get the server configuration.
+* Display a login form with username and password fields.
 
-* Depending on the results, you should either display the users visually, or present a traditional username/password text entry form.
+## User Login - TV Clients
 
-* **Only display the users visually if at least one public user is returned, and configuration.RequireManualLoginForMobileApps is false or configuration.RequireManualLoginForOtherApps is false (depending on your app). 
+* Make a call to /Users/Public to get all public users.
 
-* The HasPassword property will indicate if a user has a password that requires entry, but always display the password field on a manual entry form.
-
-* Clients are free to completely forego a visible user list and simply present a traditional login form. In this case, none of the above api calls will be necessary.
+* If there are records returned, the app should either display users visually. If there are no records returned then present a username/password text entry form.
 
 ## Authenticating a user
 
