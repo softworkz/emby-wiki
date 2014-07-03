@@ -20,6 +20,8 @@ Media Browser libraries are user-based, so the first step in the client workflow
 
 * Once you've authenticated, you are free to offer "Remember login" settings so that this screen does not have to be presented in the future.
 
+* Each user has a HasPassword property, indicating if a password input should be presented when a user is selected.
+
 ## Authorization Request Header
 
 Add the following request header on every request:
