@@ -15,7 +15,12 @@ Generally, it is recommend to use a url with a file extension that matches the f
 
 Item **Id** and **MediaSourceId** are the only required parameters.
 
-All of the optional parameters can be viewed using the swagger documentation. 
+All of the optional parameters can be viewed using the swagger documentation. Generally, you will also want to supply:
+
+* AudioCodec
+* AudioBitrate
+* MaxAudioChannels
+* AudioSampleRate
 
 ## Direct Stream
 To direct stream an audio file, simply use the static=true parameter.
