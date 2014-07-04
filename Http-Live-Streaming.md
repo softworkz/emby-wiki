@@ -11,3 +11,18 @@ The required paramaters are:
 * DeviceId
 
 For a complete list of parameters, see the built-in documentation.
+
+All of the optional parameters can be viewed using the swagger documentation. 
+
+* AudioCodec
+* AudioBitrate
+* MaxAudioChannels
+* AudioSampleRate
+* VideoCodec
+* VideoBitrate
+* MaxWidth
+* MaxHeight
+* Profile (h264 profile)
+* Level
+* AudioStreamIndex
+* SubtitleStreamIndex (if burning into the video)
