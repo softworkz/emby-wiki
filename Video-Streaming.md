@@ -22,6 +22,19 @@ Item **Id** and **MediaSourceId** are the only required parameters.
 
 All of the optional parameters can be viewed using the swagger documentation. 
 
+* AudioCodec
+* AudioBitrate
+* MaxAudioChannels
+* AudioSampleRate
+* VideoCodec
+* VideoBitrate
+* MaxWidth
+* MaxHeight
+* Profile (h264 profile)
+* Level
+* AudioStreamIndex
+* SubtitleStreamIndex (if burning into the video)
+
 ## Direct Stream
 To direct stream a video file, simply use the static=true parameter.
 
