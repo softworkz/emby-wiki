@@ -26,3 +26,9 @@ All of the optional parameters can be viewed using the swagger documentation.
 * Level
 * AudioStreamIndex
 * SubtitleStreamIndex (if burning into the video)
+
+## Post Playback
+
+After playback is complete, it is necessary to inform the server to stop any related HLS transcoding. This is accomplished via an HTTP POST to:
+
+/Videos/ActiveEncodings?DeviceId=xxx
