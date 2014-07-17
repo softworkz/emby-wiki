@@ -28,7 +28,7 @@ The dashboard currently displays customized icons for the following clients:
 
 * Make a call to /Users/Public to get all public users.
 
-* If there are records returned, the app should display users visually. If there are no records returned then present a username/password text entry form.
+* If there are records returned, the app has the option of displaying the users in a visual login screen. If there are no records returned then present a username/password text entry form.
 
 * For each user, if PrimaryImageTag has a value, that indicates the user has an image. The image can then be downloaded using /Users/{Id}/Images/{Type}. See [images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images).
 
