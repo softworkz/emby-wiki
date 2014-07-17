@@ -36,7 +36,7 @@ The dashboard currently displays customized icons for the following clients:
 
 ## Authenticating a user
 
-* Authenticate using /Users/AuthenticateByName. There is currently no response body sent back. A 200 status code indicates success, while anything in the 400 or 500 range indicates failure.
+* Authenticate using /Users/AuthenticateByName. A 200 status code indicates success, while anything in the 400 or 500 range indicates failure.
 
 * The password must be sent in the body, and must be an **Sha1**.
 
