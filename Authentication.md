@@ -45,3 +45,5 @@ The dashboard currently displays customized icons for the following clients:
 * If the user explicitly logs out, send a POST to /Sessions/Logout. This will revoke your access token. If the user closes the app without logging out, you can skip this and save the token for future use.
 
 * During normal application usage, if any http requests fail with a 403 (Forbidden) response status code, this is generally an indication that the access token has been revoked. The user should be redirected back to the login screen.
+
+* For applications that support connectivity to multiple servers, the token should be saved along with the server's Id in order to avoid sending the wrong token to a particular server. The server Id is part of the SystemInfo object which can be retrieved from /System/Info
