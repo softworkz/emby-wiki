@@ -8,6 +8,7 @@ Add the following request header on every request:
 * DeviceId is the device's unique id
 * Client is the type of client (Android, Dashboard, Dlna, iOS, PC, WindowsPhone, WindowsRT, other)
 * Version is the client application version
+* UserId is the Id of the current logged in user (if there is one).
 
 The dashboard currently displays customized icons for the following clients:
 
@@ -23,11 +24,7 @@ The dashboard currently displays customized icons for the following clients:
 * Windows RT
 * Xbmc
 
-## User Login - Mobile Clients
-
-* Display a login form with username and password fields.
-
-## User Login - TV Clients
+## User Login 
 
 * Make a call to /Users/Public to get all public users.
 
@@ -35,13 +32,16 @@ The dashboard currently displays customized icons for the following clients:
 
 * For each user, if PrimaryImageTag has a value, that indicates the user has an image. The image can then be downloaded using /Users/{Id}/Images/{Type}. See [images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images).
 
+* Each user has a HasPassword property. This is used to determine if the user should be prompted to input a password. The application must authenticate regardless of this value.
+
 ## Authenticating a user
 
 * Authenticate using /Users/AuthenticateByName. There is currently no response body sent back. A 200 status code indicates success, while anything in the 400 or 500 range indicates failure.
 
 * The password must be sent in the body, and must be an **Sha1**.
 
-* Once you've authenticated, you are free to offer "Remember login" settings so that this screen does not have to be presented in the future.
+* The return result object will have an AccessToken property. This should be included in all subsequent Http requests using the header "X-MediaBrowser-Token"
 
-* Each user has a HasPassword property, indicating if a password input should be presented when a user is selected.
+* If the user explicitly logs out, send a POST to /Sessions/Logout. This will revoke your access token. If the user closes the app without logging out, you can skip this and save the token for future use.
 
+* During normal application usage, if any http requests fail with a 403 (Forbidden) response status code, this is generally an indication that the access token has been revoked. The user should be redirected back to the login screen.
