@@ -1,5 +1,7 @@
 Media Browser libraries are user-based, so the first step in the client workflow is to authenticate the user.
 
+The list of users can be retrieved from /Users/Public
+
 ## User Login - Mobile Clients
 
 * Display a login form with username and password fields.
