@@ -9,6 +9,7 @@ Once connected to the server, simply take the server's http address, and change 
 `
 ws://{host}/mediabrowser
 `
+To construct the url, perform a string replacement on the http url rather than building it manually. This will allow your app to support addresses without ports, as well as http/https.
 
 ### Message format
 
