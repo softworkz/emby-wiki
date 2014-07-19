@@ -2,12 +2,12 @@ Clients are recommended to connect to the server's web socket in order to receiv
 
 The web socket is also the preferred protocol from which to receive remote control commands.
 
-### Finding the web socket port
+### Connecting to the web socket
 
-Make a call to /System/Info. WebSocketPortNumber is the port hosting the web socket. From there the connection url is:
+Once connected to the server, simply take the server's http address, and change the protocol to ws://.
 
 `
-ws://hostname:{websocketport}/mediabrowser
+ws://{host}/mediabrowser
 `
 
 ### Message format
