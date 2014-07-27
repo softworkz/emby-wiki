@@ -4,7 +4,6 @@ Simply send a **udp broadcast message** on port **7359**, with the text "who is 
 
 You'll receive a message that is a Json structure containing three properties:
 
-* ApiAddress
+* Address
 * Id
 * Name
-* HostName (usefor for WOL)
