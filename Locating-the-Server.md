@@ -4,6 +4,6 @@ Simply send a **udp broadcast message** on port **7359**, with the text "who is 
 
 You'll receive a message in the format of:
 
-`MediaBrowserServer|192.168.1.1:1234|xxx`
+`MediaBrowserServer|http://192.168.1.1:1234/mediabrowser|xxx`
 
 Where xxx is the ServerId
