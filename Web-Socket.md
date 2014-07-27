@@ -11,6 +11,11 @@ ws://{host}/mediabrowser
 `
 To construct the url, perform a string replacement on the http url rather than building it manually. This will allow your app to support addresses without ports, as well as http/https.
 
+Replace the following:
+
+http: -> ws:
+https: -> wss:
+
 ### Message format
 
 All messages sent and received over the web socket are in the format of a json structure:
