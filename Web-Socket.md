@@ -14,6 +14,7 @@ To construct the url, perform a string replacement on the http url rather than b
 Replace the following:
 
 http: -> ws:
+
 https: -> wss:
 
 ### Message format
