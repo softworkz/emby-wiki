@@ -4,7 +4,7 @@ The web socket is also the preferred protocol from which to receive remote contr
 
 ### Connecting to the web socket
 
-Once connected to the server, simply take the server's http address, and change the protocol to ws://.
+Once connected to the server, simply take the server's http address, and change the protocol to ws:// or wss://.
 
 `
 ws://{host}/mediabrowser
