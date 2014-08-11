@@ -1,7 +1,6 @@
 ### Movies 
 The recommended structure is to put each movie in it's own folder.
  
-`
 /Movies
    /Home Alone (1990)
       Home Alone.avi
@@ -9,7 +8,6 @@ The recommended structure is to put each movie in it's own folder.
    /The Dark Knight (2008)
       The Dark Side.mkv
 
-`
 
 It is also possible to store movies together in one folder.
 /Movies
