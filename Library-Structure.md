@@ -72,7 +72,7 @@ Where X is the part number. Spaces are allowed before the number, for example, "
 Please note that at this time, each part will have to be played individually. Displayed metadata will be based on information from the first part, and the additional parts will be made playable through a menu.
  
 ###Special Features
-Special features for movies can be stored in a specials folder under movie folders. Nested folders are not supported.
+Special features for movies can be stored in an extras folder under movie folders. Nested folders are not supported.
  
 /Movies
 /Home Alone (1990)
