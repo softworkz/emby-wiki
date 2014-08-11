@@ -29,7 +29,7 @@ Examples:
 /The Dark Knight (2008)
    /BDMV
  
-Multi-resolution movies
+###Multi-resolution movies
  
 Multiple resolutions of the same content can be stored in a single movie folder.
 
@@ -40,7 +40,8 @@ Multiple resolutions of the same content can be stored in a single movie folder.
 
 Each version must begin with the folder name, followed by " - ". If this requirement is not met, they will be treated as separate videos. Alternatively they can be grouped together manually using the server's web interface.  
 
-Multi-file and multi-disc movies
+###Multi-file and multi-disc movies
+
 Multi-file and multi-disc movies are supported by the server and some client apps (MB Classic does not yet support multi-part items). The movie must have it's own folder containing all parts of the movie. Additionally, each video file or folder must be suffixed using one of the following conventions:
     cdX
     discX
