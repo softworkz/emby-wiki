@@ -1,4 +1,4 @@
-### Movies 
+## Movies 
 The recommended structure is to put each movie in it's own folder.
  
 /Movies
@@ -49,13 +49,14 @@ Multi-file and multi-disc movies are supported by the server and some client app
     dvdX
     partX
     ptX
+
 Where X is the part number. Spaces are allowed before the number, for example, "part 7" is accepted. Here is a complete example of a multi-file movie:
 /Movies /Home Alone (1990) 
    Home Alone - part1.mkv
    Home Alone - part2.mkv
    Home Alone - part3.mkv
  
-Multi-disc movie:
+###Multi-disc movie:
 /Movies /Home Alone (1990)
     /Home Alone Disc 1 
        /VIDEO_TS 
@@ -70,20 +71,23 @@ Multi-disc movie:
  
 Please note that at this time, each part will have to be played individually. Displayed metadata will be based on information from the first part, and the additional parts will be made playable through a menu.
  
-Special Features
+###Special Features
 Special features for movies can be stored in a specials folder under movie folders. Nested folders are not supported.
  
 /Movies
 /Home Alone (1990)
    /Home Alone (1990).mkv
-   /specials
+   /extras
       deleted-scenes.mkv 
  
-3D Videos
+###3D Videos
+
 Any video can be marked as 3D by placing one of the following tags within the filename:
+
 [fsbs] - Full side by side
 [ftab] - Full top and bottom
 [hsbs] - Half side by side
 [htab] - Half top and bottom
+
 This will indicate the 3D format, which will be needed when streaming video and extracting images. The MB2 conventions of [3d] and [sbs3d] are still supported and will default to HSBS.
 Alternatively this can be done by editing metadata within the server dashboard.
