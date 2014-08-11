@@ -1,7 +1,7 @@
-Movies 
+### Movies 
 The recommended structure is to put each movie in it's own folder.
  
-/Movies
+> /Movies
    /Home Alone (1990)
       Home Alone.avi
 
