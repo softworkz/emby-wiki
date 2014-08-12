@@ -8,6 +8,7 @@
 * [Locating the server](https://github.com/MediaBrowser/MediaBrowser/wiki/Locating-the-Server)
 * [Authentication](https://github.com/MediaBrowser/MediaBrowser/wiki/Authentication)
 * [Browsing the library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
+* [Latest items](https://github.com/MediaBrowser/MediaBrowser/wiki/Latest-Items)
 * [Item information](https://github.com/MediaBrowser/MediaBrowser/wiki/Item-Information)
 * [Item types](https://github.com/MediaBrowser/MediaBrowser/wiki/Item-Types)
 * [Images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
