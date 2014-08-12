@@ -15,4 +15,6 @@ It also has an additional param, **GroupItems (default true)**. If true, items f
 
 ## Example - Show latest movies
 
-d
+This will display the latest 20 unplayed movies:
+
+/Users/{UserId}/Items/Latest?IncludeItemTypes=Movie&Limit=20&IsPlayed=false
