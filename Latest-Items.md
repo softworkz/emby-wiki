@@ -25,6 +25,6 @@ This will display the latest 20 unplayed episodes:
 
 `/Users/{UserId}/Items/Latest?IncludeItemTypes=Episode&Limit=20&IsPlayed=false&GroupItems=true`
 
-The result will then be a list of Series groupings, that is. Now suppose the user clicks a Series in order to see the 4 episodes behind the grouping. This is achieved via:
+The result will then be a list of Series groupings. Now suppose the user clicks a Series in order to see the 4 episodes behind the grouping. This is achieved via:
 
 `/Users/{UserId}/Items/Latest?Limit=4&IsPlayed=false&GroupItems=false&ParentId={SeriesId}`
