@@ -12,3 +12,7 @@ It supports many of the usual querying parameters:
 * IncludeItemTypes
 
 It also has an additional param, **GroupItems (default true)**. If true, items from the same container will be grouped into one and the container will be returned. The ChildCount property will be used to hold the group count.
+
+## Example - Show latest movies
+
+d
