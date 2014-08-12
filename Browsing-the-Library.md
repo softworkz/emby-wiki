@@ -48,9 +48,6 @@ This will tell you the exact object type of the item, in case you would like to 
 ## Query-based views
 You are not limited to displaying items based on the file system. If you would like to present virtual views based on queries, the api will allow you to do that. Use the Recursive=true param to search recursively. Here are a few examples:
 
-### Display last 20 media items added to the library
-> http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?Limit=20&Recursive=true&SortBy=DateCreated&SortOrder=Descending&Filters=IsNotFolder
-
 ### Display resumeable items, limit to 20 results and sort by date played
 > http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?Limit=20&Recursive=true&SortBy=DatePlayed&SortOrder=Descending&Filters=IsResumable
 
