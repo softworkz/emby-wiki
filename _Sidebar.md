@@ -17,6 +17,7 @@
 * [Remote control](https://github.com/MediaBrowser/MediaBrowser/wiki/Remote-control)
 * [Channels](https://github.com/MediaBrowser/MediaBrowser/wiki/Channels)
 * [Live TV](https://github.com/MediaBrowser/MediaBrowser/wiki/Live-TV)
+* [Playlists](https://github.com/MediaBrowser/MediaBrowser/wiki/Playlists)
 
 ### Media Streaming
 * [Playback guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Guidelines)
