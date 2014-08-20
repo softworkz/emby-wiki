@@ -15,11 +15,13 @@ The MediaType property of the playlist will indicate either Audio or Video.
 
 ### Playlist Items
 
-Playlist items can be retrieved in the same manner as retrieving items of a Folder. A SortName should not be specified in order to preserve the playlis's original sorting.
+Playlist items can be retrieved in the same manner as retrieving items of a Folder. A SortName should not be specified in order to preserve the playlist's original sorting.
+
+Each playlist item will have a **PlaylistItemId** property. This property is required in order to remove the item from the playlist, not the library item id.
 
 ### Adding to Playlists
 
-Send a POST to /Playlists/{Id}
+Send a POST to /Playlists/{Id}/Items
 
 In addition, supply:
 
@@ -27,4 +29,8 @@ In addition, supply:
 
 ### Removing from Playlists
 
-TBD
+Send a DELETE to /Playlists/{Id}/Items
+
+In addition, supply:
+
+* EntryIds - A comma delimited list of the PlaylistItemId property of each item to remove from the playlist.
