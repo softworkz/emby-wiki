@@ -7,10 +7,6 @@ There are two additional params, one of which must be specified:
 * MediaType (Audio/Video)
 * Ids - A comma delimited list of item id's to add to the playlist. MediaType can be omitted is this is supplied.
 
-In addition, supply:
-
-* Ids - A comma delimited list of item id's to add to the playlist.
-
 ### Retrieving Playlists
 
 Playlists for a user can be queried like any other type. The item type is Playlist.
@@ -24,3 +20,7 @@ Playlist items can be retrieved in the same manner as retrieving items of a Fold
 ### Adding to Playlists
 
 Send a POST to /Playlists/{Id}
+
+In addition, supply:
+
+* Ids - A comma delimited list of item id's to add to the playlist.
