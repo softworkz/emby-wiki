@@ -15,7 +15,17 @@ The MediaType property of the playlist will indicate either Audio or Video.
 
 ### Playlist Items
 
-Playlist items can be retrieved in the same manner as retrieving items of a Folder. A SortName should not be specified in order to preserve the playlist's original sorting.
+There is a dedicated endpoint to retrieve the list of playlist items:
+
+/Playlists/{Id}/Items
+
+The following params are accepted:
+
+* Id
+* UserId
+* StartIndex
+* Limit
+* Fields
 
 Each playlist item will have a **PlaylistItemId** property. This property is required in order to remove the item from the playlist, not the library item id.
 
