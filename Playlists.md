@@ -5,7 +5,7 @@ Send a POST to /Playlists?UserId=xxx&Name=xxx
 There are two additional params, one of which must be specified:
 
 * MediaType (Audio/Video)
-* Ids - A comma delimited list of item id's to add to the playlist. MediaType can be omitted is this is supplied.
+* Ids - A comma delimited list of item id's to add to the playlist. MediaType can be omitted if this is supplied.
 
 ### Retrieving Playlists
 
@@ -27,7 +27,7 @@ The following params are accepted:
 * Limit
 * Fields
 
-Each playlist item will have a **PlaylistItemId** property. This property is required in order to remove the item from the playlist, not the library item id.
+Each playlist item will have a **PlaylistItemId** property. This property is required in order to remove the item from the playlist.
 
 ### Adding to Playlists
 
