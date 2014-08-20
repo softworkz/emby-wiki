@@ -24,3 +24,7 @@ Send a POST to /Playlists/{Id}
 In addition, supply:
 
 * Ids - A comma delimited list of item id's to add to the playlist.
+
+### Removing from Playlists
+
+TBD
