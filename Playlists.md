@@ -38,6 +38,7 @@ Send a POST to /Playlists/{Id}/Items
 In addition, supply:
 
 * Ids - A comma delimited list of item id's to add to the playlist.
+* UserId
 
 Note that all server library items have a SupportsPlaylists property that indicates if they're able to be added to playlists.
 
