@@ -112,7 +112,7 @@ The following commands are available:
 * /Sessions/{Id}/Playing/Unpause
 * /Sessions/{Id}/Playing/NextTrack
 * /Sessions/{Id}/Playing/PreviousTrack
-* /Sessions/{Id}/Playing/Seek?PositionTicks=xxx
+* /Sessions/{Id}/Playing/Seek?SeekPositionTicks=xxx
 
 ###Sending a general command
 
