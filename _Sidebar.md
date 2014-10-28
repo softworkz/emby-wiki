@@ -26,6 +26,7 @@
 * [Http live streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Http-Live-Streaming)
 * [Subtitles](https://github.com/MediaBrowser/MediaBrowser/wiki/Subtitles)
 * [Playback check-ins](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Check-ins)
+* [Parental control](https://github.com/MediaBrowser/MediaBrowser/wiki/Parental-Control)
 
 ### Server Plugin Development
 * [Getting started](https://github.com/MediaBrowser/MediaBrowser/wiki/How-to-build-a-Server-Plugin)
