@@ -18,6 +18,7 @@
 * [Channels](https://github.com/MediaBrowser/MediaBrowser/wiki/Channels)
 * [Live TV](https://github.com/MediaBrowser/MediaBrowser/wiki/Live-TV)
 * [Playlists](https://github.com/MediaBrowser/MediaBrowser/wiki/Playlists)
+* [Parental control](https://github.com/MediaBrowser/MediaBrowser/wiki/Parental-Control)
 
 ### Media Streaming
 * [Playback guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Guidelines)
@@ -26,7 +27,6 @@
 * [Http live streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Http-Live-Streaming)
 * [Subtitles](https://github.com/MediaBrowser/MediaBrowser/wiki/Subtitles)
 * [Playback check-ins](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Check-ins)
-* [Parental control](https://github.com/MediaBrowser/MediaBrowser/wiki/Parental-Control)
 
 ### Server Plugin Development
 * [Getting started](https://github.com/MediaBrowser/MediaBrowser/wiki/How-to-build-a-Server-Plugin)
