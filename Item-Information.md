@@ -66,10 +66,14 @@ This serves different purposes depending on the type of item. For episodes this 
 ### IndexNumberEnd
 Denotes the ending index number, in case a file spans multiple episodes.
 
-### IsFolder, MediaType, Type
-These allow you to determine how to categorize and display items. See [Browsing the Library](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
+### IsFolder
+This will tell you if the item is a media item, or if it's a folder containing other items. When navigating to an item, this will allow you to determine what type of display to present.
 
-MediaTypes: Audio, Video, Book, Game, Photo.
+### MediaType
+If an item is a media item, this will tell you what kind of media it is so that you can customize your display. The core has three known media types: Audio, Video, Game. Plugins may provide others.
+
+### Type
+This will tell you the exact object type of the item, in case you would like to customize further. For example, the Video media type has several implementations - Movie, Episode, Trailer, etc. Folder also has several - Series, Season, BoxSet, MusicArtist, MusicAlbum, etc.
 
 ### IsoType
 This setting is applicable to videos only. If a video is an Iso this will give you the type - Dvd or BluRay.
