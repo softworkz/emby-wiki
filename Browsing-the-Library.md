@@ -35,6 +35,8 @@ If **CollectionType** is null, it indicates a mixed movie/tv folder that should 
 
 A customized view can then be built by retrieving data pertaining to that view, e.g. latest movies, all movies, upcoming episodes, etc.
 
+Displaying a customized view of live tv or channels will require use of the specific api's for those features.
+
 ## Sorting
 Use the SortBy param to supply the fields to sort on. This supports multiple sort orders using a comma delimited list. Use SortOrder to specify ascending or descending order. The following example sorts by Artist, and then Album, in Ascending order:
 
