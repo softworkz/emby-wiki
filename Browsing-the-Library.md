@@ -19,6 +19,19 @@ See https://github.com/MediaBrowser/MediaBrowser/wiki/Item-Information
 
 ## Customized Presentations
 
+While it's possible to display user views using generic navigation, often you'll want to customize based on the view type. Each view has a **CollectionType** property to indicate the view type. Available values are:
+
+* movies
+* tvshows
+* music
+* games
+* books
+* musicvideos
+* livetv
+* channels
+
+If **CollectionType** is null, it indicates a mixed movie/tv folder that should be displayed generically.
+
 ## Sorting
 Use the SortBy param to supply the fields to sort on. This supports multiple sort orders using a comma delimited list. Use SortOrder to specify ascending or descending order. The following example sorts by Artist, and then Album, in Ascending order:
 
