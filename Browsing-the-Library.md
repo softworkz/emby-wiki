@@ -27,10 +27,13 @@ While it's possible to display user views using generic navigation, often you'll
 * games
 * books
 * musicvideos
+* homevideos
 * livetv
 * channels
 
 If **CollectionType** is null, it indicates a mixed movie/tv folder that should be displayed generically.
+
+A customized view can then be built by retrieving data pertaining to that view, e.g. latest movies, all movies, upcoming episodes, etc.
 
 ## Sorting
 Use the SortBy param to supply the fields to sort on. This supports multiple sort orders using a comma delimited list. Use SortOrder to specify ascending or descending order. The following example sorts by Artist, and then Album, in Ascending order:
