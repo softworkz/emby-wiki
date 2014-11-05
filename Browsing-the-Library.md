@@ -3,21 +3,17 @@ This page will detail how to retrieve items for display and browsing purposes.
 ## Displaying a Folder
 After authentication, the next step is generally to start displaying the user's library.
 
-This can be done in two ways, either using a direct representation of the user's file system, or by querying for specific types to display them using virtual views.
+## User Views
 
-## File system views
+User views represent the user's top level categories, and can be retrieved from:
 
-You'll generally want to start by displaying the contents of the user's root folder.
+* /Users/{UserId}/Views
 
-Displaying a folder generally requires two calls to the api. While not required, you'll usually want to start with a call to retrieve the folder itself, using one of the following:
-* /Users/{UserId}/Items/Root
-* /Users/{UserId}/Items/{Id}
+The items from a view can then be retrieved generically using:
 
-This will give you some information on the folder itself, including the number of child items, as well as the number of recursive child items. 
+* /Users/{UserId}/Items?parentId={ViewId}
 
-The next step will be to construct a query to retrieve the children of the folder. At minimum you will need to supply the UserId and ParentId, which is the Id of the folder. Here is a sample url to do that:
-
-> http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?ParentId=20aef3be-ebda-f0d4-0096-8d179783e918
+All views support this style of generic navigation. Each item will have several properties to determine how to display it, e.g. **IsFolder**, **MediaType** and **Type**.
 
 ## Sorting
 Use the SortBy param to supply the fields to sort on. This supports multiple sort orders using a comma delimited list. Use SortOrder to specify ascending or descending order. The following example sorts by Artist, and then Album, in Ascending order:
@@ -46,7 +42,7 @@ If an item is a media item, this will tell you what kind of media it is so that 
 This will tell you the exact object type of the item, in case you would like to customize further. For example, the Video media type has several implementations - Movie, Episode, Trailer, etc. Folder also has several - Series, Season, BoxSet, MusicArtist, MusicAlbum, etc.
 
 ## Query-based views
-You are not limited to displaying items based on the file system. If you would like to present virtual views based on queries, the api will allow you to do that. Use the Recursive=true param to search recursively. Here are a few examples:
+If you would like to present virtual views based on queries, the api will allow you to do that. Use the Recursive=true param to search recursively. Here are a few examples:
 
 ### Display resumeable items, limit to 20 results and sort by date played
 > http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?Limit=20&Recursive=true&SortBy=DatePlayed&SortOrder=Descending&Filters=IsResumable
