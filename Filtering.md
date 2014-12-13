@@ -4,10 +4,10 @@ GET /Items/Filters
  
 Returns an object with:
  
-Genres
-Tags
-OfficialRatings
-Years
+- Genres
+- Tags
+- OfficialRatings
+- Years
  
 It accepts as params:
  
