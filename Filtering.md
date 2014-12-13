@@ -11,9 +11,9 @@ Returns an object with:
  
 It accepts as params:
  
-UserId
-ParentId
-IncludeItemTypes
-MediaTypes
+- UserId
+- ParentId
+- IncludeItemTypes
+- MediaTypes
  
 So for example, if you're showing a movie list, you can pass in the same params that you're using to retrieve the movies, and it will return a filter object containing lists of filters that can be displayed.
