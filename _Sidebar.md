@@ -18,6 +18,7 @@
 * [Live TV](https://github.com/MediaBrowser/MediaBrowser/wiki/Live-TV)
 * [Playlists](https://github.com/MediaBrowser/MediaBrowser/wiki/Playlists)
 * [Parental control](https://github.com/MediaBrowser/MediaBrowser/wiki/Parental-Control)
+* [Filtering](https://github.com/MediaBrowser/MediaBrowser/wiki/Filtering)
 
 ### Media Streaming
 * [Playback guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Guidelines)
