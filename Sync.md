@@ -9,6 +9,6 @@ https://github.com/MediaBrowser/MediaBrowser/blob/master/MediaBrowser.Model/Dlna
 
 For brevity, all Dlna-specific properties such as ProtocolInfo, Manufacturer/Model, etc. can be omitted.
 
-# Creating Sync Jobs
+## Creating Sync Jobs
 
 Coming soon.
