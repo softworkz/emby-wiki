@@ -9,6 +9,10 @@ https://github.com/MediaBrowser/MediaBrowser/blob/master/MediaBrowser.Model/Dlna
 
 For brevity, all Dlna-specific properties such as ProtocolInfo, Manufacturer/Model, etc. can be omitted.
 
+## Determining user sync privileges
+
+Coming soon.
+
 ## Creating Sync Jobs
 
 Coming soon.
