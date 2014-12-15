@@ -25,6 +25,14 @@ Clients should make sync available from as many contexts as possible. This inclu
 
 All library items are eligible for sync and clients should not artificially filter them. Instead, simply check the **SupportsSync** property to determine if an item supports syncing. You will need to include **SyncInfo** as part of your requested fields in order to make this property available.
 
+## Sync Dialog
+
+This will discuss the menu that should be presented after a user has chosen to sync something.
+
+Note: If using our api libraries, simply call SyncHelper.GetSyncOptions and it will return a list of all the choices that should be presented based on what the user has selected.
+
+* Name - Display only if multiple items have been selected. If a single item or category, omit and the server will automatically assign a name.
+
 ## Creating Sync Jobs
 
 To create the sync job, send a Post to /Sync/Jobs. A complete example is available in our ApiClient libraries. See CreateSyncJob.
