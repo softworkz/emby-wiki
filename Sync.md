@@ -15,7 +15,7 @@ Coming soon.
 
 ## Creating Sync Jobs
 
-Coming soon.
+Post to /Sync/Jobs. A complete example is available in our ApiClient libraries.
 
 ## Running sync jobs
 
