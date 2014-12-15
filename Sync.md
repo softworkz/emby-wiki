@@ -19,7 +19,12 @@ Coming soon.
 
 ## Running sync jobs
 
-Coming soon.
+All of the client-side code needed to run sync jobs is provided in our Api libraries. The MultiServerSync operation will handle both sync and camera upload for all authenticated servers. It is available in both .NET and Java:
+
+https://github.com/MediaBrowser/MediaBrowser.ApiClient.Java
+https://github.com/MediaBrowser/MediaBrowser.ApiClient
+
+If using another language it will need to be ported.
 
 ## Client-side sync management
 
