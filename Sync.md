@@ -31,7 +31,7 @@ This will discuss the menu that should be presented after a user has chosen to s
 
 Note: If using our api libraries, simply call SyncHelper.GetSyncOptions and it will return a list of all the choices that should be presented based on what the user has selected.
 
-* Name - Display only if multiple items have been selected. If a single item or category, omit and the server will automatically assign a name.
+* **Name** - Display only if multiple items have been selected. If a single item or category, omit and the server will automatically assign a name.
 
 ## Creating Sync Jobs
 
