@@ -24,3 +24,11 @@ Coming soon.
 ## Client-side sync management
 
 Coming soon.
+
+## Online access
+
+Coming soon.
+
+## Offline access
+
+Coming soon.
