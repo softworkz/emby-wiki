@@ -16,3 +16,11 @@ Coming soon.
 ## Creating Sync Jobs
 
 Coming soon.
+
+## Running sync jobs
+
+Coming soon.
+
+## Client-side sync management
+
+Coming soon.
