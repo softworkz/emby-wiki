@@ -27,7 +27,7 @@ All library items are eligible for sync and clients should not artificially filt
 
 ## Creating Sync Jobs
 
-In order to create the sync job, send a Post to /Sync/Jobs. A complete example is available in our ApiClient libraries. See CreateSyncJob.
+To create the sync job, send a Post to /Sync/Jobs. A complete example is available in our ApiClient libraries. See CreateSyncJob.
 
 ## Running sync jobs
 
