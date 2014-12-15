@@ -13,7 +13,7 @@ For brevity, all Dlna-specific properties such as ProtocolInfo, Manufacturer/Mod
 
 Coming soon.
 
-## Sync UI
+## Sync Selections
 
 Clients should make sync available from as many contexts as possible. This includes, but is not limited to:
 
