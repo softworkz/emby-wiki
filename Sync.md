@@ -38,7 +38,9 @@ Note: If using our api libraries, simply call SyncHelper.GetSyncOptions and it w
 
 ## Creating Sync Jobs
 
-To create the sync job, send a Post to /Sync/Jobs. A complete example is available in our ApiClient libraries. See CreateSyncJob.
+To create the sync job, send a Post to /Sync/Jobs. The **TargetId** property should be the client's reported **DeviceId**.
+
+A complete example is available in our ApiClient libraries. See CreateSyncJob.
 
 ## Running sync jobs
 
