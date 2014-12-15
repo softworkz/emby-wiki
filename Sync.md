@@ -13,7 +13,7 @@ For brevity, all Dlna-specific properties such as ProtocolInfo, Manufacturer/Mod
 
 Coming soon.
 
-## Creating Sync Jobs
+## Sync UI
 
 Clients should make sync available from as many contexts as possible. This includes, but is not limited to:
 
@@ -24,6 +24,8 @@ Clients should make sync available from as many contexts as possible. This inclu
 * Home screen (category selection, e.g. Next Up, Latest Movies, etc).
 
 All library items are eligible for sync and clients should not artificially filter them. Instead, simply check the **SupportsSync** property to determine if an item supports syncing. You will need to include **SyncInfo** as part of your requested fields in order to make this property available.
+
+## Creating Sync Jobs
 
 In order to create the sync job, send a Post to /Sync/Jobs. A complete example is available in our ApiClient libraries. See CreateSyncJob.
 
