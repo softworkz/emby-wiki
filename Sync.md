@@ -9,6 +9,8 @@ https://github.com/MediaBrowser/MediaBrowser/blob/master/MediaBrowser.Model/Dlna
 
 For brevity, all Dlna-specific properties such as ProtocolInfo, Manufacturer/Model, etc. can be omitted.
 
+To verify the server acknowledges your sync support, create a sync job using the web interface and test to make sure the device shows up as a selectable sync target.
+
 ## Determining user sync privileges
 
 Coming soon.
