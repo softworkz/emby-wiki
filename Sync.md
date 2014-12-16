@@ -43,7 +43,13 @@ Note: If using our api libraries, simply call SyncHelper.GetSyncOptions and it w
 
 To create a sync job, send a Post to /Sync/Jobs. The **TargetId** property should be the client's reported **DeviceId**.
 
-If the user chooses to sync a Genre, MusicGenre, GameGenre, Studio, or Person, then the ParentId property should also be supplied, in order to limit the scope of the sync to the section of the library they're currently browsing.
+**Notes**:
+
+* If the user chooses to sync a Genre, MusicGenre, GameGenre, Studio, or Person, then the ParentId property should also be supplied, in order to limit the scope of the sync to the section of the library they're currently browsing.
+
+* d
+
+* d
 
 A complete example is available in our ApiClient libraries. See CreateSyncJob.
 
