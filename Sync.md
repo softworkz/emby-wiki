@@ -13,7 +13,7 @@ To verify the server acknowledges your sync support, create a sync job using the
 
 ## Determining user sync privileges
 
-Coming soon.
+To determine if a user has sync privileges, check user.Policy.EnableSync.
 
 ## Sync Selections
 
