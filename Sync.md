@@ -37,6 +37,7 @@ Note: If using our api libraries, simply call SyncHelper.GetSyncOptions and it w
 * **Quality** - Only if syncing video content. See SyncHelper for examples.
 * **Unwatched** - Only if syncing video content. See SyncHelper for examples.
 * **SyncNewContent** - Only if syncing a folder or category. See SyncHelper for examples.
+* **ItemLimit** - Only if syncing a folder or category. See SyncHelper for examples.
 
 ## Creating Sync Jobs
 
