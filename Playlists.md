@@ -7,8 +7,6 @@ There are two additional params, one of which must be specified:
 * MediaType (Audio/Video)
 * Ids - A comma delimited list of item id's to add to the playlist. MediaType can be omitted if this is supplied.
 
-Note that all server library items have a SupportsPlaylists property that indicates if they're able to be added to playlists.
-
 ### Retrieving Playlists
 
 Playlists for a user can be queried like any other type. The item type is Playlist.
@@ -39,8 +37,6 @@ In addition, supply:
 
 * Ids - A comma delimited list of item id's to add to the playlist.
 * UserId
-
-Note that all server library items have a SupportsPlaylists property that indicates if they're able to be added to playlists.
 
 ### Removing from Playlists
 
