@@ -25,10 +25,10 @@
 * [Playback guidelines](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Guidelines)
 * [Audio streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Audio-Streaming)
 * [Video streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Video-Streaming)
+ * [GPU Transcoding](https://github.com/MediaBrowser/MediaBrowser/wiki/GPU-Tanscoding)
 * [Http live streaming](https://github.com/MediaBrowser/MediaBrowser/wiki/Http-Live-Streaming)
 * [Subtitles](https://github.com/MediaBrowser/MediaBrowser/wiki/Subtitles)
 * [Playback check-ins](https://github.com/MediaBrowser/MediaBrowser/wiki/Playback-Check-ins)
-* [GPU Transcoding](https://github.com/MediaBrowser/MediaBrowser/wiki/GPU-Tanscoding)
 
 ### Server Plugin Development
 * [Getting started](https://github.com/MediaBrowser/MediaBrowser/wiki/How-to-build-a-Server-Plugin)
