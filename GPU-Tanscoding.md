@@ -12,11 +12,14 @@ At present the system requirements are:
 
 If you're ready to give GPU transcoding a try, then please follow these steps...
 
+**Please note** The current Dev release of MediaBrowser does not contain some tweaks to the code necessary for QuickSync to run reliably. For now you may be able to undertake some initial testing, but unless you build MediaBrowser yourself from [my fork of the code](https://github.com/mjb2000/MediaBrowser), then you may experience issues.
+
 ## 1) Switch to the development branch of Media Browser  
 1. From the web administration console, choose **Advanced > General > Automatic updates > Dev (Unstable)**
 2. Perform an automatic update of MediaBrowser to get the latest Dev version.
 
 If you are running MediaBrowser as a system service, you will need to stop and restart the service in order for the update to be applied.
+
 
 ## 2) Edit the transcoding configuration file
 1. From the web administration console, choose **Playback > Transcoding**
