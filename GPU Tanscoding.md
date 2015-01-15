@@ -55,7 +55,7 @@ Hopefully you will see an increase in your FPS, or at least a fall in your CPU u
 ***
 # Notes
 1. Mixed results with QuickSync on Windows 8 - Currently when the transcode does not require a change of frame size (for example 1920x1080 -> 1920x1080) then the QuickSync output occasionally jumps back-and-forth. This is not the case when the frame size is resized (for example 1920x1080 -> 1280x720)
-2. This file is located in you profile directory. For example if you Windows username is JohnSmith then your MediaBrowser installation directory is usually `C:\Users\JohnSmith\AppData\Roaming\MediaBrowser-Server`. You can use `%APPDATA%` as a shortcut to this folder - Pasting this shortcut in to Windows Explorer will take you straight to the AppData\Roaming folder.
+2. This file is located in your profile directory. For example if you Windows username is JohnSmith then your MediaBrowser installation directory is usually `C:\Users\JohnSmith\AppData\Roaming\MediaBrowser-Server`. You can use `%APPDATA%` as a shortcut to this folder - Pasting this shortcut in to Windows Explorer will take you straight to the AppData\Roaming folder.
 3. If your bandwidth setting on your remote device is quite high and your source file already uses h264 video, then it's possible the source file won't be transcoded. Try lowering your client bandwidth and this should for transcoding to occur.
 4. nVidia desktop graphics cards (GeForce) have a maximum or two hardware encoding sessions
 5. Media Browser also uses libvpx to encode video (webm format) for HTML5 devices. It is not currently possible to user GPU acceleration for libvpx
