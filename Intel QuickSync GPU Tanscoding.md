@@ -32,7 +32,7 @@ If you are running MediaBrowser as a system service, you will need to stop and r
 7. Save the file
 
 ## 3) Grab an updated ffmpeg.exe
-A new ffmpeg.exe which includes support for Intel QuickSync encoding is required. You can either build it yourself using [this build script](https://github.com/mjb2000/media-autobuild_suite) or [download the latest .exe release from here](https://github.com/mjb2000/media-autobuild_suite/releases/download/1.3/ffmpeg.exe).
+A new ffmpeg.exe which includes support for Intel QuickSync and nVidia NVENC encoding is required. You can either build it yourself using [this build script](https://github.com/mjb2000/media-autobuild_suite) or [download the latest .exe release from here](https://github.com/mjb2000/media-autobuild_suite/releases/download/1.3/ffmpeg.exe).
 
 Once you have built or downloaded a new ffmpeg.exe:
 
