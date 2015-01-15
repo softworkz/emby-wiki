@@ -4,9 +4,12 @@
 **This is currently an experimental feature. If you experience any issues you should reverse any changes you make to your MediaBrowser set-up.**  
 Please report any issues you experience on the [GPU transcoding thread](http://mediabrowser.tv/community/index.php?/topic/10723-gpu-transcoding/?view=getnewpost).
 ***
-# Prerequesties
-GPU transcoding is currently achieved only for h264 video streams(5) using either **Intel QuickSync or nVidia NVENC** technology. h264 is the video codec used for many remote devices you might be streaming to, such as ChromeCast, Roku, Kodi and Smart TV's. 
+# Scope
+GPU transcoding is currently achieved only for h264 video streams using either **Intel QuickSync or nVidia NVENC** technology. h264 is the video codec used for many remote devices you might be streaming to, such as ChromeCast, Roku, Kodi and Smart TV's. 
 
+Media Browser also uses libvpx to encode video (webm format) for HTML5 devices. It is not currently possible to user GPU acceleration for libvpx.
+
+# Prerequesties
 At present the system requirements are:  
 * [Intel processor that supports Intel QuickSync](http://ark.intel.com/search/advanced?s=t&QuickSyncVideo=true) (As a rough guide these are i3, i5 and i7 desktop chips as well as a few embedded chips - BayTrail)
 * -or-
@@ -58,4 +61,3 @@ Hopefully you will see an increase in your FPS, or at least a fall in your CPU u
 2. This file is located in your profile directory. For example if you Windows username is JohnSmith then your MediaBrowser installation directory is usually `C:\Users\JohnSmith\AppData\Roaming\MediaBrowser-Server`. You can use `%APPDATA%` as a shortcut to this folder - Pasting this shortcut in to Windows Explorer will take you straight to the AppData\Roaming folder.
 3. If your bandwidth setting on your remote device is quite high and your source file already uses h264 video, then it's possible the source file won't be transcoded. Try lowering your client bandwidth and this should for transcoding to occur.
 4. nVidia desktop graphics cards (GeForce) have a maximum or two hardware encoding sessions
-5. Media Browser also uses libvpx to encode video (webm format) for HTML5 devices. It is not currently possible to user GPU acceleration for libvpx
