@@ -1,3 +1,6 @@
+![GPU Trnascoding](http://mediabrowser.tv/community/uploads/inline/5895/54b7997749d17_GPU.jpg)
+![Intel nVidia](http://mediabrowser.tv/community/uploads/inline/5895/54b799cd222e3_IntelNvidia.jpg)
+
 **This is currently an experimental feature. If you experience any issues you should reverse any changes you make to your MediaBrowser set-up.**  
 Please report any issues you experience on the [GPU transcoding thread](http://mediabrowser.tv/community/index.php?/topic/10723-gpu-transcoding/?view=getnewpost).
 ***
