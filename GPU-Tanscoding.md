@@ -16,6 +16,11 @@ At present the system requirements are:
 * [nVidia graphics card that support NVENC](https://developer.nvidia.com/nvidia-video-codec-sdk#gpulist) (These are the Kepler and Maxwell based GPUs - there are high-end and desktop variants of these cards(4))
 * MediaBrowser Server running on Microsoft Windows(1)
 
+## Latest driviers
+Nearly all issues report on the forum have been resolved by ensuring the latest drivers are used. For desktops, check for the latest drivers from Intel and nVidia. If you have a laptop, you will need to get the driver from your laptop manufacturer.
+
+Don't rely on automatic driver update tools, there have been reports on these failing to obtain the latest driver for the GPU.
+
 # Enabling GPU transcoding
 
 If you're ready to give GPU transcoding a try, then please follow these steps...
