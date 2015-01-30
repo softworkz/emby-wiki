@@ -45,7 +45,7 @@ If you are running MediaBrowser as a system service, you will need to stop and r
 7. Save the file
 
 ## 3) Grab an updated ffmpeg.exe
-A new ffmpeg.exe which includes support for Intel QuickSync and nVidia NVENC encoding is required. You can either build it yourself using [this build script](https://github.com/mjb2000/media-autobuild_suite) or [download the latest .exe release from here](https://github.com/mjb2000/media-autobuild_suite/releases/download/1.3/ffmpeg.exe).
+A new ffmpeg.exe which includes support for Intel QuickSync and nVidia NVENC encoding is required. You can either build it yourself using [this build script](https://github.com/mjb2000/media-autobuild_suite) or [download the latest .exe release from here](https://github.com/mjb2000/FFmpeg/releases/download/n2.5-dev/ffmpeg.exe).
 
 Once you have built or downloaded a new ffmpeg.exe:
 
@@ -62,7 +62,30 @@ Remember, if you are running MediaBrowser as a system service you will need to s
 ## 5) Check the result
 Use a device that will require transcoding(3) and take a look at the most recent log file in `%APPDATA%\MediaBrowser-Server\logs`  
 Hopefully you will see an increase in your FPS, or at least a fall in your CPU usage. You can also use [GPU-Z](http://www.techpowerup.com/downloads/SysInfo/GPU-Z/) to see your GPU usage (you should see a spike in GPU usage when Intel QuickSync is used).
+
+## 6) Allowing updates
+**This is an optional step that you might want to take if you have been able to get GPU transcoding working successfully using the steps listed above.**
+
+By default, when MediaBrowser is updated, it will also update the ffmpeg.exe - this will remove the GPU enabled version you have added. To prevent this...
+
+* Create the following folder `%APPDATA%\MediaBrowser-Server\ffmpeg\gpu` (This new  'GPU' folder should be alongside the original date-based folder)
+* Download both [ffmpeg.exe](https://github.com/mjb2000/FFmpeg/releases/download/n2.5-dev/ffmpeg.exe) and [ffprobe.exe](https://github.com/mjb2000/FFmpeg/releases/download/n2.5-dev/ffprobe.exe) in to this new GPU folder.
+* Edit your MediaBrowser Server shortcut.
+  * Change the 'ImagePath':Change the 'Trarget':
+     * From: `C:\Users\MY_USER_NAME\AppData\Roaming\MediaBrowser-Server\System\MediaBrowser.ServerApplication.exe`
+     * To: `C:\Users\MY_USER_NAME\AppData\Roaming\MediaBrowser-Server\System\MediaBrowser.ServerApplication.exe -ffmpeg "C:\Users\MY_USER_NAME\AppData\Roaming\MediaBrowser-Server\ffmpeg\gpu\ffmpeg.exe" -ffprobe "C:\Users\MY_USER_NAME\AppData\Roaming\MediaBrowser-Server\ffmpeg\gpu\ffprobe.exe"`
+* Edit your MediaBroser Server Windows Service.
+  * Open RegEdit and navigate to 
+  * Change the 'ImagePath':
+     * From: `"C:\Users\MY_USER_NAME\AppData\Roaming\MediaBrowser-Server\system\MediaBrowser.ServerApplication.exe" -service`
+     * To: `"C:\Users\MY_USER_NAME\AppData\Roaming\MediaBrowser-Server\system\MediaBrowser.ServerApplication.exe" -service -ffmpeg "C:\Users\MY_USER_NAME\AppData\Roaming\MediaBrowser-Server\ffmpeg\gpu\ffmpeg.exe" -ffprobe "C:\Users\MY_USER_NAME\AppData\Roaming\MediaBrowser-Server\ffmpeg\gpu\ffprobe.exe"`
+
+These updates allow you to use a custom location for ffmpeg. Since you are using a customer ffmpeg, MediaBrowser will not download a replacement version.
+
+**REMEMBER: At the moment, we are using a custom version of MediaBrowser.Api.Dll as well as ffmpeg. This solution prevents your ffmpeg.exe being overwritten, but WILL NOT prevent the .Dll being overwritten. It is likely that the requirement for a separate .Dll will only be short-term, although the overwriting of ffmpeg.exe is likely to be a long-term issue, hence these tweaks should be useful**
+
 ***
+
 # Notes
 1. Mixed results with QuickSync on Windows 8 - Currently when the transcode does not require a change of frame size (for example 1920x1080 -> 1920x1080) then the QuickSync output occasionally jumps back-and-forth. This is not the case when the frame size is resized (for example 1920x1080 -> 1280x720)
 2. This file is located in your profile directory. For example if your Windows username is JohnSmith then your MediaBrowser installation directory is usually `C:\Users\JohnSmith\AppData\Roaming\MediaBrowser-Server`. You can use `%APPDATA%` as a shortcut to this folder - Pasting this shortcut in to Windows Explorer will take you straight to the AppData\Roaming folder.
