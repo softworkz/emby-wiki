@@ -27,7 +27,7 @@ Don't rely on automatic driver update tools, there have been reports on these fa
 
 If you're ready to give GPU transcoding a try, then please follow these steps...
 
-**Please note:** The current Dev release of MediaBrowser does not contain some tweaks to the code necessary for QuickSync to run reliably. For now you may be able to undertake some initial testing, but unless you build MediaBrowser yourself from [my fork of the code](https://github.com/mjb2000/MediaBrowser) or replace your [MediaBrowser.Api.Dll with my version](https://github.com/mjb2000/MediaBrowser/releases/download/3.0.5490.2/MediaBrowser.Api.dll), then you may experience issues.
+**Please note:** The current Dev release of MediaBrowser does not contain some tweaks to the code necessary for QuickSync to run reliably. For now you may be able to undertake some initial testing, but you may experience issues unless you build MediaBrowser yourself from [my fork of the code](https://github.com/mjb2000/MediaBrowser) or replace your [MediaBrowser.Api.Dll with my version](https://github.com/mjb2000/MediaBrowser/releases/download/3.0.5508.29225/MediaBrowser.Api.dll). **DLL for MB Dev v3.0.5508.29225**
 
 ## 1) Switch to the development branch of Media Browser  
 1. From the web administration console, choose **Advanced > General > Automatic updates > Dev (Unstable)**
