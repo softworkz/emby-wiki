@@ -7,7 +7,7 @@ The web socket is also the preferred protocol from which to receive remote contr
 Once connected to the server, simply take the server's http address, and change the protocol to ws:// or wss://.
 
 `
-ws://{host}/mediabrowser
+ws://{host}?api_key={authenticationtoken}&deviceId={deviceId}
 `
 To construct the url, perform a string replacement on the http url rather than building it manually. This will allow your app to support addresses without ports, as well as http/https.
 
@@ -29,23 +29,6 @@ All messages sent and received over the web socket are in the format of a json s
 `
 
 MessageType is the name of the event or action, Data is any related data. Data can be plain text, or a json structure itself, depending on MessageType.
-
-### Identification message
-
-As soon as the connection is established, an identification message should be sent by the client which includes the client name, device id, application version and device name. For example
-
-`
-{
-
-    MessageType: "Identity",
-
-    Data: "Dashboard|df787898fdsf7ds80|1.0.0.0|nexus7"
-}
-`
-
-The client name **must match** the value used in http authorization headers.
-
-**After the web socket has connected and identified, the client should report it's remote control capabilities using /Sessions/Capabilities**. This should be repeated anytime the socket reconnects.
 
 ## Messages
 
