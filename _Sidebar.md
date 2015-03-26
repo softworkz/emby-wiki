@@ -38,5 +38,5 @@
 * [Getting your plug-in in the catalog](https://github.com/MediaBrowser/MediaBrowser/wiki/Getting-your-plug-in-in-the-catalog)
 * [Development Policy](https://github.com/MediaBrowser/MediaBrowser/wiki/Development-Policy)
 
-### Dashboard Development
+### Web Client Development
 * [Getting started](https://github.com/MediaBrowser/MediaBrowser/wiki/Dashboard-Development)
