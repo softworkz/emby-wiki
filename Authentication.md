@@ -22,7 +22,7 @@ The dashboard currently displays customized icons for the following clients:
 * Roku
 * Windows Phone
 * Windows RT
-* Xbmc
+* Kodi (Formerly known as Xbmc)
 
 ## User Login 
 
