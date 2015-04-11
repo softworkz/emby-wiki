@@ -1,6 +1,6 @@
 Plugins are able to create their own api endpoints, whether it be for their own consumption, or for the purposes of publishing them to UI developers. This will demonstrate how to build an api endpoint.
 
-Media Browser's api layer is built with **Service Stack**, so their examples are directly applicable.
+Emby's api layer is built with **Service Stack**, so their examples are directly applicable.
 
 ## Create the Service
 Create a class that implements IRestfulService. In order to do this you will have to add the ServiceStack.Common nuget package to your project.

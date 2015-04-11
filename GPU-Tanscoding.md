@@ -7,7 +7,7 @@ Please report any issues you experience on the [GPU transcoding thread](http://m
 # Scope
 GPU transcoding is currently achieved only for h264 video streams using either **Intel QuickSync or nVidia NVENC** technology. h264 is the video codec used for many remote devices you might be streaming to, such as ChromeCast, Roku, Kodi and Smart TV's. 
 
-Media Browser also uses libvpx to encode video (webm format) for HTML5 devices. It is not currently possible to use GPU acceleration for libvpx.
+Emby also uses libvpx to encode video (webm format) for HTML5 devices. It is not currently possible to use GPU acceleration for libvpx.
 
 # Prerequesties
 At present the system requirements are:  
@@ -29,7 +29,7 @@ If you're ready to give GPU transcoding a try, then please follow these steps...
 
 **Please note:** The current Dev release of MediaBrowser does not contain some tweaks to the code necessary for QuickSync to run reliably. For now you may be able to undertake some initial testing, but you may experience issues unless you build MediaBrowser yourself from [my fork of the code](https://github.com/mjb2000/MediaBrowser) or replace your [MediaBrowser.Api.Dll with my version](https://github.com/mjb2000/MediaBrowser/releases/download/3.0.5508.29225/MediaBrowser.Api.dll). **DLL for MB Dev v3.0.5508.29225**
 
-## 1) Switch to the development branch of Media Browser  
+## 1) Switch to the development branch of Emby  
 1. From the web administration console, choose **Advanced > General > Automatic updates > Dev (Unstable)**
 2. Perform an automatic update of MediaBrowser to get the latest Dev version.
 

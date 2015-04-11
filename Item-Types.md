@@ -1,4 +1,4 @@
-Media Browser has a number of core library item types. The type can be determined by examining the Type property of a Dto. Api consumers can detect these types to customize their displays and/or query for these types individually to create virtual views.
+Emby has a number of core library item types. The type can be determined by examining the Type property of a Dto. Api consumers can detect these types to customize their displays and/or query for these types individually to create virtual views.
 
 The following core types are available:
 

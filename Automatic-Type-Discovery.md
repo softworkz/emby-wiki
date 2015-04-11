@@ -1,4 +1,4 @@
-Media Browser will discover a number of Types in your plugin project automatically, without you having to do anything to wire them up. All you need to do is implement the appropriate interface and it will become part of the system.
+Emby will discover a number of Types in your plugin project automatically, without you having to do anything to wire them up. All you need to do is implement the appropriate interface and it will become part of the system.
 
 The following interfaces are available for implementation:
 
@@ -32,7 +32,7 @@ Implement IItemResolver to define your own custom media types.
 
 ### IResolverIgnoreRule
 
-Implement this interface to create a rule allowing certain paths in the media library to be ignored. For example, the Video Backdrops plugin uses a "backdrops" folder within each Movie and Tv Series. It then implements IResolverIgnoreRule to prevent those folders from being displayed by Media Browser clients.
+Implement this interface to create a rule allowing certain paths in the media library to be ignored. For example, the Video Backdrops plugin uses a "backdrops" folder within each Movie and Tv Series. It then implements IResolverIgnoreRule to prevent those folders from being displayed by Emby clients.
 
 ### IWeatherProvider
 

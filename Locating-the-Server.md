@@ -1,4 +1,4 @@
-Media Browser features a built-in Udp server, which allows clients to discover it automatically. 
+Emby features a built-in Udp server, which allows clients to discover it automatically. 
 
 Simply send a **udp broadcast message** on port **7359**, with the text "who is EmbyServer?".
 

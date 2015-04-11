@@ -54,7 +54,7 @@ An example session is:
     "UserName": "John",
     "AdditionalUsers": [],
     "ApplicationVersion": "3.0.5243.22734",
-    "Client": "Media Browser Theater",
+    "Client": "Emby Theater",
     "LastActivityDate": "2014-05-15T09:52:52.5898360Z",
     "NowViewingItem": {
       "Name": "Partridge",

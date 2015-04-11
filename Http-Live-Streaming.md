@@ -1,4 +1,4 @@
-Media Browser supports the Http Live Streaming protocol, also known as HLS.
+Emby supports the Http Live Streaming protocol, also known as HLS.
 
 The url is:
 

@@ -17,8 +17,8 @@ The dashboard currently displays customized icons for the following clients:
 * Dashboard
 * Dlna
 * iOS
-* Media Browser Theater
-* Media Browser Classic
+* Emby Theater
+* Emby Classic
 * Roku
 * Windows Phone
 * Windows RT
