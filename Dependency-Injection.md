@@ -1,4 +1,4 @@
-While you're building your classes for [automatic discovery](https://github.com/MediaBrowser/MediaBrowser/wiki/Automatic-Type-Discovery), many of these classes will require access to the core's internal services.
+While you're building your classes for [automatic discovery](Automatic-Type-Discovery), many of these classes will require access to the core's internal services.
 
 If your class depends on one of our services, all you have to do is add it to your constructor and an instance will be passed in that you can work with.
 

@@ -1,4 +1,4 @@
->Please see our [Development Policy](https://github.com/MediaBrowser/MediaBrowser/wiki/Development-Policy) before beginning development.
+>Please see our [Development Policy](Development-Policy) before beginning development.
 
 First install Emby Server, or download the code. Get the server up and running.
 
@@ -36,9 +36,9 @@ Shutdown the server, rebuild your solution, and restart the server. At this poin
 
 To add real functionality to your plugin, you will need an entrypoint that can initialize and accept the various dependencies you may need in order to interact with the MB environment.
 
-This is done by creating a class that implements the IServerEntryPoint interface.  See [Automatic Type Discovery](https://github.com/MediaBrowser/MediaBrowser/wiki/Automatic-Type-Discovery) for this and other types you can include in your plug-in. Its constructor can accept any number of injected dependencies - depending on what your plugin needs to access.  See [Dependency Injection](https://github.com/MediaBrowser/MediaBrowser/wiki/Dependency-Injection).
+This is done by creating a class that implements the IServerEntryPoint interface.  See [Automatic Type Discovery](Automatic-Type-Discovery) for this and other types you can include in your plug-in. Its constructor can accept any number of injected dependencies - depending on what your plugin needs to access.  See [Dependency Injection](Dependency-Injection).
 
-If your plugin will be a premium plugin, see IRequiresRegistration in [Other Interfaces](https://github.com/MediaBrowser/MediaBrowser/wiki/Other-Interfaces).
+If your plugin will be a premium plugin, see IRequiresRegistration in [Other Interfaces](Other-Interfaces).
 
 ### Debugging
 

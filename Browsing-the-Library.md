@@ -15,7 +15,7 @@ The items from a view can then be retrieved generically using:
 
 All views support this style of generic navigation. Each item will have several properties to determine how to display it, e.g. **IsFolder** (true/false), **MediaType** (Audio/Video/Photo/Book/Game) and **Type**.
 
-See https://github.com/MediaBrowser/MediaBrowser/wiki/Item-Information
+See Item-Information
 
 ## Customized Presentations
 

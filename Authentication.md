@@ -30,7 +30,7 @@ The dashboard currently displays customized icons for the following clients:
 
 * If there are records returned, the app has the option of displaying the users in a visual login screen. This is up to the application developer to decide. If there are no records returned then present a username/password text entry form.
 
-* For each user, if PrimaryImageTag has a value, that indicates the user has an image. The image can then be downloaded using /Users/{Id}/Images/{Type}. See [images](https://github.com/MediaBrowser/MediaBrowser/wiki/Images).
+* For each user, if PrimaryImageTag has a value, that indicates the user has an image. The image can then be downloaded using /Users/{Id}/Images/{Type}. See [images](Images).
 
 * Each user has a HasPassword property. This is used to determine if the user should be prompted to input a password. The application must authenticate regardless of this value.
 
@@ -50,4 +50,4 @@ The dashboard currently displays customized icons for the following clients:
 
 ## Parental Control
 
-See https://github.com/MediaBrowser/MediaBrowser/wiki/Parental-Control
+See Parental-Control

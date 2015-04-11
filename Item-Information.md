@@ -26,7 +26,7 @@ Library items have a number of interesting properties. Among these are, but not 
 * Tags
 * Type
 
-When retrieving a single item, the entire object is returned. When querying for items, the return data will be stripped to include only a minimal amount of information. When querying, you can configure the fields that are returned in the output. See [browsing the Library.](https://github.com/MediaBrowser/MediaBrowser/wiki/Browsing-the-Library)
+When retrieving a single item, the entire object is returned. When querying for items, the return data will be stripped to include only a minimal amount of information. When querying, you can configure the fields that are returned in the output. See [browsing the Library.](Browsing-the-Library)
 
 Here are some other properties along with their descriptions:
 
@@ -40,7 +40,7 @@ These are applicable to audio files and music albums only.
 This is generally the original aspect ratio that the video was filmed in. The actual aspect ratio of the user's video can be found in the MediaStreams property.
 
 ### BackdropImageTags
-This will tell you how many backdrop images are available for an item. See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
+This will tell you how many backdrop images are available for an item. See [images.](Images)
 
 ### Chapters
 This is applicable to videos only. This will give you the list of chapter markers contained within the video.
@@ -58,7 +58,7 @@ For folders, this represents the cumulative runtime.
 This is the date an item ended. For Persons this represents death date. For series that have ended, this is the air date of the final episode.
 
 ### ImageTags
-This will tell you what images are available for an item. See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
+This will tell you what images are available for an item. See [images.](Images)
 
 ### IndexNumber
 This serves different purposes depending on the type of item. For episodes this is the episode number. For seasons, this is the season number. For audio files, this is the track number.
@@ -104,7 +104,7 @@ An html version of the overview, possibly with links embedded.
 Similiar to IndexNumber, this serves different purposes depending on the type of item. For episodes this is the season number. For audio files, this is the disc number.
 
 ### ParentArtItemId, ParentArtImageTag, ParentLogoItemId, ParentLogoImageTag, ParentBackdropItemId, ParentBackdropImageTags 
-See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
+See [images.](Images)
 
 If an item does not have it's own art, backdrop or logo, these properties will contain information about parent items with those images in order to allow inheritance.
 
@@ -125,7 +125,7 @@ This is the aspect ratio of the primary image. Most image types have a predictab
 
 OriginalPrimaryImageAspectRatio ratio is the AR of the original image file. PrimaryImageAspectRatio is the AR after image enhancers have been applied (e.g. Cover Art).
 
-See [images.](https://github.com/MediaBrowser/MediaBrowser/wiki/Images)
+See [images.](Images)
 
 ### ProductionLocations
 This is a list of strings indicating filming locations. For Persons, this will have one entry and will contain their place of birth.
