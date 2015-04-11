@@ -14,7 +14,7 @@ First install Emby Server, or download the code. Get the server up and running.
 
 If not, copy that and generate a new GUID using Tools -> Create Guid.
 
-3. Install the [MediaBrowser.Server.Core nuget package](https://www.nuget.org/packages/MediaBrowser.Server.Core/)
+3. Install the [Emby.Server.Core nuget package](https://www.nuget.org/packages/MediaBrowser.Server.Core/)
 
 4. Create a class called PluginConfiguration, and have it inherit from MediaBrowser.Model.Plugins.BasePluginConfiguration.
 

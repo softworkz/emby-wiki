@@ -40,7 +40,7 @@ Displaying a customized view of live tv or channels will require use of the spec
 ## Sorting
 Use the SortBy param to supply the fields to sort on. This supports multiple sort orders using a comma delimited list. Use SortOrder to specify ascending or descending order. The following example sorts by Artist, and then Album, in Ascending order:
 
-> http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?ParentId=20aef3be-ebda-f0d4-0096-8d179783e918&SortBy=Artist,Album&SortOrder=Ascending
+> http://localhost:8096/emby/Users/e8837bc1ad67520e8cd2f629e3155721/Items?ParentId=20aef3be-ebda-f0d4-0096-8d179783e918&SortBy=Artist,Album&SortOrder=Ascending
 
 ## Fields
 
@@ -48,16 +48,16 @@ When you request a single item using the /Users/{UserId}/Items/{Id} api, you wil
 
 If you want to add additional fields to the items, use the fields param, which is a comma-delimited list of fields to include in the output. See the swagger documentation for a full listing of available fields. Here is an example which adds SortName and PrimaryImageAspectRatio:
 
-> http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?ParentId=20aef3be-ebda-f0d4-0096-8d179783e918&Fields=PrimaryImageAspectRatio,SortName
+> http://localhost:8096/emby/Users/e8837bc1ad67520e8cd2f629e3155721/Items?ParentId=20aef3be-ebda-f0d4-0096-8d179783e918&Fields=PrimaryImageAspectRatio,SortName
 
 ## Query-based views
 If you would like to present virtual views based on queries, the api will allow you to do that. Use the Recursive=true param to search recursively. Here are a few examples:
 
 ### Display resumeable items, limit to 20 results and sort by date played
-> http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?Limit=20&Recursive=true&SortBy=DatePlayed&SortOrder=Descending&Filters=IsResumable
+> http://localhost:8096/emby/Users/e8837bc1ad67520e8cd2f629e3155721/Items?Limit=20&Recursive=true&SortBy=DatePlayed&SortOrder=Descending&Filters=IsResumable
 
 ### Display all Movies
-> http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?Recursive=true&IncludeItemTypes=Movie
+> http://localhost:8096/emby/Users/e8837bc1ad67520e8cd2f629e3155721/Items?Recursive=true&IncludeItemTypes=Movie
 
 ### Display all Episodes
-> http://localhost:8096/mediabrowser/Users/e8837bc1ad67520e8cd2f629e3155721/Items?Recursive=true&IncludeItemTypes=Episode
+> http://localhost:8096/emby/Users/e8837bc1ad67520e8cd2f629e3155721/Items?Recursive=true&IncludeItemTypes=Episode

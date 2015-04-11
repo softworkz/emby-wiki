@@ -75,4 +75,4 @@ To mark an item unwatched, send a DELETE to
 
 ## More Info
 
-For more information on these three methods, consult the Swagger API documentation. The [MediaBrowser.ApiClient](https://github.com/MediaBrowser/MediaBrowser.ApiClient) repository also has examples of these methods.
+For more information on these three methods, consult the Swagger API documentation. The [Emby.ApiClient](https://github.com/MediaBrowser/MediaBrowser.ApiClient) repository also has examples of these methods.
