@@ -1,3 +1,8 @@
+## User Wiki
+This wiki is written for developers. The Emby user wiki can be found at:
+
+https://github.com/MediaBrowser/Wiki/wiki
+
 ## Api Documentation
 The server features built-in documentation [courtesy of Swagger](http://petstore.swagger.wordnik.com/), allowing you to view methods, parameters and even test them in the browser to see what the responses look like.
 
