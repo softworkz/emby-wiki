@@ -29,6 +29,6 @@ All of the optional parameters can be viewed using the swagger documentation.
 
 ## Post Playback
 
-After playback is complete, it is necessary to inform the server to stop any related HLS transcoding. This is accomplished via an HTTP POST to:
+After playback is complete, it is necessary to inform the server to stop any related HLS transcoding. This is accomplished via an HTTP DELETE to:
 
 /Videos/ActiveEncodings?DeviceId=xxx
