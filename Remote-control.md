@@ -135,7 +135,7 @@ Below are the list of known core command **names**, along with the list of prope
 * PageDown,
 * PreviousLetter (scroll list to previous letter),
 * NextLetter (scroll list to next letter),
-* ToggleOsd  (show or hide video player OSD),
+* ToggleOsdMenu  (show or hide video player OSD),
 * ToggleContextMenu (show or hide information relating to selected list item),
 * Select (enter),
 * Back,
