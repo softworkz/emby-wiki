@@ -15,7 +15,7 @@ An example session is:
       "PageDown",
       "PreviousLetter",
       "NextLetter",
-      "ToggleOsd",
+      "ToggleOsdMenu",
       "ToggleContextMenu",
       "Select",
       "Back",
