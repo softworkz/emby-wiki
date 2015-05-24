@@ -6,7 +6,7 @@ https://github.com/MediaBrowser/Wiki/wiki
 ## Api Documentation
 The server features built-in documentation [courtesy of Swagger](http://petstore.swagger.wordnik.com/), allowing you to view methods, parameters and even test them in the browser to see what the responses look like. The Swagger UI can be accessed at:
 
-http://{emby_server}:{emby_port}/mediabrowser/swagger-ui/index.html
+http://{emby_server}:{emby_port}/swagger-ui/index.html
 
 ## Contributing to Emby
 We have a growing team but are still looking for more contributors to help us realize a few more goals.
