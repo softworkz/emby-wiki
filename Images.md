@@ -53,8 +53,8 @@ If an item does not have backdrops or logos, there are properties that will indi
 * ParentArtImageTag - The cache tag of the ancestor art image
 * ParentBackdropItemId - The id of an ancestor item with backdrop images
 * ParentBackdropImageTags - The cache tags of the ancestor backdrop images
-* ParentThumbItemId - The id of an ancestor item with backdrop images
-* ParentThumbImageTags - The cache tags of the ancestor backdrop images
+* ParentThumbItemId - The id of an ancestor item with a thumb image
+* ParentThumbImageTag - The cache tags of the ancestor thumb image
 
 ## Image Format
 
