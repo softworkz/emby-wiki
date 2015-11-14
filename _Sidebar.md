@@ -24,7 +24,6 @@
 * [Playback guidelines](Playback-Guidelines)
 * [Audio streaming](Audio-Streaming)
 * [Video streaming](Video-Streaming)
- * [GPU Transcoding](GPU-Tanscoding)
 * [Http live streaming](Http-Live-Streaming)
 * [Subtitles](Subtitles)
 * [Playback check-ins](Playback-Check-ins)
