@@ -1,3 +1,7 @@
+Edit: As of November 2015, Emby Server now has native support for Quick Sync. To learn more, check out the [user wiki on transcoding](https://github.com/MediaBrowser/Wiki/wiki/Transcoding).
+
+
+
 ![GPU Trnascoding](http://emby.media/community/uploads/inline/5895/54b7997749d17_GPU.jpg)
 ![Intel nVidia](http://emby.media/community/uploads/inline/5895/54b799cd222e3_IntelNvidia.jpg)
 
