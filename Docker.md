@@ -6,7 +6,7 @@ After much user feedback we have reworked our Docker images from the ground up. 
 * Custom base image built from `SCRATCH`.
 * Tubleweed
 * static ffmpeg (smaller footprint)
-* S6-overlay used as our process supervisor (need for restart)
+* S6-overlay used as our process supervisor (needed for restart and no dependencies)
 * new installation script
 * systemd script included
 * emby-server script included
