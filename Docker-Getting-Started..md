@@ -2,12 +2,14 @@
 
 We recommend you install directly from the [Docker Hub](hub.docker.com) by issuing the following command from within a terminal:
 ```
-docker run -it --rm -v /usr/local/bin:/target emby/emby-server:testing install_emby
+docker run -it --rm -v /usr/local/bin:/target \
+    emby/emby-server:testing install_emby
 ```
 
 Optionally, you can also install a systemd service file if you wish to control Emby server from systemd.
 ```
-docker run -it --rm -v /etc/systemd/system:/target emby/emby-server:testing install_service
+docker run -it --rm -v /etc/systemd/system:/target \
+   emby/emby-server:testing install_service
 ```
 
 If you installed our systemd service file, you can enable Emby server to automatically start when the system boots by executing the following command:
@@ -42,10 +44,20 @@ emby-server
 ```
 
 ### Technical information:
-Our new image and installation process setups Emby server to run within the containerized environment with the permission of the user who executed the installation. So, Emby server's data is set to save within the user's home directory under the name `.emby-server`. 
+Our new image and installation process setups Emby server to run with the permissions of the user who executed the installation. So, Emby's data is set to save within the user's home directory under the name `.emby-server`. 
 
 You may overwrite the default settings by passing the appropriate environment variable:
-* 
+* USER_UID - UID that emby will run as, default is 1000
+* USER_GID - GID that emby will run as, default is 1000
+* EMBYSERVER_USER - user name of the user to be created within the container with UID and GID from above. Not really needed.
+*EMBYSERVER_CONFIG - the directory which Emby should use to save metadata and configuration.
+
+Please read Docker documentation on [environment variables](https://docs.docker.com/engine/reference/run/#env-environment-variables) for more information.
 
 Manual setup:
+Of course you can always run docker image manually. Please be aware that if you wish your data to remain persistent you need to provide a location for the `/config` volume. For example,
+```
+docker run -d -v /home/user/embydata:/config emby/emby-server:testing
+``` 
+All the information from above regarding user UID and GID still applies when executing a docker run command.
  
