@@ -11,11 +11,13 @@ Optionally, you can also install a systemd service file if you wish to control E
 docker run -it --rm -v /etc/systemd/system:/target \
    emby/emby-server:testing install_service
 ```
-When installing the service it is important you ensure that you installed emby-server specifying the user you wish emby run as. For example,
+When installing the service it is important you ensure that you installed emby-server specifying the user you wish emby to run as. For example,
 ```
 docker run -it --rm -v /usr/local/bin:/target -e "EMBYSERVER_USER=username" \
     emby/emby-server:testing install_emby
 ```
+It perfectly fine to reissue to install command.
+
 If you installed our systemd service file, you can enable Emby server to automatically start when the system boots by executing the following command:
 ```
 sudo systemctl enable emby-server.service
