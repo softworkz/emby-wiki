@@ -1,6 +1,6 @@
 After you have developed a plug-in for Emby, the next step is to get it into the catalog so users can install it.  Please be sure your plug-in adheres to our [Development Policy](Development-Policy) before placing it in the catalog.  It will be removed by an administrator if it violates this policy.
 
-- First, request a developer id from the MB team by emailing admin AT mediabrowser3 DOT com or posting in the dev forum that you are ready to publish.
+- First, request a developer id from the MB team by sending a PM to ebr or posting in the dev forum that you are ready to publish.
 
 - Once you have your credentials you'll need to go to: http://www.mb3admin.com/admin/ and login with the user and password you were provided.
 
