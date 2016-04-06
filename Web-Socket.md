@@ -117,4 +117,4 @@ Below are the list of known core command **names**, along with the list of prope
 
 Sample code that parses web server messages can be found here:
 
-https://github.com/MediaBrowser/MediaBrowser.ApiClient/blob/master/MediaBrowser.ApiInteraction/WebSocket/BaseApiWebSocket.cs
+https://github.com/MediaBrowser/Emby.ApiClient/blob/master/MediaBrowser.ApiInteraction/ApiWebSocket.cs#L399
