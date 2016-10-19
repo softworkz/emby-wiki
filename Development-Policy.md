@@ -2,7 +2,7 @@
 
 We hope to provide a free and open environment for contributing valuable functionality to the Emby universe and encourage all contributions as long as they follow one simple rule: 
 
-**No code contribution or plug-in shall directly violate or otherwise circumvent or cause the MB product as a whole to violate or circumvent any laws as governed by the United States of America**.
+**No code contribution or plug-in shall directly violate or otherwise circumvent or cause the Emby product as a whole to violate or circumvent any laws as governed by the United States of America**.
 
 This includes but is not limited to:
 
