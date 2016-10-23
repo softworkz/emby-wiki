@@ -4,8 +4,8 @@ First install Emby Server, or download the code. Get the server up and running.
 
 ### Create your Visual Studio Solution
 
-1. Create a portable class library project. Enable the following framework targets:
-* .NET Framework 4.6
+1. Create a portable class library project. When prompted to select framework targets, enable the following:
+* NET Framework 4.6
 * ASP.NET Core 1.0
 * Windows Universal 10
 
