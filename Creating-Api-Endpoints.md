@@ -1,9 +1,7 @@
 Plugins are able to create their own api endpoints, whether it be for their own consumption, or for the purposes of publishing them to UI developers. This will demonstrate how to build an api endpoint.
 
-Emby's api layer is built with **Service Stack**, so their examples are directly applicable.
-
 ## Create the Service
-Create a class that implements IRestfulService. In order to do this you will have to add the ServiceStack.Common nuget package to your project.
+Create a class that implements MediaBrowser.Model.Services.IService.
 
 You will then have to create request dto classes that describe the request. The following is a complete service example:
 
@@ -13,11 +11,10 @@ You will then have to create request dto classes that describe the request. The 
     [Api(Description = "Gets weather information for a given location")]
     public class GetWeather : IReturn<WeatherInfo>
     {
-        [ApiMember(Name = "Location", Description = "Us zip / City, State, Country / City, Country", IsRequired = true, DataType = "string", ParameterType = "query", Verb = "GET")]
         public string Location { get; set; }
     }
 
-    public class WeatherService : IRestfulService
+    public class WeatherService : IService
     {
         public object Get(GetWeather request)
         {
