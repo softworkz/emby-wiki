@@ -2,7 +2,7 @@
 
 First install Emby Server, or download the code. Get the server up and running.
 
-### Create your Visual Studio Solution
+### Create your Visual Studio Solution (VS 2015+)
 
 1. Create a portable class library project. When prompted to select framework targets, enable the following:
    * .NET Framework 4.5
