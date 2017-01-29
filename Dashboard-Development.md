@@ -1,25 +1,19 @@
-The dashboard is built with **jQuery** and **jQuery mobile**.
+The web app is primarily built with plain JavaScript.
 
-It also utilizes [Emby.ApiClient.Javascript](https://github.com/MediaBrowser/MediaBrowser.ApiClient.Javascript) for all communication with MB server.
+It also utilizes [Emby.ApiClient.Javascript](https://github.com/MediaBrowser/MediaBrowser.ApiClient.Javascript) for all communication with Emby server.
 
-The html code is located within the dashboard-ui folder of the Dashboard project. This is copied to the build output folder, so all html, javascript, css and image files **must be marked as "copy if newer"**.
+If you'd like to contribute, here is the procedure to follow. This works both when running from source and using the installed Emby Server.
 
-If you'd like to contribute, there's two ways you can modify dashboard code:
+## Clone the Standalone Web App Repository
+Clone the **master** branch of this repository:
 
-## Visual Studio
-The preferred way to work within the dashboard is directly within visual studio. In between changes you will need to stop the server and use the rebuild command on the plugin project.
+https://github.com/MediaBrowser/emby-web-mobile
 
-You may choose to set the **DashboardSourcePath** configuration setting to your dashboard-ui source folder for easier development. This will remove the need to restart the server after making markup changes.
+**Note** - when you clone, make sure to specifically indicate the master branch
 
-You'll also want to set **EnableDashboardResponseCaching** to false. Without this you'll have to clear your browser cache in between testing changes.
-
-These changes should be made in the `ProgramData-Server/config/system.xml` file. This folder can be found in the root solution folder.
-
-## Installed Server
-If you don't have visual studio, you can still work with the dashboard.
-
-Simply shutdown the server, open the system configuration file, and set the set the **DashboardSourcePath** configuration setting to your dashboard-ui source folder.
+## Configure Emby Server
+Shutdown the server, open the system configuration file, and set the set the **DashboardSourcePath** configuration setting to the src sub-directory of the web app repository that you just cloned.
 
 You'll also want to set **EnableDashboardResponseCaching to false**. Without this you'll have to clear your browser cache in between testing changes.
 
-Once complete you'll be able to keep the server running, modify dashboard-ui files and simply refresh the browser.
+Once complete you'll be able to keep the server running, modify source files and simply refresh the browser.
