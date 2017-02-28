@@ -3,10 +3,17 @@ This wiki is written for developers. The Emby user wiki can be found at:
 
 https://github.com/MediaBrowser/Wiki/wiki
 
-## Api Documentation
-The server features built-in documentation [courtesy of Swagger](http://petstore.swagger.wordnik.com/), allowing you to view methods, parameters and even test them in the browser to see what the responses look like. The Swagger UI can be accessed at:
+## API Documentation
+Previous releases of Emby included API documentation through the inclusion of [Swagger](http://swagger.io/). Unfortunately, Swagger was removed from Emby around version 3.1.
 
-http://{emby_server}:{emby_port}/swagger-ui/index.html
+Luke has [stated](https://emby.media/community/index.php?/topic/42742-swagger-missing-in-31/#entry398189) that there are plans to restore the API documentation in the future but there is no publicly available timeline for this.
+
+For the time being the best sources for API documentation are the official API client libraries.
+
+* [.NET ApiClient](https://github.com/MediaBrowser/Emby.ApiClient)
+* [Java ApiClient](https://github.com/MediaBrowser/Emby.ApiClient.Java)
+* [JavaScript ApiClient](https://github.com/MediaBrowser/Emby.ApiClient.Javascript)
+* [Swift ApiClient](https://github.com/MediaBrowser/Emby.ApiClient.Swift)
 
 ## Contributing to Emby
 We have a growing team but are still looking for more contributors to help us realize a few more goals.
