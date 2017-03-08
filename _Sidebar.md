@@ -5,6 +5,7 @@
 ### Api Workflow
 * [Locating the server](Locating-the-Server)
 * [Authentication](Authentication)
+* [Emby Connect](Emby Connect)
 * [Browsing the library](Browsing-the-Library)
 * [Latest items](Latest-Items)
 * [Item information](Item-Information)
