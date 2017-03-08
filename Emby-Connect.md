@@ -1,6 +1,6 @@
 Emby Connect is an **optional** service designed to make multi-server connectivity easier. For this reason, we recommend that you first implement multi-server switching in your app via manual address entry, and then later supplement that with Emby Connect.
 
-The best way to manage multi-server connectivity is to always have a server Id in context, from which you can use to retrieve your saved credentials.
+The best way to manage multi-server connectivity is to always have a ServerId in context, from which you can use to retrieve your saved server information. In other words, avoid a single global value related to a logged in server, because a user can login to multiple servers simultaneously.
 
 ## Login
 
