@@ -36,3 +36,22 @@ Send a GET to https://connect.emby.media/service/servers?userId={ConnectUserId}
 The request headers should contain the following:
 * X-Application (discussed above)
 * X-Connect-UserToken (the ConnectUserToken value)
+
+You'll receive a json response of an array of servers, with each containing the following:
+
+* AccessKey
+* SystemId
+* Name
+* Url (Remote access url)
+* LocalAddress (local access url)
+
+When using this information to connect to a server, you'll need to send a GET to the Emby Server to exchange the AccessKey for a local AccessToken that can be used for other api endpoints on that Emby Server. This process must be done each time you connect to the Emby Server. In other words, you'll need to persists the original AccessKey sent back by Emby Connect.
+
+To perform the exchange, send a GET to the Emby Server:
+
+GET /Connect/Exchange?format=json&ConnectUserId={ConnectUserId}
+
+The headers should contain:
+
+* X-MediaBrowser-Token - the AccessKey from EmbyConnect
+* X-Emby-Authorization
