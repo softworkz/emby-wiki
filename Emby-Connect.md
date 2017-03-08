@@ -23,3 +23,8 @@ The content type should be application/json, and here is an example structure:
 The request headers should contain the following:
 
 * X-Application header, formatted as AppName/AppVersion
+
+A successful response will contain application/json content, and include the following properties:
+
+* ConnectAccessToken
+* ConnectUserId
