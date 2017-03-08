@@ -28,3 +28,11 @@ A successful response will contain application/json content, and include the fol
 
 * ConnectAccessToken
 * ConnectUserId
+
+## Get a list of servers for a user
+
+Send a GET to https://connect.emby.media/service/servers?userId={ConnectUserId}
+
+The request headers should contain the following:
+* X-Application (discussed above)
+* X-Connect-UserToken (the ConnectUserToken value)
