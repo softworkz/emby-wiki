@@ -54,7 +54,7 @@ GET /Connect/Exchange?format=json&ConnectUserId={ConnectUserId}
 The headers should contain:
 
 * X-MediaBrowser-Token - the AccessKey from EmbyConnect
-* X-Emby-Authorization
+* X-Emby-Authorization - See [Authorization Request Header](Authentication)
 
 You'll receive a json response containing credentials local to the particular Emby Server:
 
