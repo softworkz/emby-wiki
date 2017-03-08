@@ -60,3 +60,5 @@ You'll receive a json response containing credentials local to the particular Em
 
 * LocalUserId
 * AccessToken
+
+These credentials can then be used to make requests to other endpoints on that server.
