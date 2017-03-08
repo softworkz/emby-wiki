@@ -19,3 +19,7 @@ The content type should be application/json, and here is an example structure:
                     nameOrEmail: username,
                     rawpw: password
                 }`
+
+The request headers should contain the following:
+
+* X-Application header, formatted as AppName/AppVersion
