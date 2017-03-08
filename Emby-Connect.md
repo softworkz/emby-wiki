@@ -55,3 +55,8 @@ The headers should contain:
 
 * X-MediaBrowser-Token - the AccessKey from EmbyConnect
 * X-Emby-Authorization
+
+You'll receive a json response containing credentials local to the particular Emby Server:
+
+* LocalUserId
+* AccessToken
