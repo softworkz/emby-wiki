@@ -8,3 +8,14 @@ Emby Connect has two login methods:
 
 * Pin code sign in (designed for TV apps)
 * Traditional username/password sign in (designed for mobile, tablet and desktop apps)
+
+### Login with username & password
+
+Send a POST to https://connect.emby.media/service/user/authenticate
+
+The content type should be application/json, and here is an example structure:
+
+`{
+                    nameOrEmail: username,
+                    rawpw: password
+                }`
