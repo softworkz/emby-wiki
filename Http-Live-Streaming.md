@@ -1,4 +1,4 @@
-Emby supports the Http Live Streaming protocol, also known as HLS.
+Emby supports the HTTP Live Streaming protocol, also known as HLS.
 
 The url is:
 
@@ -32,3 +32,7 @@ All of the optional parameters can be viewed using the swagger documentation.
 After playback is complete, it is necessary to inform the server to stop any related HLS transcoding. This is accomplished via an HTTP DELETE to:
 
 /Videos/ActiveEncodings?DeviceId=xxx
+
+## External Documentation
+* [HLS Documentation and Guides at Apple](https://developer.apple.com/streaming/)
+* [IETF Internet Draft for HTTP Live Streaming](https://datatracker.ietf.org/doc/html/draft-pantos-http-live-streaming)
