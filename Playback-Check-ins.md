@@ -45,9 +45,12 @@ If the user is playing a server library item, simply supply the ItemId property 
 
 To report progress make an HTTP POST call to **/Sessions/Playing/Progress**
 
-The contents of the request are identical to the playback start message.
+The contents of the request are identical to the playback start message. Playback progress should be reported at the following times:
 
-Playback progress should be reported as often as is reasonable based on the device and connection to the server. The server dashboard will show a users current activity for several minutes after each progress update, so it's best to not let too much time pass between updates.  
+* Automatically every 10 seconds
+* Immediately following any user interaction with the player, for example, pause, un-pause, etc.
+
+The server will automatically increment playback progress every second, so it is not necessary to automatically report more often than at 10 second intervals. The progress reports coming from the app will be used to re-calibrate the automatic progress increment on the server.
 
 ## Playback Stopped
 
