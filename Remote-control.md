@@ -35,7 +35,8 @@ An example session is:
       "ToggleFullscreen",
       "DisplayContent",
       "GoToSearch",
-      "DisplayMessage"
+      "DisplayMessage",
+      "Guide"
     ],
     "RemoteEndPoint": "192.168.1.4",
     "QueueableMediaTypes": [
