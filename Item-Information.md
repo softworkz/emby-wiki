@@ -8,6 +8,7 @@ Library items have a number of interesting properties. Among these are, but not 
 * DateCreated
 * GameSystem
 * Genres
+* GenreItems
 * HomePageUrl
 * IsHD
 * Language
