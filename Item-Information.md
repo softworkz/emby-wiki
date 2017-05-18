@@ -58,6 +58,9 @@ For folders, this represents the cumulative runtime.
 ### EndDate
 This is the date an item ended. For Persons this represents death date. For series that have ended, this is the air date of the final episode.
 
+### GenreItems
+This is a list of Name/Id pairs of genres.
+
 ### ImageTags
 This will tell you what images are available for an item. See [images.](Images)
 
