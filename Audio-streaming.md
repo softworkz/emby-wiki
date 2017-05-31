@@ -13,7 +13,7 @@ The following are the available params:
 * TranscodingContainer = hls audio transcoding supports ts, aac or mp3.
 * AudioCodec = The audio codec to use when transcoding.
 * EnableRedirection = true/false. Allow redirects to external stream URL's
-* EnableRemoteMedia = true/false. If true, all external domains will be allowed. If false, only cloud synced domains will be allowed.
+* EnableRemoteMedia = true/false. If true, all external domains will be allowed with the EnableRedirection option. If false, only cloud synced domains will be allowed.
 
 Below is a sample URL:
 
