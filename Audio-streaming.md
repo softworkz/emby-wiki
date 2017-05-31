@@ -19,8 +19,12 @@ Below is a sample URL:
 
 /Audio/{ItemId}/universal?UserId=xxx&DeviceId=xxx&MaxStreamingBitrate=140000000&Container=opus,mp3,aac,m4a,flac,webma,webm,wav,ogg,aac,mp3,mpa,wav,wma,mp2,ogg,oga,webma,ape,opus,flac,m4a&TranscodingContainer=ts&TranscodingProtocol=hls&AudioCodec=aac&MaxSampleRate=48000&PlaySessionId=1496213367201
 
+## Notes On Transcoding
 
-## Legacy API
+It is highly recommended that client players support HLS audio. HLS audio will guarantee that seeking is always client-side. Using progressive transcoding will result in much more complicated seeking.
+
+
+### Legacy API
 
 The base audio url is /Audio/{Id}/stream. Some players will have better results when the url has an audio file extension, so we also provide several aliases to account for that:
 
