@@ -23,6 +23,15 @@ Below is a sample URL:
 
 It is highly recommended that client players support HLS audio. HLS audio will guarantee that seeking is always client-side. Using progressive transcoding will result in much more complicated seeking.
 
+## Remote Media
+
+You can indicate support for redirects using the **EnableRedirection** param. Additionally you can indicate support for remote media using **EnableRemoteMedia**. Here is how they work:
+
+* If EnableRedirection = true and EnableRemoteMedia = true, then both remote media (IPTV) and cloud synced media will be allowed for http redirects.
+
+* If EnableRedirection = true and EnableRemoteMedia = false, then remote media (IPTV) will not be allowed but cloud synced media will be allowed for http redirects.
+
+* If EnableRedirection = false then neither will be allowed.
 
 ### Legacy API
 
