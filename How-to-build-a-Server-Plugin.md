@@ -2,12 +2,9 @@
 
 First install Emby Server, or download the code. Get the server up and running.
 
-### Create your Visual Studio Solution (VS 2015+)
+### Create your Visual Studio Solution (VS 2017+)
 
-1. Create a portable class library project. When prompted to select framework targets, enable the following:
-   * .NET Framework 4.5
-   * ASP.NET Core 1.0
-   * Windows Universal 8.1
+1. Create a .NET Standard 2.0 class library project. 
 
 2. Go to Properties -> AssemblyInfo.cs. Change AssemblyVersion to "1.0.*" so that it auto-updates, and remove the AssemblyFileVersion line altogether. This will keep both the assembly and file version numbers in sync.
 
