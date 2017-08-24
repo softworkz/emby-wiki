@@ -7,7 +7,7 @@ We hope to provide a free and open environment for contributing valuable functio
 This includes but is not limited to:
 
 * Directly violating the Terms of Use or Terms of Service of any source of data
-* Using 'web scraping' techniques to obtain data that would otherwise be only available via subscription or other pay-for means
+* Using 'web scraping' techniques to obtain data from a web site.
 * Including or otherwise distributing code or libraries in a manner that violates the license terms of those particular libraries or the license terms of Emby (GPL 2.1).
 
 Any code contribution or plug-in that violates this rule will be removed from the product or plug-in catalog without notice.  We appreciate your cooperation and, as a software developer, you should fully embrace this policy as it also protects you against others freely distributing the results of your hard work.
