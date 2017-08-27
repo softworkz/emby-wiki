@@ -111,6 +111,7 @@ The following commands are available:
 * /Sessions/{Id}/Playing/Stop
 * /Sessions/{Id}/Playing/Pause
 * /Sessions/{Id}/Playing/Unpause
+* /Sessions/{Id}/Playing/PlayPause
 * /Sessions/{Id}/Playing/NextTrack
 * /Sessions/{Id}/Playing/PreviousTrack
 * /Sessions/{Id}/Playing/Seek?SeekPositionTicks=xxx
