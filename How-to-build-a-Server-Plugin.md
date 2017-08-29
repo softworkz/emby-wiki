@@ -13,9 +13,22 @@ To achieve triple compatibility with all three runtimes, you can choose between 
 
 ## Create your Visual Studio Solution (VS 2017+)
 
-1. Create a .NET Standard 1.3 class library project. 
+1. Create a .NET Standard 1.3 class library project. This will create a Class1.cs file. Delete this and build the project. The process of building will save all changes to disk.
 
-2. Install the [Emby.Server.Core nuget package](https://www.nuget.org/packages/MediaBrowser.Server.Core/)
+2. Once this is done, open up your .csproj file and replace the entire contents with the following:
+`<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.3;</TargetFrameworks>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="mediabrowser.server.core" Version="3.3.0-beta" />
+  </ItemGroup>
+
+</Project>`
 
 3. Create a class called PluginConfiguration, and have it inherit from MediaBrowser.Model.Plugins.BasePluginConfiguration.
 
