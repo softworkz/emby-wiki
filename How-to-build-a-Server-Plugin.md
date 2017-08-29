@@ -43,13 +43,13 @@ You should build again to ensure Visual Studio has picked up the external change
 
 For these next steps, you may wish to refer to an example. The [Roku bif plugin](https://github.com/MediaBrowser/roku-bif) is a good example.
 
-3. Create a class called PluginConfiguration, and have it inherit from MediaBrowser.Model.Plugins.BasePluginConfiguration.
+1. Create a class called PluginConfiguration, and have it inherit from MediaBrowser.Model.Plugins.BasePluginConfiguration.
 
-4. Create a class called Plugin, and have it inherit from MediaBrowser.Common.Plugins.BasePlugin&lt;T&gt;, where T is the name of the PluginConfiguration class you just created.  You will need to implement its constructor like so:
+2. Create a class called Plugin, and have it inherit from MediaBrowser.Common.Plugins.BasePlugin&lt;T&gt;, where T is the name of the PluginConfiguration class you just created.  You will need to implement its constructor like so:
 
 > public Plugin(IApplicationPaths applicationPaths, IXmlSerializer xmlSerializer) : base(applicationPaths, xmlSerializer)
 
-5. Create a random GUID using visual studio's Create Guid tool under the Tools menu. In Plugin.cs, override the Id property, and return the guid you just created. This will be the Id for the plugin and can never be changed.
+3. Create a random GUID using visual studio's Create Guid tool under the Tools menu. In Plugin.cs, override the Id property, and return the guid you just created. This will be the Id for the plugin and can never be changed.
 
 **Important** - If migrating an existing plugin solution from Visual Studio 2015, then the plugin Id value should come from the AssemblyGuid located in AssemblyInfo.cs of your 2015 project.
 
