@@ -3,15 +3,13 @@
 First install Emby Server, and get it up and running.
 
 ## Overview
-This will be done using Visual Studio 2017+. Emby Server runs on three different runtimes: the .NET framework, Mono, and .NET Core 2.0. 
+This will be done using Visual Studio 2017+. As of August 2017, Emby Server runs on three different runtimes: the .NET framework, Mono, and .NET Core 2.0. At your discretion, you may choose the runtimes you wish to support, but if you'd like to have your plugin listed in the Emby plugin catalog, you will be **required to at least support .NET Core**.
 
-To achieve triple compatibility with all three runtimes, you can choose between one of the following two approaches.
+Within the next 6-9 months, Emby will move to exclusively support .NET Core, and at such time this process will be vastly simplified. Until then, in order to achieve triple compatibility with all three runtimes, you can choose between one of the following two approaches.
 
 **Single Portable Assembly** - With this approach, you will create a class library project that targets .NET Standard 1.3. The set of .NET api's that will be available are very limited, but in return you can produce a single binary that will work on all three runtimes. You should make every effort possible to utilize this approach.
 
 **Dual Assemblies** - With this approach, you will create a class library project that targets both .NET Standard 2.0 and .NET Framework 4.6. You'll have access to all .NET api's, but your publishing process will be more complex. Building the plugin will produce two assemblies, one for .NET Standard 2.0, and one for .NET 4.6. The .NET Standard assembly will be used by Emby Server on .NET Core, while the .NET 4.6 assembly will be used by Emby Server on the .NET Framework and Mono.
- 
-At your discretion, you may choose not to support certain runtimes, but if you wish to have your plugin listed in the Emby plugin catalog, you will be required to at least support .NET Core.
 
 ## Create your Visual Studio Solution (VS 2017+)
 
