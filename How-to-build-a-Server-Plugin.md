@@ -34,6 +34,6 @@ This is done by creating a class that implements the IServerEntryPoint interface
 
 If your plugin will be a premium plugin, see IRequiresRegistration in [Other Interfaces](Other-Interfaces).
 
-### Debugging
+## Debugging
 
 The quickest way to test code changes is to work without the debugger. If you do this, you can leave the server running at all times. Simply use the Rebuild command on your plugin project, and right click the server tray -> Restart Server. If that option is not visible you'll need to enable developer tools in the Dashboard under Advanced.
