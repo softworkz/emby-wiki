@@ -73,6 +73,22 @@ This is done by creating a class that implements the IServerEntryPoint interface
 
 If your plugin will be a premium plugin, see IRequiresRegistration in [Other Interfaces](Other-Interfaces).
 
+## Unable to Compile with .NET Standard 1.3
+
+You should make every effort to compile with .NET Standard 1.3 because this will simplify your deployment process by allowing you to produce a single binary that is compatible with the .NET Framework, Mono, and .NET Core. If at first you can't compile, check the API's within .NET Standard 1.3 and see if something else is available.
+
+In addition, use the Emby interfaces when applicable:
+
+* IFileSystem
+* IHttpClient
+* INetworkManager
+* IProcessFactory
+* IZipClient
+
+If you're still unable to compile, then read on to learn how you can multi-target for different runtimes and have full access to .NET api's.
+
+(Coming soon).
+
 ## Debugging
 
 The quickest way to test code changes is to work without the debugger. If you do this, you can leave the server running at all times. Simply use the Rebuild command on your plugin project, and right click the server tray -> Restart Server. If that option is not visible you'll need to enable developer tools in the Dashboard under Advanced.
