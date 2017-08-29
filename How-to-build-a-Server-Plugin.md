@@ -1,6 +1,6 @@
 >Please see our [Development Policy](Development-Policy) before beginning development.
 
-First install Emby Server, and get it up and running.
+First install Emby Server, and get it up and running. Install Visual Studio 2017 along with the .NET Core SDK.
 
 ## Overview
 This will be done using Visual Studio 2017+. As of August 2017, Emby Server runs on three different runtimes: the .NET framework, Mono, and .NET Core 2.0. At your discretion, you may choose the runtimes you wish to support, but if you'd like to have your plugin listed in the Emby plugin catalog, **you will be required to at least support .NET Core**.
