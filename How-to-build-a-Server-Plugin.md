@@ -39,6 +39,8 @@ This will change the targeting from .NET Standard 2.0 to .NET Standard 1.3, and 
 
 You should build again to ensure Visual Studio has picked up the external changes.
 
+3. The above changes will add the latest Emby nuget package as of the time of this writing. Use Visual Studio to check for non-beta updates to the Emby nuget package.
+
 ## Add Classes
 
 For these next steps, you may wish to refer to an example. The [Roku bif plugin](https://github.com/MediaBrowser/roku-bif) is a good example.
