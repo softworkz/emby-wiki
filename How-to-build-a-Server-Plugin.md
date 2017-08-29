@@ -37,9 +37,9 @@ This will change the targeting from .NET Standard 2.0 to .NET Standard 1.3, and 
 
 **Note**: After pasting you'll want to use Visual Studio to auto-format the XML to make it easier to read.
 
-You should build again to ensure Visual Studio has picked up the external changes.
+3. Build again to ensure Visual Studio has picked up the external changes.
 
-3. The above changes will add the latest Emby nuget package as of the time of this writing. Use Visual Studio to check for non-beta updates to the Emby nuget package.
+4. The above changes will add the latest Emby nuget package as of the time of this writing. Use Visual Studio to check for non-beta updates to the Emby nuget package.
 
 ## Add Classes
 
