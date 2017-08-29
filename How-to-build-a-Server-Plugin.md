@@ -22,11 +22,11 @@ Right click the project -> Properties. Create a post-build event that will copy 
 
 `xcopy "$(TargetPath)" "%AppData%\MediaBrowser-Server\Plugins\" /y`
 
-### Test the Plugin
+## Test the Plugin
 
 Shutdown the server, rebuild your solution, and restart the server. At this point you should see your plugin in the Dashboard's Plugins menu.
 
-### Add Functionality
+## Add Functionality
 
 To add real functionality to your plugin, you will need an entrypoint that can initialize and accept the various dependencies you may need in order to interact with the MB environment.
 
