@@ -6,21 +6,15 @@ First install Emby Server, or download the code. Get the server up and running.
 
 1. Create a .NET Standard 1.3 class library project. 
 
-2. Go to Properties -> AssemblyInfo.cs. Change AssemblyVersion to "1.0.*" so that it auto-updates, and remove the AssemblyFileVersion line altogether. This will keep both the assembly and file version numbers in sync.
+2. Install the [Emby.Server.Core nuget package](https://www.nuget.org/packages/MediaBrowser.Server.Core/)
 
-2. Make sure AssemblyInfo.cs has a Guid, e.g:
+3. Create a class called PluginConfiguration, and have it inherit from MediaBrowser.Model.Plugins.BasePluginConfiguration.
 
-`[assembly: Guid("02CF7D91-16F4-48D4-BC97-16D89C16AA0A")]`
-
-If not, copy that and generate a new GUID using Tools -> Create Guid.
-
-3. Install the [Emby.Server.Core nuget package](https://www.nuget.org/packages/MediaBrowser.Server.Core/)
-
-4. Create a class called PluginConfiguration, and have it inherit from MediaBrowser.Model.Plugins.BasePluginConfiguration.
-
-5. Create a class called Plugin, and have it inherit from MediaBrowser.Common.Plugins.BasePlugin&lt;T&gt;, where T is the name of the PluginConfiguration class you just created.  You will need to implement its constructor like so:
+4. Create a class called Plugin, and have it inherit from MediaBrowser.Common.Plugins.BasePlugin&lt;T&gt;, where T is the name of the PluginConfiguration class you just created.  You will need to implement its constructor like so:
 
 > public Plugin(IApplicationPaths applicationPaths, IXmlSerializer xmlSerializer) : base(applicationPaths, xmlSerializer)
+
+5. Create a random GUID using visual studio's Create Guid tool under the Tools menu. In Plugin.cs, override the Id property, and return the guid you just created. This will be the Id for the plugin and can never be changed.
 
 ### Create the Build Event
 
