@@ -73,7 +73,7 @@ If your plugin will be a premium plugin, see IRequiresRegistration in [Other Int
 
 You should make every effort to compile with .NET Standard 1.3 because this will simplify your deployment process by allowing you to produce a single binary that is compatible with the .NET Framework, Mono, and .NET Core. If at first you can't compile, check the API's within .NET Standard 1.3 and see if something else is available.
 
-In addition, use the Emby interfaces when applicable:
+In addition, use these Emby interfaces when applicable:
 
 * IFileSystem
 * IHttpClient
