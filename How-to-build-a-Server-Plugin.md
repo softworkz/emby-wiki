@@ -37,6 +37,12 @@ This will change the targeting from .NET Standard 2.0 to .NET Standard 1.3, and 
 
 **Note**: After pasting you'll want to use Visual Studio to auto-format the XML to make it easier to read.
 
+You should build again to ensure Visual Studio has picked up the external changes.
+
+## Add Classes
+
+For these next steps, you may wish to refer to an example. The [Roku bif plugin](https://github.com/MediaBrowser/roku-bif) is a good example.
+
 3. Create a class called PluginConfiguration, and have it inherit from MediaBrowser.Model.Plugins.BasePluginConfiguration.
 
 4. Create a class called Plugin, and have it inherit from MediaBrowser.Common.Plugins.BasePlugin&lt;T&gt;, where T is the name of the PluginConfiguration class you just created.  You will need to implement its constructor like so:
