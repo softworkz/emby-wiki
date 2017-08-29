@@ -16,7 +16,7 @@ First install Emby Server, or download the code. Get the server up and running.
 
 5. Create a random GUID using visual studio's Create Guid tool under the Tools menu. In Plugin.cs, override the Id property, and return the guid you just created. This will be the Id for the plugin and can never be changed.
 
-### Create the Build Event
+## Create a Post-Build Event
 
 Right click the project -> Properties. Create a post-build event that will copy the assembly to the server's plugins directory. For example:
 
