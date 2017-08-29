@@ -2,6 +2,16 @@
 
 First install Emby Server, and get it up and running.
 
+## Overview
+This will be done using Visual Studio 2017+. Emby Server runs on three different runtimes: the .NET framework, Mono, and .NET Core 2.0. 
+
+To achieve triple compatibility with all three runtimes, you can choose between two approaches.
+
+**Single Portable Assembly**
+With this approach, you will create a class library project that targets .NET Standard 1.3. The set of .NET api's that will be available are very limited, but in return you can produce a single binary that will work on all three runtimes.
+
+
+
 ## Create your Visual Studio Solution (VS 2017+)
 
 1. Create a .NET Standard 1.3 class library project. 
