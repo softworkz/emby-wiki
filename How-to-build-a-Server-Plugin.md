@@ -25,6 +25,8 @@ To achieve triple compatibility with all three runtimes, you can choose between 
 
 5. Create a random GUID using visual studio's Create Guid tool under the Tools menu. In Plugin.cs, override the Id property, and return the guid you just created. This will be the Id for the plugin and can never be changed.
 
+**Important** - If migrating an existing plugin solution from Visual Studio 2015, then the plugin Id value should come from the AssemblyGuid located in AssemblyInfo.cs of your 2015 project.
+
 ## Create a Post-Build Event
 
 Right click the project -> Properties. Create a post-build event that will copy the assembly to the server's plugins directory. For example:
