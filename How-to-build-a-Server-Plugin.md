@@ -7,7 +7,7 @@ This will be done using Visual Studio 2017+. Emby Server runs on three different
 
 To achieve triple compatibility with all three runtimes, you can choose between two approaches.
 
-**Single Portable Assembly** - With this approach, you will create a class library project that targets .NET Standard 1.3. The set of .NET api's that will be available are very limited, but in return you can produce a single binary that will work on all three runtimes.
+**Single Portable Assembly** - With this approach, you will create a class library project that targets .NET Standard 1.3. The set of .NET api's that will be available are very limited, but in return you can produce a single binary that will work on all three runtimes. You should make every effort possible to utilize this approach.
 
 **Dual Assemblies** - With this approach, you will create a class library project that targets both .NET Standard 2.0 and .NET Framework 4.6. You'll have access to all .NET api's, but your publishing process will more complex. Building the plugin will produce two assemblies, one for .NET Standard 2.0, and one for .NET 4.6. The .NET Standard assembly will be used by Emby Server on .NET Core, while the .NET 4.6 assembly will be used by Emby Server on the .NET Framework and Mono.
 
