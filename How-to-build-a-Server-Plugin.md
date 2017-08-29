@@ -81,7 +81,7 @@ In addition, use the Emby interfaces when applicable:
 * IProcessFactory
 * IZipClient
 
-If you're still unable to compile, then read on to learn how you can multi-target for different runtimes and have full access to .NET api's.
+If you're still unable to compile, then read on to learn how you can multi-target for different runtimes and have full access to all .NET api's.
 
 (Coming soon).
 
