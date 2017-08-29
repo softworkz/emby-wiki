@@ -13,7 +13,7 @@ To achieve triple compatibility with all three runtimes, you can choose between 
 
 ## Create your Visual Studio Solution (VS 2017+)
 
-1. Create a .NET Standard 1.3 class library project. This will create a Class1.cs file. Delete this and build the project. The process of building will save all changes to disk.
+1. Create a .NET Standard class library project. This will create a Class1.cs file. Delete this and build the project. The process of building will save all changes to disk.
 
 2. Once this is done, open up your .csproj file and replace the entire contents with the following:
 
@@ -31,6 +31,10 @@ To achieve triple compatibility with all three runtimes, you can choose between 
 
 `</Project>`
 
+This will change the targeting from .NET Standard 2.0 to .NET Standard 1.3, and it will add a reference to the Emby nuget package.
+
+**Note**: After pasting you'll want to use Visual Studio to auto-format the XML to make it easier to read.
+
 3. Create a class called PluginConfiguration, and have it inherit from MediaBrowser.Model.Plugins.BasePluginConfiguration.
 
 4. Create a class called Plugin, and have it inherit from MediaBrowser.Common.Plugins.BasePlugin&lt;T&gt;, where T is the name of the PluginConfiguration class you just created.  You will need to implement its constructor like so:
@@ -45,7 +49,7 @@ To achieve triple compatibility with all three runtimes, you can choose between 
 
 Right click the project -> Properties. Create a post-build event that will copy the assembly to the server's plugins directory. For example:
 
-`xcopy "$(TargetPath)" "%AppData%\MediaBrowser-Server\Plugins\" /y`
+`xcopy "$(TargetPath)" "%AppData%\Emby-Server\Plugins\" /y`
 
 ## Test the Plugin
 
