@@ -1,8 +1,8 @@
 >Please see our [Development Policy](Development-Policy) before beginning development.
 
-First install Emby Server, or download the code. Get the server up and running.
+First install Emby Server, and get it up and running.
 
-### Create your Visual Studio Solution (VS 2017+)
+## Create your Visual Studio Solution (VS 2017+)
 
 1. Create a .NET Standard 1.3 class library project. 
 
