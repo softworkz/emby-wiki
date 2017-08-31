@@ -31,7 +31,7 @@ Within the next 6-9 months, Emby will move to exclusively support .NET Core, and
 
 `</Project>`
 
-This will change the targeting from .NET Standard 2.0 to .NET Standard 1.3, and it will add a reference to the Emby nuget package. 
+This will change the targeting from .NET Standard 2.0 to .NET Standard 1.3, and it will add a reference to the Emby nuget package. Note that if you wish to target .NET Core only, then you are free to change the 1.3 to 1.6, or even 2.0 if absolutely necessary.
 
 3. Build again to ensure Visual Studio has picked up the external changes.
 
