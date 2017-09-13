@@ -83,7 +83,14 @@ In addition, use these Emby interfaces when applicable:
 
 If you're still unable to compile, then read on to learn how you can multi-target for different runtimes and have full access to all .NET api's.
 
-(Coming soon).
+To dual target, change the TargetFrameworks line in your .csproj file to be:
+
+`<TargetFrameworks>netstandard2.0;net46;</TargetFrameworks>`
+
+Now, when you build the solution, this will produce separate .dll files for the .NET Framework and .NET Core. This will provide full access to all .NET api's, but with the following drawbacks:
+
+* When submitting updates to the Emby catalog, you'll need to submit separately for each runtime.
+* The .dll file will no longer be portable between Emby installations, and users will need to install from the Emby plugin catalog to ensure they get the right one.
 
 ## Debugging
 
