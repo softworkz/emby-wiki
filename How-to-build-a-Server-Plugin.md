@@ -92,6 +92,18 @@ Now, when you build the solution, this will produce separate .dll files for the 
 * When submitting updates to the Emby catalog, you'll need to submit separately for each runtime.
 * The .dll file will no longer be portable between Emby installations, and users will need to install from the Emby plugin catalog to ensure they get the right one.
 
+## Submitting to the Emby Catalog with Dual Assemblies
+
+In the Emby catalog, all .dll files must have a unique version. This means that if you're creating dual assemblies, you'll need separate assemblies with distinct version numbers. For example, let's say you want to submit plugin update 3.1.2. Your procedure would be as follows:
+
+* Update your .csproj to version 3.1.2.0
+* Build in Release mode
+* Upload the net46 assembly to the Emby catalog with version number 3.1.2.0
+* Update your .csproj to version 3.1.2.1
+* Build in Release mode
+* Upload the netstandard2.0 assembly to the Emby catalog with version number 3.1.2.1
+
+
 ## Debugging
 
 The quickest way to test code changes is to work without the debugger. If you do this, you can leave the server running at all times. Simply use the Rebuild command on your plugin project, and right click the server tray -> Restart Server. If that option is not visible you'll need to enable developer tools in the Dashboard under Advanced.
