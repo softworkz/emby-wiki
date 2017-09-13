@@ -98,10 +98,10 @@ In the Emby catalog, all .dll files must have a unique version. This means that 
 
 * Update your .csproj to version 3.1.2.0
 * Build in Release mode
-* Upload the net46 assembly to the Emby catalog with version number 3.1.2.0. In the upload dialog box, select supports .NET Framework and unchecked .NET Core.
+* Upload the net46 assembly to the Emby catalog with version number 3.1.2.0. In the upload dialog box, select supports .NET Framework and uncheck .NET Core.
 * Update your .csproj to version 3.1.2.1
 * Build in Release mode
-* Upload the netstandard2.0 assembly to the Emby catalog with version number 3.1.2.1. In the upload dialog box, select supports .NET Core and unchecked .NET Framework.
+* Upload the netstandard2.0 assembly to the Emby catalog with version number 3.1.2.1. In the upload dialog box, select supports .NET Core and uncheck .NET Framework.
 
 ## Debugging
 
