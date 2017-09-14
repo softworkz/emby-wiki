@@ -26,7 +26,7 @@ Within the next 6-9 months, Emby will move to exclusively support .NET Core, and
   `</PropertyGroup>`
 
   `<ItemGroup>`
-    `<PackageReference Include="mediabrowser.server.core" Version="3.3.2-beta" />`
+    `<PackageReference Include="mediabrowser.server.core" Version="3.3.6-beta" />`
   `</ItemGroup>`
 
 `</Project>`
