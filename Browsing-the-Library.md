@@ -42,6 +42,10 @@ Use the SortBy param to supply the fields to sort on. This supports multiple sor
 
 > http://localhost:8096/emby/Users/e8837bc1ad67520e8cd2f629e3155721/Items?ParentId=20aef3be-ebda-f0d4-0096-8d179783e918&SortBy=Artist,Album&SortOrder=Ascending
 
+Multiple sort orders are supported. For example, let's say you'd like to sort albums by release date descending, then by sort name ascending. Your params would look like:
+
+> SortBy=ProductionYear,PremiereDate,SortName&SortOrder=Descending,Descending,Ascending
+
 ## Fields
 
 When you request a single item using the /Users/{UserId}/Items/{Id} api, you will get back the entire item. When requesting lists of items, the data coming back will be much smaller in order to make it easier to retrieve large result sets.
