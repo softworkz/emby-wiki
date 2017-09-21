@@ -40,9 +40,11 @@ The dashboard currently displays customized icons for the following clients:
 
 * The password must be sent in the body, in three different form fields:
 
-* pw - password in plain text
-* password - password in **Sha1**
-* passwordMd5 - password in **MD5**
+- pw - password in plain text
+- password - password in **Sha1**
+- passwordMd5 - password in **MD5**
+
+**IMPORTANT** - The Emby login API is in a state of transition, and this is why three different forms of the password are required. Beginning April 1, 2018, only the "pw" param will be required. Until then, all three are needed in order to support both newer and older servers.
 
 * The return result object will have an AccessToken property. This should be included in all subsequent Http requests using the header "X-MediaBrowser-Token"
 
