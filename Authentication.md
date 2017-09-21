@@ -38,7 +38,11 @@ The dashboard currently displays customized icons for the following clients:
 
 * Authenticate using /Users/AuthenticateByName. A 200 status code indicates success, while anything in the 400 or 500 range indicates failure.
 
-* The password must be sent in the body, in two different form fields (password & passwordMd5). password should be an **Sha1**, while passwordMd5 should be an **MD5**. 
+* The password must be sent in the body, in three different form fields:
+
+* pw - password in plain text
+* password - password in **Sha1**
+* passwordMd5 - password in **MD5**
 
 * The return result object will have an AccessToken property. This should be included in all subsequent Http requests using the header "X-MediaBrowser-Token"
 
