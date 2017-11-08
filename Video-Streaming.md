@@ -22,9 +22,7 @@ The following parameters are required:
 
 * Id
 * MediaSourceId
-* PlaySessionId **
-
-** PlaySessionId comes from the PlaybackInfo response as part of our MediaSource api. If you are not using the MediaSource api, then generate a random alpha-numeric string.
+* PlaySessionId - comes from the PlaybackInfo response as part of our MediaSource api. If you are not using the MediaSource api, then generate a random alpha-numeric string.
 
 All of the optional parameters can be viewed using the swagger documentation. 
 
