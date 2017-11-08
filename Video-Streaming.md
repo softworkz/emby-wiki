@@ -18,7 +18,13 @@ If using a url with an extension, the extension **should be based upon the outpu
 
 Generally, it is recommend to use a url with a file extension that matches the format you wish to encode to as many players will perform better seeing the file extension in the url.
 
-Item **Id** and **MediaSourceId** are the only required parameters.
+The following parameters are required:
+
+* Id
+* MediaSourceId
+* PlaySessionId **
+
+** PlaySessionId comes from the PlaybackInfo response as part of our MediaSource api. If you are not using the MediaSource api, then generate a random alpha-numeric string.
 
 All of the optional parameters can be viewed using the swagger documentation. 
 
