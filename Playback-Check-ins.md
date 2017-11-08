@@ -17,6 +17,8 @@ The body of the request should be a JSON object with the following properties:
 * PositionTicks (long, optional),
 * VolumeLevel (int, optional 0-100),
 * PlayMethod (string) = ['Transcode' or 'DirectStream' or 'DirectPlay']
+* PlaySessionId
+* LiveStreamId
 
 The content type of the request should be **application/json**.
 
