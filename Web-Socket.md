@@ -66,6 +66,9 @@ A remote control play command has been sent from the server. Data = a json objec
 * ItemIds - an array of item id's to play
 * PlayCommand - PlayNow, PlayNext or PlayLast
 * StartPositionTicks - If supplied, this is the position in which the first title should start at.
+* MediaSourceId - If supplied, this is the media source that should be used for the first item
+* AudioStreamIndex - If supplied, this is the audio stream that should be used for the first item
+* SubtitleStreamIndex - If supplied, this is the subtitle stream that should be used for the first item
 
 #### Playstate
 A remote control update playstate command has been sent from the server. Data = a json object with the following properties:
