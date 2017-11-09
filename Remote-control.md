@@ -99,8 +99,11 @@ You can instruct a client to play something by posting to the following url:
 The following values should be included within post data:
 
 * ItemIds - A comma-delimited list of item id's
-* StartPositionTicks - The starting position of the first item. 
 * PlayCommand - PlayNow, PlayNext or PlayLast
+* StartPositionTicks - If supplied, this is the position in which the first title should start at.
+* MediaSourceId - If supplied, this is the media source that should be used for the first item
+* AudioStreamIndex - If supplied, this is the audio stream that should be used for the first item
+* SubtitleStreamIndex - If supplied, this is the subtitle stream that should be used for the first item
 
 Note: StartPositionTicks is ignored when PlayCommand is PlayNext or PlayLast.
 
