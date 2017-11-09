@@ -115,6 +115,7 @@ Below are the list of known core command **names**, along with the list of prope
 * DisplayContent (Arguments: ItemName, ItemId, ItemType),
 * GoToSearch,
 * DisplayMessage (Arguments: Header, Text, TimeoutMs - if timeout is omitted, message should be modal)
+* PlayMediaSource - used to indicate support for receiving the play command along with a specified MediaSourceId, AudioStreamIndex and SubtitleStreamIndex
 
 ## Examples
 
