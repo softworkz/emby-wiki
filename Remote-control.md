@@ -104,6 +104,7 @@ The following values should be included within post data:
 * MediaSourceId - If supplied, this is the media source that should be used for the first item
 * AudioStreamIndex - If supplied, this is the audio stream that should be used for the first item
 * SubtitleStreamIndex - If supplied, this is the subtitle stream that should be used for the first item
+* StartIndex - If supplied, and if playing a list of items, this is the index of the first item that should be played.
 
 Note: StartPositionTicks is ignored when PlayCommand is PlayNext or PlayLast.
 
