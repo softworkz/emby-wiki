@@ -8,9 +8,9 @@ The server features built-in documentation courtesy of Swagger, allowing you to 
 
 Additionally, other sources for API documentation are the official API client libraries.
 
+* [JavaScript ApiClient](https://github.com/MediaBrowser/Emby.ApiClient.Javascript)
 * [.NET ApiClient](https://github.com/MediaBrowser/Emby.ApiClient)
 * [Java ApiClient](https://github.com/MediaBrowser/Emby.ApiClient.Java)
-* [JavaScript ApiClient](https://github.com/MediaBrowser/Emby.ApiClient.Javascript)
 
 ## Contributing to Emby
 We have a growing team but are still looking for more contributors to help us realize a few more goals.
