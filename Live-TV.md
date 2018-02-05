@@ -15,27 +15,8 @@ Query for tv channels using **/LiveTv/Channels**. The most interesting channel p
 
 Channel images use the same api endpoints as regular library items, e.g. **/Items/{Id}/Images/Primary**. Channels also can have user data allowing users to like or favorite them which will help influence suggested programs.
 
-### Recordings
-
-Recordings can be queried using **/LiveTv/Recordings**. Some of the available query params are:
-
-* ChannelId
-* IsInProgress
-* GroupId
-* SeriesTimerId
-
-
-### Recording Info
-
-Most of the data attached to recordings is self-explanatory and will not be rehashed here. They are very similar to library items. Only the properties requiring explanation are listed below.
-
-* Status, StatusName - The recording status. StatusName is a displayable value.
-* CompletionPercentage - Only applicable if in progress.
-* Path - The physical path to the recording file (if available). Some clients may prefer to play the file directly.
-* MediaStreams - Only available for completed recordings.
-
 ## Name & EpisodeTitle
-For programs, recordings and timers that are part of a series, **Name will always equal the series name**, while EpisodeTitle is the title of the episode. Please note that **EpisodeTitle will not always be available**.
+For programs and timers that are part of a series, **Name will always equal the series name**, while EpisodeTitle is the title of the episode. Please note that **EpisodeTitle will not always be available**.
 
 ## Recording Playback
 Playback should be nearly identical to library items. Clients can use the Path property to play directly, if possible, and/or examine MediaStreams to determine the ideal streaming method.
