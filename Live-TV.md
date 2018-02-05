@@ -4,7 +4,7 @@ Begin live tv support by making a call to **/LiveTv/Info**.
 
 The IsEnabled property will tell you if Live Tv is installed and enabled on the server. The EnabledUsers property contains a list of user id's that have access to live tv.
 
-### Channels
+## Channels
 
 Query for tv channels using **/LiveTv/Channels**. The most interesting channel properties are:
 
@@ -16,6 +16,10 @@ Query for tv channels using **/LiveTv/Channels**. The most interesting channel p
 Additionally, channels share many of the same properties that are documented in [Item Information](Item-Information)
 
 Channel images use the same api endpoints as regular library items, e.g. **/Items/{Id}/Images/Primary**. Channels also can have user data allowing users to like or favorite them which will help influence suggested programs.
+
+## Programs (EPG data)
+
+Query for programs using **/LiveTv/Programs**. The most interesting program properties are:
 
 ## Name & EpisodeTitle
 For programs and timers that are part of a series, **Name will always equal the series name**, while EpisodeTitle is the title of the episode. Please note that **EpisodeTitle will not always be available**.
