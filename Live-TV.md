@@ -13,7 +13,7 @@ Query for tv channels using **/LiveTv/Channels**. The most interesting channel p
 * ChannelType
 * CurrentProgram
 
-Additionally, channels share many of the same properties that are documented in https://github.com/MediaBrowser/Emby/wiki/Item-Information
+Additionally, channels share many of the same properties that are documented in [Item Information](Item-Information)
 
 Channel images use the same api endpoints as regular library items, e.g. **/Items/{Id}/Images/Primary**. Channels also can have user data allowing users to like or favorite them which will help influence suggested programs.
 
