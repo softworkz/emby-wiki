@@ -2,12 +2,10 @@ Library items have a number of interesting properties. Among these are, but not 
 
 * Name
 * Id
-* Budget
 * CriticRating
 * CriticRatingSummary
 * DateCreated
 * GameSystem
-* Genres
 * GenreItems
 * HomePageUrl
 * IsHD
@@ -18,7 +16,6 @@ Library items have a number of interesting properties. Among these are, but not 
 * People
 * Players
 * ProductionYear
-* Revenue
 * RunTimeTicks
 * SeasonCount
 * SortName
