@@ -21,6 +21,19 @@ Channel images use the same api endpoints as regular library items, e.g. **/Item
 
 Query for programs using **/LiveTv/Programs**. The most interesting program properties are:
 
+* Name
+* EpisodeTitle
+* OfficialRating
+* RunTimeTicks
+* StartDate
+* EndDate
+* IsMovie
+* IsSports
+* IsNews
+* IsKids
+* IsSeries
+* ChannelId
+
 ## Name & EpisodeTitle
 For programs and timers that are part of a series, **Name will always equal the series name**, while EpisodeTitle is the title of the episode. Please note that **EpisodeTitle will not always be available**.
 
