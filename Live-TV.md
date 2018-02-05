@@ -11,7 +11,7 @@ Query for tv channels using **/LiveTv/Channels**. The most interesting channel p
 * Name
 * Number
 * ChannelType
-* CurrentProgram
+* CurrentProgram (must be specified via optional field)
 
 Additionally, channels share many of the same properties that are documented in [Item Information](Item-Information)
 
