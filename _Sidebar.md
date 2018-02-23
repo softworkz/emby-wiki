@@ -14,7 +14,6 @@
 * [Items by Name](Items-by-name)
 * [Web Socket](Web-Socket)
 * [Remote Control](Remote-control)
-* [Channels](Channels)
 * [Live TV](Live-TV)
 * [Playlists](Playlists)
 * [Parental Control](Parental-Control)
