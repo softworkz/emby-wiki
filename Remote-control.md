@@ -161,4 +161,6 @@ Below are the list of known core command **names**, along with the list of prope
 * ToggleFullscreen ,
 * DisplayContent (Arguments: ItemName, ItemId, ItemType),
 * GoToSearch,
+* PlayMediaSource - used to indicate support for media source selection for an item,
+* PlayTrailers (Arguments: ItemId),
 * DisplayMessage (Arguments: Header, Text, TimeoutMs - if timeout is omitted, message should be modal)
