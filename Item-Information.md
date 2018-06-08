@@ -6,7 +6,7 @@ Library items have a number of interesting properties. Among these are, but not 
 * CriticRatingSummary
 * DateCreated
 * GameSystem
-* GenreItems
+* GenreItems - Request this field via Genres
 * HomePageUrl
 * IsHD
 * Language
@@ -56,7 +56,7 @@ For folders, this represents the cumulative runtime.
 This is the date an item ended. For Persons this represents death date. For series that have ended, this is the air date of the final episode.
 
 ### GenreItems
-This is a list of Name/Id pairs of genres.
+This is a list of Name/Id pairs of genres. To request this field, request Genres.
 
 ### ImageTags
 This will tell you what images are available for an item. See [images.](Images)
