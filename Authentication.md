@@ -36,7 +36,7 @@ The dashboard currently displays customized icons for the following clients:
 
 ## Authenticating a user
 
-* Authenticate using /Users/AuthenticateByName. A 200 status code indicates success, while anything in the 400 or 500 range indicates failure.
+* Authenticate using [/Users/AuthenticateByName](http://swagger.emby.media/?staticview=true#/UserService). A 200 status code indicates success, while anything in the 400 or 500 range indicates failure.
 
 * The password must be sent in the body, in three different form fields:
 
@@ -48,7 +48,7 @@ The dashboard currently displays customized icons for the following clients:
 
 * The return result object will have an AccessToken property. This should be included in all subsequent Http requests using the header "X-Emby-Token"
 
-* If the user explicitly logs out, send a POST to /Sessions/Logout. This will revoke your access token. If the user closes the app without logging out, you can skip this and save the token for future use.
+* If the user explicitly logs out, send a POST to [/Sessions/Logout](http://swagger.emby.media/?staticview=true#/SessionsService). This will revoke your access token. If the user closes the app without logging out, you can skip this and save the token for future use.
 
 * During normal application usage, if any http requests fail with a 401 response status code, this is generally an indication that the access token has been revoked. The user should be redirected back to the login screen.
 
