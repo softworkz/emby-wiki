@@ -26,11 +26,11 @@ The dashboard currently displays customized icons for the following clients:
 
 ## User Login 
 
-* Make a call to /Users/Public to get all public users.
+* Make a call to [/Users/Public](http://swagger.emby.media/?staticview=true#/UserService) to get all public users.
 
 * If there are records returned, the app has the option of displaying the users in a visual login screen. This is up to the application developer to decide. If there are no records returned then present a username/password text entry form.
 
-* For each user, if PrimaryImageTag has a value, that indicates the user has an image. The image can then be downloaded using /Users/{Id}/Images/{Type}. See [images](Images).
+* For each user, if PrimaryImageTag has a value, that indicates the user has an image. The image can then be downloaded using [/Users/{Id}/Images/\{Type\}](http://swagger.emby.media/?staticview=true#/ImageService). See [images](Images).
 
 * Each user has a HasPassword property. This is used to determine if the user should be prompted to input a password. The application must authenticate regardless of this value.
 
