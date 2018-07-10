@@ -2,7 +2,7 @@
 
 Add the following request header on every request:
 
-> Authorization=MediaBrowser UserId="e8837bc1-ad67-520e-8cd2-f629e3155721", Client="Android", Device="Samsung Galaxy SIII", DeviceId="xxx", Version="1.0.0.0"
+> Authorization=Emby UserId="e8837bc1-ad67-520e-8cd2-f629e3155721", Client="Android", Device="Samsung Galaxy SIII", DeviceId="xxx", Version="1.0.0.0"
 
 * Device is the product name of the device
 * DeviceId is the device's unique id
@@ -46,7 +46,7 @@ The dashboard currently displays customized icons for the following clients:
 
 **IMPORTANT** - The Emby login API is in a state of transition, and this is why three different forms of the password are required. Beginning April 1, 2018, only the "pw" param will be required. Until then, all three are needed in order to support both newer and older servers.
 
-* The return result object will have an AccessToken property. This should be included in all subsequent Http requests using the header "X-MediaBrowser-Token"
+* The return result object will have an AccessToken property. This should be included in all subsequent Http requests using the header "X-Emby-Token"
 
 * If the user explicitly logs out, send a POST to /Sessions/Logout. This will revoke your access token. If the user closes the app without logging out, you can skip this and save the token for future use.
 
