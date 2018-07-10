@@ -6,6 +6,11 @@ https://github.com/MediaBrowser/Wiki/wiki
 ## API Documentation
 The server features built-in documentation courtesy of Swagger, allowing you to view methods, parameters and even test them in the browser to see what the responses look like. The Swagger UI can be accessed by opening the Emby Server dashboard and clicking "API" at the bottom of the page.
 
+If you don't have an Emby Server running at this time, you can also browse a static version of the Emby API Documentation:
+
+* [Emby Server Static API Documentation](http://swagger.emby.media/?staticview=true)
+
+## API Client Libraries
 Additionally, other sources for API documentation are the official API client libraries.
 
 * [JavaScript ApiClient](https://github.com/MediaBrowser/Emby.ApiClient.Javascript)
